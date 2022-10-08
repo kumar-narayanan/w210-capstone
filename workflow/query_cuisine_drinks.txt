@@ -1,0 +1,651 @@
+Workflow 002: Query Cuisine Drinks
+Dialogue id: "rest-multi-001.json"
+Services:
+
+
+Utterances: [
+		BOT:"Hello, how may I help you?",
+		User: "Hi, what kind of cuisine you serve",
+		BOT: "Sure, we serve italian cuisine.",
+		User: "ok, how about drinks?",
+		BOT: "we serve both alcoholic and non-alcoholic, which one are you inquiring about",
+		User: "non-alcoholic please",
+		BOT: "we serve beers, spirits and wines. Do you have a preference?",
+		User: "what kind of beers do you serve.",
+		BOT: "we serve budweiser, heineken, stella-atrois and corona."
+		User: "great. Thanks."
+		BOT: "anything else I could help you with?"
+		User: "nope. I am good."
+		BOT: "Thank you for choosing ABC restaurant for your dining needs"
+		]
+
+[
+	{
+	    "dialogue_id": "rest-multi-001.json",
+    "services": [
+                         "restaurant",
+                        ],
+	    "turns":
+	                        [
+                                          {
+                                           "frames": [],
+                                           "speaker": "SYSTEM",
+                                           "turn_id": "0",
+                                           "utterance": "Hello, how may I help you?"
+                                           },
+                                          {
+                                           "frames": [
+                                                                      {
+                                                                                "actions": [],
+                                                                                "service": "restaurant",
+                                                                                "slots": [
+                                                                                                      {
+                                                                                                                  "exclusive_end": 71,
+                                                                                                                  "slot": "restaurant-cuisine",
+                                                                                                                  "start": 64,
+                                                                                                                  "value": "cuisine"
+                                                                                                       }
+                                                                                              ],
+                                                                                "state": {
+                                                                                                     "active_intent": "find_cuisine",
+                                                                                                     "requested_slots": [],
+                                                                                                     "slot_values": {
+                                                                                                                                "restaurant-cusine": ["cuisine"]
+                                                                                                                               }
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "taxi",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "train",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "bus",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "police",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hotel",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "attraction",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hospital",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                              ],
+                                           "speaker": "USER",
+                                           "turn_id": "1",
+                                           "utterance": "Hi, what kind of cuisine you serve?"
+                                           },
+                                          {
+                                           "frames": [],
+                                           "speaker": "SYSTEM",
+                                           "turn_id": "2",
+                                           "utterance": "Sure, we serve italian cuisine."
+                                           },
+                                          {
+                                           "frames": [
+                                                                      {
+                                                                                "actions": [],
+                                                                                "service": "restaurant",
+                                                                                "slots": [
+                                                                                                      {
+                                                                                                                  "exclusive_end": 71,
+                                                                                                                  "slot": "restaurant-drinks",
+                                                                                                                  "start": 64,
+                                                                                                                  "value": "drinks"
+                                                                                                       }
+                                                                                              ],
+                                                                                "state": {
+                                                                                                     "active_intent": "find_drinks",
+                                                                                                     "requested_slots": [],
+                                                                                                     "slot_values": {
+                                                                                                                                "restaurant-drinks": ["drinks"]
+                                                                                                                               }
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "taxi",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "train",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "bus",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "police",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hotel",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "attraction",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hospital",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                              ],
+                                           "speaker": "User",
+                                           "turn_id": "3",
+                                           "utterance": "ok, how about drinks?"
+                                           },
+                                          {
+                                           "frames": [],
+                                           "speaker": "SYSTEM",
+                                           "turn_id": "4",
+                                           "utterance": "we serve beers, spirits and wines. Do you have a preference."
+                                           },
+                                          {
+                                           "frames": [],
+                                           "frames": [
+                                                                      {
+                                                                                "actions": [],
+                                                                                "service": "restaurant",
+                                                                                "slots": [
+                                                                                                      {
+                                                                                                                  "exclusive_end": 71,
+                                                                                                                  "slot": "restaurant-cuisine",
+                                                                                                                  "start": 64,
+                                                                                                                  "value": "cuisine"
+                                                                                                       }
+                                                                                              ],
+                                                                                "state": {
+                                                                                                     "active_intent": "find_cuisine",
+                                                                                                     "requested_slots": [],
+                                                                                                     "slot_values": {
+                                                                                                                                "restaurant-cusine": ["cuisine"]
+                                                                                                                               }
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "taxi",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "train",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "bus",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "police",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hotel",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "attraction",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hospital",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                              ],
+                                           "turn_id": "5",
+                                           "utterance": "non-alcoholic please"
+                                           },
+                                          {
+                                           "frames": [],
+                                           "speaker": "SYSTEM",
+                                           "turn_id": "6",
+                                           "utterance": "we serve both alcoholic and non-alcoholic, which one are you inquiring about"
+                                           },
+                                          {
+                                           "frames": [
+                                                                      {
+                                                                                "actions": [],
+                                                                                "service": "restaurant",
+                                                                                "slots": [
+                                                                                                      {
+                                                                                                                  "exclusive_end": 71,
+                                                                                                                  "slot": "restaurant-cuisine",
+                                                                                                                  "start": 64,
+                                                                                                                  "value": "cuisine"
+                                                                                                       }
+                                                                                              ],
+                                                                                "state": {
+                                                                                                     "active_intent": "find_cuisine",
+                                                                                                     "requested_slots": [],
+                                                                                                     "slot_values": {
+                                                                                                                                "restaurant-cusine": ["cuisine"]
+                                                                                                                               }
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "taxi",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "train",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "bus",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "police",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hotel",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "attraction",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hospital",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                              ],
+                                           "speaker": "User",
+                                           "turn_id": "7",
+                                           "utterance": "what kind of beers do you serve?"
+                                           },
+                                          {
+                                           "frames": [],
+                                           "speaker": "SYSTEM",
+                                           "turn_id": "8",
+                                           "utterance": "we serve budweiser, heineken, stella-atrois and corona."
+                                           },
+                                          {
+                                           "frames": [
+                                                                      {
+                                                                                "actions": [],
+                                                                                "service": "restaurant",
+                                                                                "slots": [
+                                                                                                      {
+                                                                                                                  "exclusive_end": 71,
+                                                                                                                  "slot": "restaurant-cuisine",
+                                                                                                                  "start": 64,
+                                                                                                                  "value": "cuisine"
+                                                                                                       }
+                                                                                              ],
+                                                                                "state": {
+                                                                                                     "active_intent": "find_cuisine",
+                                                                                                     "requested_slots": [],
+                                                                                                     "slot_values": {
+                                                                                                                                "restaurant-cusine": ["cuisine"]
+                                                                                                                               }
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "taxi",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "train",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "bus",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "police",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hotel",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "attraction",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hospital",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                              ],
+                                           "speaker": "User",
+                                           "turn_id": "9",
+                                           "utterance": "great. Thanks"
+                                           },
+                                          {
+                                           "frames": [],
+                                           "speaker": "SYSTEM",
+                                           "turn_id": "10",
+                                           "utterance": "anything else I could help you with?"
+                                           },
+                                          {
+                                           "frames": [
+                                                                      {
+                                                                                "actions": [],
+                                                                                "service": "restaurant",
+                                                                                "slots": [
+                                                                                                      {
+                                                                                                                  "exclusive_end": 71,
+                                                                                                                  "slot": "restaurant-cuisine",
+                                                                                                                  "start": 64,
+                                                                                                                  "value": "cuisine"
+                                                                                                       }
+                                                                                              ],
+                                                                                "state": {
+                                                                                                     "active_intent": "find_cuisine",
+                                                                                                     "requested_slots": [],
+                                                                                                     "slot_values": {
+                                                                                                                                "restaurant-cusine": ["cuisine"]
+                                                                                                                               }
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "taxi",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "train",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "bus",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "police",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hotel",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "attraction",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                                      {
+                                                                               "actions": [],
+                                                                               "service": "hospital",
+                                                                               "slots": [],
+                                                                               "state":  {
+                                                                                                      "active_intent": "NONE",
+                                                                                                      "requested_slots": [],
+                                                                                                      "slot_values": {}
+                                                                                               }
+                                                                      },
+                                                              ],
+                                           "speaker": "User",
+                                           "turn_id": "11",
+                                           "utterance": "nope. I am good."
+                                           },
+                                          {
+                                           "frames": [],
+                                           "speaker": "SYSTEM",
+                                           "turn_id": "12",
+                                           "utterance": "Thank you for choosing ABC restaurant for your dining needs."
+                                           },
+
+	                        ]
+	}
+]
