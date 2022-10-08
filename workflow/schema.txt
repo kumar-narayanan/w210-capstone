@@ -1,0 +1,157 @@
+[
+  {
+    "service_name": "restaurant"
+    "slots": [
+               {
+                 "name": "restaurant-op-hours",
+                 "description": "operating hours for a restaurant",
+                 "possible_values": [
+                                      "7am-10am",
+                                      "7am-11am",
+                                      "8am-10am",
+                                      "8am-11am",
+                                      "11am-2am",
+                                      "11am-2:30pm",
+                                      "11:30am-2:30pm",
+                                      "11:30am-3pm",
+                                      "5pm-10pm",
+                                      "6pm-10:30pm",
+                                      "6:30pm-10pm",
+                                      "6pm-11pm"
+                                    ],
+                 "is_categorical": true
+               },
+               {
+                 "name": "restaurant-op-days",
+                 "description": "operating days for the restaurant",
+                 "possible_values": [
+                                      "sunday",
+                                      "monday",
+                                      "tuesday"
+                                      "wednesday",
+                                      "thursday",
+                                      "friday",
+                                      "saturday"
+                                    ],
+                 "is_categorical": true
+               },
+               {
+                 "name": "restaurant-op-options",
+                 "description": "operating days for the restaurant",
+                 "possible_values": [
+                                      "breakfast",
+                                      "lunch",
+                                      "dinner",
+                                      "supper"
+                                    ],
+                 "is_categorical": true
+               },
+               {
+                 "name": "restaurant-cuisine",
+                 "description": "cuisine served at the restaurant",
+                 "possible_values": [
+                                      "indian",
+                                      "chinese",
+                                      "italian"
+                                      "american",
+                                      "african",
+                                      "korean",
+                                      "viatnamese"
+                                    ],
+                 "is_categorical": true
+               },
+               {
+                 "name": "restaurant-drink-types",
+                 "description": "type of drinks served at the restaurant",
+                 "possible_values": [
+                                      "alcoholic",
+                                      "non-alcoholic"
+                                    ],
+                 "is_categorical": true
+               },
+               {
+                 "name": "restaurant-drink-non-alc-category",
+                 "description": "non-alcoholic drink categories served at the restaurant",
+                 "possible_values": [
+                                      "juice",
+                                      "soft-drinks",
+                                      "water"
+                                      "smoothie",
+                                      "other"
+                                    ],
+                 "is_categorical": true
+               },
+               {
+                 "name": "restaurant-drink-alc-category",
+                 "description": "alcoholic drinks served at the restaurant",
+                 "possible_values": [
+                                      "beer",
+                                      "spirits",
+                                      "wine",
+                                      "other"
+                                    ],
+                 "is_categorical": true
+               },
+               {
+                 "name": "restaurant-beers",
+                 "description": "beers served at the restaurant",
+                 "possible_values": [
+                                      "heineken",
+                                      "budweiser",
+                                      "corona",
+                                      "stella-atrois",
+                                      "other"
+                                    ],
+                 "is_categorical": true
+               },
+
+             ]
+	"description": query about restaurant operating hours during weekdays
+	"intents": [
+                     {
+                       "name": "find_hours_op",
+	               "description": "determine operating hours of a restaurant",
+	               "is_transactional": false,
+	               "required_slots": [],
+	               "optional_slots": {
+                                           "restaurant-op-hours": "dontcare",
+                                           "restaurant-op-days": "dontcare",
+                                           "restaurant-op-options": "dontcare"
+	                                 }
+                     },
+                     {
+                       "name": "find_cuisine",
+	               "description": "determine operating hours of a restaurant",
+	               "is_transactional": false,
+	               "required_slots": [],
+	               "optional_slots": {
+                                           "restaurant-cuisine": "dontcare"
+	                                 }
+                     },
+                     {
+                       "name": "find_drinks",
+	               "description": "find drinks options served at a restaurant",
+	               "is_transactional": false,
+	               "required_slots": [],
+	               "optional_slots": {
+                                           "restaurant-drink-types": "dontcare",
+                                           "restaurant-drink-non-alc-category": "dontcare",
+                                           "restaurant-drink-alc-category": "dontcare"
+
+	                                 }
+                     },
+                     {
+                       "name": "find_beers",
+	               description": "find beer options served at a restaurant",
+	               "is_transactional": false,
+	               "required_slots": [],
+	               "optional_slots": {
+                                           "restaurant-drink-types": "dontcare",
+                                           "restaurant-drink-alc-category": "dontcare",
+                                           "restaurant-beers": "dontcare"
+	                                 }
+                     }
+
+                   ]
+  }
+]

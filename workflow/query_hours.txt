@@ -1,151 +1,150 @@
 Utterances: [
-		BOT:"Hello, how may I help you?",
-		User: "Hi, I wished to know the restaurant hours for Friday and Saturday?",
-		BOT: "Sure, are you planning for lunch or dinner?",
-		User: "I need it for both.",
-		BOT: "Sure, we are open between11 am - 3 pm for lunch and 5:30 pm - 10 pm on fridays and between 11 am - 4 pm for lunch and 5:00 pm - 10 pm on saturdays",
-		User: "Great, thank you very much",
-		BOT: "Welcome, may I help you with anything else?",
-		User: "No, I am good.",
-		BOT: "Thank you for choosing ABC restaurant for your dining needs."
-		]
+              BOT:"Hello, how may I help you?",
+              User: "Hi, I wish to know the restaurant hours for Friday and Saturday?",
+              BOT: "Sure, are you planning for lunch or dinner?",
+              User: "I need it for both.",
+              BOT: "Sure, we are open 11am - 3pm for lunch and 5:30pm - 10pm on fridays and 11am - 4pm for lunch and 5:00pm - 10pm on saturdays",
+              User: "Great, thank you very much",
+              BOT: "Welcome, may I help you with anything else?",
+              User: "No, I am good.",
+              BOT: "Thank you for choosing Straits Cafe for your dining needs."
+            ]
 
 [
-	{
-	    "dialogue_id": "rest-single-001.json",
+  {
+    "dialogue_id": "rest-single-001.json",
     "services": [
-                         "restaurant",
-                        ],
-	    "turns":
-	                        [
+                  "restaurant",
+                ],
+    "turns": [
+               {
+                 "frames": [],
+                  "speaker": "SYSTEM",
+                  "turn_id": "0",
+                  "utterance": "Hello, how may I help you?"
+               },
+               {
+                 "frames": [
+                             {
+                               "actions": [],
+                               "service": "restaurant",
+                               "slots": [
                                           {
-                                           "frames": [],
-                                           "speaker": "SYSTEM",
-                                           "turn_id": "0",
-                                           "utterance": "Hello, how may I help you?"
-                                           },
-                                          {
-                                           "frames": [
-                                                                      {
-                                                                                "actions": [],
-                                                                                "service": "restaurant",
-                                                                                "slots": [
-                                                                                                      {
-                                                                                                                  "exclusive_end": 71,
-                                                                                                                  "slot": "restaurant-op-hours",
-                                                                                                                  "start": 64,
-                                                                                                                  "value": "hours"
-                                                                                                       }
-                                                                                              ],
-                                                                                "state": {
-                                                                                                     "active_intent": "find_hours_op",
-                                                                                                     "requested_slots": [],
-                                                                                                     "slot_values": {
-                                                                                                                                "restaurant-op-hours": ["hours"]
-                                                                                                                                "restaurant-op-days": ["friday", "saturday"]
-                                                                                                                               }
-                                                                                               }
-                                                                      },
-                                                                      {
-                                                                               "actions": [],
-                                                                               "service": "taxi",
-                                                                               "slots": [],
-                                                                               "state":  {
-                                                                                                      "active_intent": "NONE",
-                                                                                                      "requested_slots": [],
-                                                                                                      "slot_values": {}
-                                                                                               }
-                                                                      },
-                                                                      {
-                                                                               "actions": [],
-                                                                               "service": "train",
-                                                                               "slots": [],
-                                                                               "state":  {
-                                                                                                      "active_intent": "NONE",
-                                                                                                      "requested_slots": [],
-                                                                                                      "slot_values": {}
-                                                                                               }
-                                                                      },
-                                                                      {
-                                                                               "actions": [],
-                                                                               "service": "bus",
-                                                                               "slots": [],
-                                                                               "state":  {
-                                                                                                      "active_intent": "NONE",
-                                                                                                      "requested_slots": [],
-                                                                                                      "slot_values": {}
-                                                                                               }
-                                                                      },
-                                                                      {
-                                                                               "actions": [],
-                                                                               "service": "police",
-                                                                               "slots": [],
-                                                                               "state":  {
-                                                                                                      "active_intent": "NONE",
-                                                                                                      "requested_slots": [],
-                                                                                                      "slot_values": {}
-                                                                                               }
-                                                                      },
-                                                                      {
-                                                                               "actions": [],
-                                                                               "service": "hotel",
-                                                                               "slots": [],
-                                                                               "state":  {
-                                                                                                      "active_intent": "NONE",
-                                                                                                      "requested_slots": [],
-                                                                                                      "slot_values": {}
-                                                                                               }
-                                                                      },
-                                                                      {
-                                                                               "actions": [],
-                                                                               "service": "attraction",
-                                                                               "slots": [],
-                                                                               "state":  {
-                                                                                                      "active_intent": "NONE",
-                                                                                                      "requested_slots": [],
-                                                                                                      "slot_values": {}
-                                                                                               }
-                                                                      },
-                                                                      {
-                                                                               "actions": [],
-                                                                               "service": "hospital",
-                                                                               "slots": [],
-                                                                               "state":  {
-                                                                                                      "active_intent": "NONE",
-                                                                                                      "requested_slots": [],
-                                                                                                      "slot_values": {}
-                                                                                               }
-                                                                      },
-                                                              ],
-                                           "speaker": "USER",
-                                           "turn_id": "1",
-                                           "utterance": "Hi, I wished to know the restaurant hours for Friday and Saturday?"
-                                           },
-                                          {
-                                           "frames": [],
-                                           "speaker": "SYSTEM",
-                                           "turn_id": "2",
-                                           "utterance": "Sure, are you planning for lunch or dinner?"
-                                           },
-                                          {
-                                           "frames": [],
-                                           "speaker": "SYSTEM",
-                                           "turn_id": "4",
-                                           "utterance": "Sure, we are open between11 am - 3 pm for lunch and 5:30 pm - 10 pm on fridays and between 11 am - 4 pm for lunch and 5:00 pm - 10 pm on saturdays"
-                                           },
-                                          {
-                                           "frames": [],
-                                           "speaker": "SYSTEM",
-                                           "turn_id": "6",
-                                           "utterance": "Welcome, may I help you with anything else?"
-                                           },
-                                          {
-                                           "frames": [],
-                                           "speaker": "SYSTEM",
-                                           "turn_id": "8",
-                                           "utterance": "Thank you for choosing ABC restaurant for your dining needs."
-                                           },
+                                            "exclusive_end": 71,
+                                            "slot": "restaurant-op-hours",
+                                            "start": 64,
+                                            "value": "hours"
+                                          }
+                                        ],
+                               "state": {
+                                          "active_intent": "find_hours_op",
+                                          "requested_slots": [],
+                                          "slot_values": {
+                                                            "restaurant-op-hours": ["hours"]
+                                                            "restaurant-op-days": ["friday", "saturday"]
+                                                         }
+                                        }
+                             },
+                             {
+                               "actions": [],
+                               "service": "taxi",
+                               "slots": [],
+                               "state": {
+                                          "active_intent": "NONE",
+                                          "requested_slots": [],
+                                          "slot_values": {}
+                                        }
+                             },
+                             {
+                               "actions": [],
+                               "service": "train",
+                               "slots": [],
+                               "state": {
+                                          "active_intent": "NONE",
+                                          "requested_slots": [],
+                                          "slot_values": {}
+                                        }
+                             },
+                             {
+                               "actions": [],
+                               "service": "bus",
+                               "slots": [],
+                               "state": {
+                                          "active_intent": "NONE",
+                                          "requested_slots": [],
+                                          "slot_values": {}
+                                        }
+                             },
+                             {
+                               "actions": [],
+                               "service": "police",
+                               "slots": [],
+                               "state": {
+                                          "active_intent": "NONE",
+                                          "requested_slots": [],
+                                          "slot_values": {}
+                                        }
+                             },
+                             {
+                               "actions": [],
+                               "service": "hotel",
+                               "slots": [],
+                               "state": {
+                                          "active_intent": "NONE",
+                                          "requested_slots": [],
+                                          "slot_values": {}
+                                        }
+                             },
+                             {
+                               "actions": [],
+                               "service": "attraction",
+                               "slots": [],
+                               "state": {
+                                          "active_intent": "NONE",
+                                          "requested_slots": [],
+                                          "slot_values": {}
+                                        }
+                             },
+                             {
+                               "actions": [],
+                               "service": "hospital",
+                               "slots": [],
+                               "state": {
+                                          "active_intent": "NONE",
+                                          "requested_slots": [],
+                                          "slot_values": {}
+                                        }
+                             },
+                           ],
+                             "speaker": "USER",
+                             "turn_id": "1",
+                             "utterance": "Hi, I wished to know the restaurant hours for Friday and Saturday?"
+               },
+               {
+                 "frames": [],
+                 "speaker": "SYSTEM",
+                 "turn_id": "2",
+                 "utterance": "Sure, are you planning for lunch or dinner?"
+               },
+               {
+                 "frames": [],
+                 "speaker": "SYSTEM",
+                 "turn_id": "4",
+                 "utterance": "Sure, we are open 11am - 3pm for lunch and 5:30pm - 10pm on fridays and 11am - 4pm for lunch and 5:00pm - 10pm on saturdays"
+               },
+               {
+                 "frames": [],
+                 "speaker": "SYSTEM",
+                 "turn_id": "6",
+                 "utterance": "Welcome, may I help you with anything else?"
+               },
+               {
+                 "frames": [],
+                 "speaker": "SYSTEM",
+                 "turn_id": "8",
+                 "utterance": "Thank you for choosing Straits Cafe for your dining needs."
+               },
 
-	                        ]
-	}
+             ]
+  }
 ]
