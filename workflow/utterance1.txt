@@ -1,0 +1,9 @@
+----
+USER: [cuisine_type, type of food, get_menu] "What type of food you serve in your restaurant?"
+SYSTEM: [food_menu, tandoori] "We serve Tandoori style food. Do you want to look at the menu?"
+USER: [food_menu, menu, NONE] "Yes, please show me the menu"
+SYSTEM: [] "Here is a quick view of the menu, please click the menu for the full list"
+USER: [NONE, NONE, NONE] "Great, thank you very much"
+SYSTEM: [] "Welcome, may I help you with anything else?"
+USER: [NONE, NONE, NONE] "No, I am good.",
+SYSTEM: [] "Thank you for choosing Punjab Cafe for your dining needs."
