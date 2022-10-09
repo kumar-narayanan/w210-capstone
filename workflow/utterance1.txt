@@ -1,4 +1,4 @@
-----
+----query menu
 USER: [cuisine_type, type of food, get_menu] "What type of food you serve in your restaurant?"
 SYSTEM: [food_menu, tandoori] "We serve Tandoori style food. Do you want to look at the menu?"
 USER: [food_menu, menu, NONE] "Yes, please show me the menu"
