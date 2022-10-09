@@ -1,6 +1,6 @@
 [
   {
-    "dialogue_id": "CAiFE1001",
+    "dialogue_id": "CAiFE1001.json",
     "services": [
       "restaurant"
     ],
@@ -93,13 +93,11 @@
               "requested_slots": [],
               "slot_values": {}
             }
-          },
-          {
-            "speaker": "USER",
-            "turn_id": 0,
-            "utterance": "What type of food you serve in your restaurant?"
           }
-        ]
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "What type of food you serve in your restaurant?"
       },
       {
         "frames": [
@@ -114,13 +112,11 @@
                 "value": "tandoori"
               }
             ]
-          },
-          {
-            "speaker": "SYSTEM",
-            "turn_id": 1,
-            "utterance": "We serve Tandoori style food. Do you want to look at the menu?"
           }
-        ]
+        ],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "We serve Tandoori style food. Do you want to look at the menu?"
       },
       {
         "frames": [
@@ -210,22 +206,17 @@
               "requested_slots": [],
               "slot_values": {}
             }
-          },
-          {
-            "speaker": "USER",
-            "turn_id": 2,
-            "utterance": "Yes, please show me the menu"
           }
-        ]
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "Yes, please show me the menu"
       },
       {
-        "frames": [
-          {
-            "speaker": "SYSTEM",
-            "turn_id": 3,
-            "utterance": "Here is a quick view of the menu, please click the menu for the full list"
-          }
-        ]
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Here is a quick view of the menu, please click the menu for the full list"
       },
       {
         "frames": [
@@ -315,22 +306,17 @@
               "requested_slots": [],
               "slot_values": {}
             }
-          },
-          {
-            "speaker": "USER",
-            "turn_id": 4,
-            "utterance": "Great, thank you very much"
           }
-        ]
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "Great, thank you very much"
       },
       {
-        "frames": [
-          {
-            "speaker": "SYSTEM",
-            "turn_id": 5,
-            "utterance": "Welcome, may I help you with anything else?"
-          }
-        ]
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "Welcome, may I help you with anything else?"
       },
       {
         "frames": [
@@ -420,22 +406,17 @@
               "requested_slots": [],
               "slot_values": {}
             }
-          },
-          {
-            "speaker": "USER",
-            "turn_id": 6,
-            "utterance": "No, I am good.\""
           }
-        ]
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "No, I am good.\""
       },
       {
-        "frames": [
-          {
-            "speaker": "SYSTEM",
-            "turn_id": 7,
-            "utterance": "Thank you for choosing Punjab Cafe for your dining needs."
-          }
-        ]
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "Thank you for choosing Punjab Cafe for your dining needs."
       }
     ]
   }
