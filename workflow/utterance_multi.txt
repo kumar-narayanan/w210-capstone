@@ -1,0 +1,35 @@
+----query_menu
+USER: [cuisine_type, type of food, get_menu] "What type of food you serve in your restaurant?"
+SYSTEM: [food_menu, tandoori] "We serve Tandoori style food. Do you want to look at the menu?"
+USER: [food_menu, menu, NONE] "Yes, please show me the menu"
+SYSTEM: [] "Here is a quick view of the menu, please click the menu for the full list"
+USER: [NONE, NONE, NONE] "Great, thank you very much"
+SYSTEM: [] "Welcome, may I help you with anything else?"
+USER: [NONE, NONE, NONE] "No, I am good.",
+SYSTEM: [] "Thank you for choosing Punjab Cafe for your dining needs."
+----query_hours
+SYSTEM: [] "Hello, how may I help you?",
+USER: [restaurant_hours, restaurant hours, get_hours] "Hi, I wish to know the restaurant hours.",
+SYSTEM: [] "Sure, what day did you have in mind?"
+USER: [operating_days, Friday, get_hours] "Friday please"
+SYSTEM: [] "Sure, are you planning for lunch or dinner?",
+USER: [operating_time, Dinner, get_hours] "Dinner please.",
+SYSTEM: [] "Sure, we are open 5:30pm - 10pm on fridays.",
+USER: [NONE, NONE, NONE] "Great, thank you very much",
+SYSTEM: [] "Welcome, may I help you with anything else?",
+USER: [NONE, NONE, NONE] "No, I am good.",
+SYSTEM: [] "Thank you for choosing Straits Cafe for your dining needs."
+----query_cuisine_drinks
+SYSTEM: [] "Hello, how may I help you?",
+USER: [cuisine_type, cuisine, query_cuisine] "Hi, what kind of cuisine you serve",
+SYSTEM: [] "Sure, we serve italian cuisine.",
+USER: [serve_drinks, drinks, find_drinks] "ok, how about drinks?",
+SYSTEM: [] "we serve both alcoholic and non-alcoholic, which one are you inquiring about",
+USER: [drink_types, alcoholic, find_drinks] "alcoholic please",
+SYSTEM: [] "we serve beers, spirits and wines. Do you have a preference?",
+USER: [drink_types ,beers ,find_beers] "what kind of beers do you serve.",
+SYSTEM: [] "we serve budweiser, heineken, stella-atrois and corona."
+USER: [NONE, NONE, NONE] "great. Thanks."
+SYSTEM: [] "anything else I could help you with?"
+USER: [NONE, NONE, NONE] "nope. I am good."
+SYSTEM: [] "Thank you for choosing ABC restaurant for your dining needs"
