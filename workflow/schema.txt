@@ -3,7 +3,7 @@
     "service_name": "restaurant"
     "slots": [
                {
-                 "name": "restaurant-op-hours",
+                 "name": "operating_hours",
                  "description": "operating hours for a restaurant",
                  "possible_values": [
                                       "7am-10am",
@@ -22,7 +22,7 @@
                  "is_categorical": true
                },
                {
-                 "name": "restaurant-op-days",
+                 "name": "operating_days",
                  "description": "operating days for the restaurant",
                  "possible_values": [
                                       "sunday",
@@ -36,7 +36,7 @@
                  "is_categorical": true
                },
                {
-                 "name": "restaurant-op-options",
+                 "name": "operating_time",
                  "description": "operating days for the restaurant",
                  "possible_values": [
                                       "breakfast",
@@ -47,7 +47,7 @@
                  "is_categorical": true
                },
                {
-                 "name": "restaurant-cuisine",
+                 "name": "cuisine_type",
                  "description": "cuisine served at the restaurant",
                  "possible_values": [
                                       "indian",
@@ -61,7 +61,22 @@
                  "is_categorical": true
                },
                {
-                 "name": "restaurant-drink-types",
+                 "name": "food_menu",
+                 "description": "link to the food menu",
+                 "possible_values": [],
+                 "is_categorical": false
+               },
+               {
+                 "name": "serve_drinks",
+                 "description": "whether drinks are served at the restaurant",
+                 "possible_values": [
+                                      "yes",
+                                      "no"
+                                    ],
+                 "is_categorical": true
+               },
+               {
+                 "name": "drink_types",
                  "description": "type of drinks served at the restaurant",
                  "possible_values": [
                                       "alcoholic",
@@ -70,8 +85,8 @@
                  "is_categorical": true
                },
                {
-                 "name": "restaurant-drink-non-alc-category",
-                 "description": "non-alcoholic drink categories served at the restaurant",
+                 "name": "non_alcoholic_category",
+                 "description": "non alcoholic drink categories served at the restaurant",
                  "possible_values": [
                                       "juice",
                                       "soft-drinks",
@@ -82,7 +97,7 @@
                  "is_categorical": true
                },
                {
-                 "name": "restaurant-drink-alc-category",
+                 "name": "alcoholic_category",
                  "description": "alcoholic drinks served at the restaurant",
                  "possible_values": [
                                       "beer",
@@ -93,7 +108,7 @@
                  "is_categorical": true
                },
                {
-                 "name": "restaurant-beers",
+                 "name": "beer_category",
                  "description": "beers served at the restaurant",
                  "possible_values": [
                                       "heineken",
@@ -104,54 +119,43 @@
                                     ],
                  "is_categorical": true
                },
-
              ]
 	"description": query about restaurant operating hours during weekdays
 	"intents": [
-                     {
-                       "name": "find_hours_op",
-	               "description": "determine operating hours of a restaurant",
-	               "is_transactional": false,
-	               "required_slots": [],
-	               "optional_slots": {
-                                           "restaurant-op-hours": "dontcare",
-                                           "restaurant-op-days": "dontcare",
-                                           "restaurant-op-options": "dontcare"
-	                                 }
-                     },
-                     {
-                       "name": "find_cuisine",
-	               "description": "determine operating hours of a restaurant",
-	               "is_transactional": false,
-	               "required_slots": [],
-	               "optional_slots": {
-                                           "restaurant-cuisine": "dontcare"
-	                                 }
-                     },
-                     {
-                       "name": "find_drinks",
-	               "description": "find drinks options served at a restaurant",
-	               "is_transactional": false,
-	               "required_slots": [],
-	               "optional_slots": {
-                                           "restaurant-drink-types": "dontcare",
-                                           "restaurant-drink-non-alc-category": "dontcare",
-                                           "restaurant-drink-alc-category": "dontcare"
-
-	                                 }
-                     },
-                     {
-                       "name": "find_beers",
-	               description": "find beer options served at a restaurant",
-	               "is_transactional": false,
-	               "required_slots": [],
-	               "optional_slots": {
-                                           "restaurant-drink-types": "dontcare",
-                                           "restaurant-drink-alc-category": "dontcare",
-                                           "restaurant-beers": "dontcare"
-	                                 }
-                     }
-
-                   ]
+               {
+                  "name": "get_menu",
+                  "description": "query about restaurant menu",
+                  "is_transactional": false,
+                  "required_slots": [],
+                  "optional_slots": {
+                        "cuisine_type": "dontcare",
+                        "food_menu": "dontcare"
+                        }
+               },
+               {
+                  "name": "get_hours",
+	                "description": "determine operating hours of a restaurant",
+	                "is_transactional": false,
+	                "required_slots": [],
+	                "optional_slots": {
+                        "operating_hours": "dontcare",
+                        "operating_days": "dontcare",
+                        "operating_time": "dontcare"
+	                      }
+              },
+              {
+	                "name": "find_drinks",
+	                "description": "find drinks options served at a restaurant",
+	                "is_transactional": false,
+	                "required_slots": [],
+	                "optional_slots": {
+                        "serve_drinks": "dontcare",
+                        "drink_types": "dontcare",
+                        "non_alcoholic_category": "dontcare",
+                        "alcoholic_category": "dontcare"
+                        "beers_category": "dontcare",
+	                      }
+              }
+            ]
   }
 ]
