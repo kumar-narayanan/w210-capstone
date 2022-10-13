@@ -38,3 +38,10 @@ These are the rules from multiwoz. Nothing to do with my imagination.
 
 Please look at the utterance files to get an idea of how to instantiate workflow
 utterances,
+
+############Updated 10/12/2022 5:30PM PDT###############
+- Added bertgen.ipynb to convert multiwoz to bert data set for only restaurant
+domain.
+- The input is "dialogues_016.json" in multiwoz format
+- Output is "bert_dialogues_016.json
+
