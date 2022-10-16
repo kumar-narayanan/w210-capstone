@@ -1,0 +1,682 @@
+[
+  {
+    "dialogue_id": "CAiFE1001.json",
+    "services": [
+      "restaurant"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [
+              {
+                "exclusive_end": 17,
+                "slot": "slot1",
+                "start": 13,
+                "value": "food"
+              },
+              {
+                "exclusive_end": 46,
+                "slot": "slot2",
+                "start": 36,
+                "value": "restaurant"
+              }
+            ],
+            "state": {
+              "active_intent": "food_type",
+              "requested_slots": [
+                "slot3",
+                "slot4"
+              ],
+              "slot_values": {
+                "slot5": [
+                  "val51",
+                  "val52"
+                ],
+                "slot6": [
+                  "val6"
+                ],
+                "slot7": [
+                  "val7"
+                ]
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "taxi",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "train",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "bus",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "police",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "attraction",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hospital",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "What type of food you serve in your restaurant?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [
+              {
+                "exclusive_end": 17,
+                "slot": "slot1",
+                "start": 13,
+                "value": "food"
+              },
+              {
+                "exclusive_end": 46,
+                "slot": "slot2",
+                "start": 36,
+                "value": "restaurant"
+              }
+            ]
+          }
+        ],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "We serve Tandoori style food. Do you want to look at the menu?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [
+              {
+                "exclusive_end": 28,
+                "slot": "slot1",
+                "start": 24,
+                "value": "menu"
+              }
+            ],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "taxi",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "train",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "bus",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "police",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "attraction",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hospital",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "Yes, please show me the menu"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Here is a quick view of the menu, please click the menu for the full list"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "taxi",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "train",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "bus",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "police",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "attraction",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hospital",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "Great, thank you very much"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "Welcome, may I help you with anything else?"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1002.json",
+    "services": [
+      "restaurant"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [
+              {
+                "exclusive_end": 17,
+                "slot": "slot1",
+                "start": 13,
+                "value": "food"
+              },
+              {
+                "exclusive_end": 46,
+                "slot": "slot2",
+                "start": 36,
+                "value": "restaurant"
+              }
+            ],
+            "state": {
+              "active_intent": "food_type",
+              "requested_slots": [
+                "slot3",
+                "slot4"
+              ],
+              "slot_values": {
+                "slot5": [
+                  "val51",
+                  "val52"
+                ],
+                "slot6": [
+                  "val6"
+                ],
+                "slot7": [
+                  "val7"
+                ]
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "taxi",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "train",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "bus",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "police",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "attraction",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hospital",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "What type of food you serve in your restaurant?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [
+              {
+                "exclusive_end": 17,
+                "slot": "slot1",
+                "start": 13,
+                "value": "food"
+              },
+              {
+                "exclusive_end": 46,
+                "slot": "slot2",
+                "start": 36,
+                "value": "restaurant"
+              }
+            ]
+          }
+        ],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "We serve Tandoori style food. Do you want to look at the menu?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [
+              {
+                "exclusive_end": 28,
+                "slot": "slot1",
+                "start": 24,
+                "value": "menu"
+              }
+            ],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "taxi",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "train",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "bus",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "police",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "attraction",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hospital",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "Yes, please show me the menu"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Here is a quick view of the menu, please click the menu for the full list"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "taxi",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "train",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "bus",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "police",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "attraction",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hospital",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "Great, thank you very much"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "Welcome, may I help you with anything else?"
+      }
+    ]
+  }
+]
