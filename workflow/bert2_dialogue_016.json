@@ -617,7 +617,7 @@
       },
       {
         "system_transcript": "You're welcome, have a lovely day!",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -1105,7 +1105,7 @@
       },
       {
         "system_transcript": "Thanks!",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -1615,7 +1615,7 @@
       },
       {
         "system_transcript": "you are welcome to use our services anytime.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -2474,7 +2474,7 @@
       },
       {
         "system_transcript": "Yes I will book it for you and get a reference number ?",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -3118,7 +3118,7 @@
       },
       {
         "system_transcript": "Goodbye! Enjoy your time in Cambridge!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -3621,7 +3621,7 @@
       },
       {
         "system_transcript": "Thank you for using our system!",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -4129,7 +4129,7 @@
       },
       {
         "system_transcript": "Have a great day.",
-        "turn_idx": 12,
+        "turn_idx": 11,
         "belief_state": [
           {
             "slots": [
@@ -4641,7 +4641,7 @@
       },
       {
         "system_transcript": "Bye, and have a great time at nandos!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -4864,7 +4864,7 @@
       },
       {
         "system_transcript": "Alright. I hope you have a great day!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -4946,7 +4946,7 @@
       },
       {
         "system_transcript": "Sure, it's a cheap Italian place in the west at 15 Magdalene Street City Centre cb30af. Their phone is 01223315232. How else may I assist you?",
-        "turn_idx": 2,
+        "turn_idx": 1,
         "belief_state": [
           {
             "slots": [
@@ -5659,7 +5659,7 @@
       },
       {
         "system_transcript": "Alright. Have a good day now.",
-        "turn_idx": 13,
+        "turn_idx": 12,
         "belief_state": [
           {
             "slots": [
@@ -5917,7 +5917,7 @@
       },
       {
         "system_transcript": "thank you for choosing our system. Good bye",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -6305,7 +6305,7 @@
       },
       {
         "system_transcript": "Thank you for using this service. Goodbye.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -6602,7 +6602,7 @@
       },
       {
         "system_transcript": "Have a nice day. Goodbye.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -6942,7 +6942,7 @@
       },
       {
         "system_transcript": "thank you, goodbye",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -7064,7 +7064,7 @@
       },
       {
         "system_transcript": "the price is in the expensive range and the postcode is cb39ey.",
-        "turn_idx": 3,
+        "turn_idx": 2,
         "belief_state": [
           {
             "slots": [
@@ -7248,7 +7248,7 @@
       },
       {
         "system_transcript": "goodbye",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -8552,7 +8552,7 @@
       },
       {
         "system_transcript": "Your taxi has been booked! Your car is a Black BMW and contact number is: 07460105806.",
-        "turn_idx": 15,
+        "turn_idx": 14,
         "belief_state": [
           {
             "slots": [
@@ -8949,7 +8949,7 @@
       },
       {
         "system_transcript": "please contact us again in the future. goodbye.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -9294,7 +9294,7 @@
       },
       {
         "system_transcript": "welcome and have a great day",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -9629,7 +9629,7 @@
       },
       {
         "system_transcript": "Happy to be of service. Enjoy your day!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -10189,7 +10189,7 @@
       },
       {
         "system_transcript": "It was my pleasure. Have a good evening.",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -10461,7 +10461,7 @@
       },
       {
         "system_transcript": "Thank you. Goodbye.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -10830,7 +10830,7 @@
       },
       {
         "system_transcript": "You are quite welcome. Enjoy the remainder of your stay!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -11001,7 +11001,7 @@
       },
       {
         "system_transcript": "Have a good trip!",
-        "turn_idx": 3,
+        "turn_idx": 2,
         "belief_state": [
           {
             "slots": [
@@ -11363,7 +11363,7 @@
       },
       {
         "system_transcript": "Thank you, have a great day!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -11624,7 +11624,7 @@
       },
       {
         "system_transcript": "Thank you for choosing the Cambridge TownInfo centre. Have a great day!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -11832,7 +11832,7 @@
       },
       {
         "system_transcript": "You're very welcome! Have a great time!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -12266,7 +12266,7 @@
       },
       {
         "system_transcript": "Okay great, have a good day!",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -12450,7 +12450,7 @@
       },
       {
         "system_transcript": "Thank you. Goodbye.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -13014,7 +13014,7 @@
       },
       {
         "system_transcript": "Wonderful! Enjoy your time in the city.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -13363,7 +13363,7 @@
       },
       {
         "system_transcript": "You're welcome. Let me know if I can assist with anything else.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -13623,7 +13623,7 @@
       },
       {
         "system_transcript": "I will get that reservation made. Is there anything else I can assist with?",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -13860,7 +13860,7 @@
       },
       {
         "system_transcript": "Thank you have a nice day.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -14120,7 +14120,7 @@
       },
       {
         "system_transcript": "michaelhouse cafe is a nice place and the only option available.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -14304,7 +14304,7 @@
       },
       {
         "system_transcript": "Thank you for contacting the Cambridge TownInfo centre. We're here any time you need to get around Cambridge!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -14384,7 +14384,7 @@
       },
       {
         "system_transcript": "There are two Thai restaurants. There is sala thong in the west area and bangkok city in the centre area",
-        "turn_idx": 3,
+        "turn_idx": 2,
         "belief_state": [
           {
             "slots": [
@@ -14790,7 +14790,7 @@
       },
       {
         "system_transcript": "Thank you. You as well!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -15853,7 +15853,7 @@
       },
       {
         "system_transcript": "You're welcome! Likewise!",
-        "turn_idx": 12,
+        "turn_idx": 11,
         "belief_state": [
           {
             "slots": [
@@ -16083,7 +16083,7 @@
       },
       {
         "system_transcript": "You're welcome. Enjoy your stay!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -16300,7 +16300,7 @@
       },
       {
         "system_transcript": "Yes phone is 012233276653 and postcode is cb30nd",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -16786,7 +16786,7 @@
       },
       {
         "system_transcript": "You're welcome, have a lovely day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -17224,7 +17224,7 @@
       },
       {
         "system_transcript": "Good day.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -18059,7 +18059,7 @@
       },
       {
         "system_transcript": "Have a great trip.",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -18727,7 +18727,7 @@
       },
       {
         "system_transcript": "Great, you are very welcome! Take care now!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -19115,7 +19115,7 @@
       },
       {
         "system_transcript": "Have a great day",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -19583,7 +19583,7 @@
       },
       {
         "system_transcript": "Have a nice day.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -20217,7 +20217,7 @@
       },
       {
         "system_transcript": "I am glad I could help you. Have a great trip.",
-        "turn_idx": 11,
+        "turn_idx": 10,
         "belief_state": [
           {
             "slots": [
@@ -20575,7 +20575,7 @@
       },
       {
         "system_transcript": "You are welcome. Enjoy your stay.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -20800,7 +20800,7 @@
       },
       {
         "system_transcript": "No problem, it was a pleasure assisting you today!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -20895,7 +20895,7 @@
       },
       {
         "system_transcript": "I see that there are several restaurants in the moderate price range, what type of food are you looking for?",
-        "turn_idx": 2,
+        "turn_idx": 1,
         "belief_state": [
           {
             "slots": [
@@ -21143,7 +21143,7 @@
       },
       {
         "system_transcript": "Thank you for choosing our system. Good bye",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -21411,7 +21411,7 @@
       },
       {
         "system_transcript": "Thank you for contacting us and have a nice day.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -21682,7 +21682,7 @@
       },
       {
         "system_transcript": "Have a nice day.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -22109,7 +22109,7 @@
       },
       {
         "system_transcript": "No problem. I hope you have a great day. Good-Bye!",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -22595,7 +22595,7 @@
       },
       {
         "system_transcript": "Thanks for using our service today!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -23262,7 +23262,7 @@
       },
       {
         "system_transcript": "Great! Have a nice trip!",
-        "turn_idx": 11,
+        "turn_idx": 10,
         "belief_state": [
           {
             "slots": [
@@ -23483,7 +23483,7 @@
       },
       {
         "system_transcript": "Thank you for using our system!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -23769,7 +23769,7 @@
       },
       {
         "system_transcript": "You are very welcome! Thank you for reaching out to the Cambridge TownInfo centre. I hope you enjoy your stay!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -23992,7 +23992,7 @@
       },
       {
         "system_transcript": "Have a lovely stay in Cambridge!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -24139,7 +24139,7 @@
       },
       {
         "system_transcript": "Thank you. Good bye.",
-        "turn_idx": 3,
+        "turn_idx": 2,
         "belief_state": [
           {
             "slots": [
@@ -24521,7 +24521,7 @@
       },
       {
         "system_transcript": "Thank you for your help.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -24871,7 +24871,7 @@
       },
       {
         "system_transcript": "Good bye.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -25077,7 +25077,7 @@
       },
       {
         "system_transcript": "Thank you and good bye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -25676,7 +25676,7 @@
       },
       {
         "system_transcript": "It's my pleasure! Have a wonderful time!",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -25978,7 +25978,7 @@
       },
       {
         "system_transcript": "Is there anything else I can assist with regarding your travels? Perhaps a hotel stay?",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -26084,7 +26084,7 @@
       },
       {
         "system_transcript": "Have a wonderful day.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -26555,7 +26555,7 @@
       },
       {
         "system_transcript": "I hope you have everything you need.",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -27260,7 +27260,7 @@
       },
       {
         "system_transcript": "I am glad to have been able to assist you.",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -28130,7 +28130,7 @@
       },
       {
         "system_transcript": "It was a pleasure to help. Thanks for using our service. Have a great night. Goodbye.",
-        "turn_idx": 11,
+        "turn_idx": 10,
         "belief_state": [
           {
             "slots": [
@@ -28443,7 +28443,7 @@
       },
       {
         "system_transcript": "Thank you, goodbye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -28814,7 +28814,7 @@
       },
       {
         "system_transcript": "You too, enjoy your stay in Cambridge.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -29413,7 +29413,7 @@
       },
       {
         "system_transcript": "Thank you for letting us assist you today! Enjoy your visit!",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -30207,7 +30207,7 @@
       },
       {
         "system_transcript": "Any time, and you have a great day as well!",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -30949,7 +30949,7 @@
       },
       {
         "system_transcript": "You are quite welcome. Please enjoy your stay in Cambridge!",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -31349,7 +31349,7 @@
       },
       {
         "system_transcript": "You're welcome. Goodbye.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -32028,7 +32028,7 @@
       },
       {
         "system_transcript": "No problem at all! Keep us in mind when you need a hand!",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -32338,7 +32338,7 @@
       },
       {
         "system_transcript": "Have a good time!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -32533,7 +32533,7 @@
       },
       {
         "system_transcript": "You are welcome. Enjoy your dinner. Goodbye.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -32796,7 +32796,7 @@
       },
       {
         "system_transcript": "Thank you and good bye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -33141,7 +33141,7 @@
       },
       {
         "system_transcript": "I'm happy I could help you today. Have a wonderful day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -33774,7 +33774,7 @@
       },
       {
         "system_transcript": "There are no hotels in El Shaddai that have 0 stars and are cheap.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -34221,7 +34221,7 @@
       },
       {
         "system_transcript": "Ok! Have a great day!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -34646,7 +34646,7 @@
       },
       {
         "system_transcript": "Thank you and good bye.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -34828,7 +34828,7 @@
       },
       {
         "system_transcript": "Thank You. Goodbye",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -35003,7 +35003,7 @@
       },
       {
         "system_transcript": "Thank you and have a great day!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -35251,7 +35251,7 @@
       },
       {
         "system_transcript": "You're welcome, goodbye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -35650,7 +35650,7 @@
       },
       {
         "system_transcript": "please contact us again in the future. goodbye.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -35835,7 +35835,7 @@
       },
       {
         "system_transcript": "Thank you for using our system. Goodbye.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -36714,7 +36714,7 @@
       },
       {
         "system_transcript": "Glad to have been of service. Thank you for using the Cambridge TownInfo centre. Have a great day.",
-        "turn_idx": 12,
+        "turn_idx": 11,
         "belief_state": [
           {
             "slots": [
@@ -36951,7 +36951,7 @@
       },
       {
         "system_transcript": "Thank you for choosing our system. Good bye",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -37153,7 +37153,7 @@
       },
       {
         "system_transcript": "Happy to help!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -37563,7 +37563,7 @@
       },
       {
         "system_transcript": "Yes i will find you one and inform you as soon.thanks a lot its a pleasure to serve you",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -37964,7 +37964,7 @@
       },
       {
         "system_transcript": "Thank you! Bye!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -38708,7 +38708,7 @@
       },
       {
         "system_transcript": "You're most welcome.",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -39376,7 +39376,7 @@
       },
       {
         "system_transcript": "Thank you for using our system!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -40018,7 +40018,7 @@
       },
       {
         "system_transcript": "You are welcome. Enjoy your time in Cambridge. Bye.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -40476,7 +40476,7 @@
       },
       {
         "system_transcript": "Alright, have a great day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -41110,7 +41110,7 @@
       },
       {
         "system_transcript": "You're welcome. Have a great day!",
-        "turn_idx": 12,
+        "turn_idx": 11,
         "belief_state": [
           {
             "slots": [
@@ -41338,7 +41338,7 @@
       },
       {
         "system_transcript": "Thank you and have a great trip!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -41660,7 +41660,7 @@
       },
       {
         "system_transcript": "Thank you! Feel free to contact us if you need anything else. Have a great day!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -42018,7 +42018,7 @@
       },
       {
         "system_transcript": "You are very welcome. I hope you enjoy your trip and have a fantastic day! Call anytime for assistance.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -42345,7 +42345,7 @@
       },
       {
         "system_transcript": "Thank you, goodbye",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -42517,7 +42517,7 @@
       },
       {
         "system_transcript": "Thank you for using the Cambridge Restaurant Phone System. Enjoy your meal!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -43630,7 +43630,7 @@
       },
       {
         "system_transcript": "Well, thank you for your call! You have a great day!",
-        "turn_idx": 13,
+        "turn_idx": 12,
         "belief_state": [
           {
             "slots": [
@@ -44489,7 +44489,7 @@
       },
       {
         "system_transcript": "Thanks for using our service today!",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -44776,7 +44776,7 @@
       },
       {
         "system_transcript": "Goodbye, and thank you for using the Cambridge restaurant system.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -45700,7 +45700,7 @@
       },
       {
         "system_transcript": "Thanks for letting me assist you today. Enjoy your trip!",
-        "turn_idx": 11,
+        "turn_idx": 10,
         "belief_state": [
           {
             "slots": [
@@ -46453,7 +46453,7 @@
       },
       {
         "system_transcript": "Thank you for contacting Cambridge TownInfo centre. Goodbye!",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -46829,7 +46829,7 @@
       },
       {
         "system_transcript": "Thanks for using our service, and I hope you enjoy your time in Cambridge!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -47677,7 +47677,7 @@
       },
       {
         "system_transcript": "You're welcome. Have a nice evening.",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -48191,7 +48191,7 @@
       },
       {
         "system_transcript": "we appreciate you using our services. have a good day",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -48504,7 +48504,7 @@
       },
       {
         "system_transcript": "Thank you, goodbye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -48799,7 +48799,7 @@
       },
       {
         "system_transcript": "Have a wonderful day!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -49144,7 +49144,7 @@
       },
       {
         "system_transcript": "You are welcome, enjoy your stay.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -49670,7 +49670,7 @@
       },
       {
         "system_transcript": "Thanks! You have a great day as well!",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -50221,7 +50221,7 @@
       },
       {
         "system_transcript": "I've done that for you. If you need additional help ask away. If not have a good one!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -50403,7 +50403,7 @@
       },
       {
         "system_transcript": "Happy to be of service today. Enjoy the rest of your day!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -50672,7 +50672,7 @@
       },
       {
         "system_transcript": "Enjoy your dinner. Thank you for contacting TownInfo centre. Goodbye.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -51043,7 +51043,7 @@
       },
       {
         "system_transcript": "You're welcome and enjoy your stay.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -51646,7 +51646,7 @@
       },
       {
         "system_transcript": "Thank you, goodbye!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -51896,7 +51896,7 @@
       },
       {
         "system_transcript": "You're Welcome. Goodbye!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -52293,7 +52293,7 @@
       },
       {
         "system_transcript": "Is there anything else i can you with such as booking reservations for entertainment ventures afterwards.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -53191,7 +53191,7 @@
       },
       {
         "system_transcript": "You're welcome, have a great day!",
-        "turn_idx": 11,
+        "turn_idx": 10,
         "belief_state": [
           {
             "slots": [
@@ -53525,7 +53525,7 @@
       },
       {
         "system_transcript": "Okay, have a great day!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -53723,7 +53723,7 @@
       },
       {
         "system_transcript": "Happy to be of service. Thanks for using the Cambridge TownInfo centre, and have a great day!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -53942,7 +53942,7 @@
       },
       {
         "system_transcript": "You are welcome, enjoy your stay in Cambridge.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -54788,7 +54788,7 @@
       },
       {
         "system_transcript": "thank you that will be all,that was a big help too",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -55026,7 +55026,7 @@
       },
       {
         "system_transcript": "Their phone number is 01223 464630, their address is 14 -16 Bridge Street and their postcode is C.B 2, 1 U.F.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -55213,7 +55213,7 @@
       },
       {
         "system_transcript": "Thank you for contacting Cambridge TownInfo centre. I hope you have a pleasant trip! Goodbye!",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -55443,7 +55443,7 @@
       },
       {
         "system_transcript": "Thanks for using Cambridge TownInfo. Goodbye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -55891,7 +55891,7 @@
       },
       {
         "system_transcript": "You are welcome. Have a pleasant stay in Cambridge. Bye.",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -56158,7 +56158,7 @@
       },
       {
         "system_transcript": "You're welcome. Have a good day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -56507,7 +56507,7 @@
       },
       {
         "system_transcript": "Thank you, goodbye!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -56754,7 +56754,7 @@
       },
       {
         "system_transcript": "You're welcome! Have a great trip!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -57344,7 +57344,7 @@
       },
       {
         "system_transcript": "You're welcome, have a safe trip.",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -57708,7 +57708,7 @@
       },
       {
         "system_transcript": "Bye.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -57841,7 +57841,7 @@
       },
       {
         "system_transcript": "Have a great visit!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -58175,7 +58175,7 @@
       },
       {
         "system_transcript": "So happy I could help! Enjoy the rest of your day!",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -58726,7 +58726,7 @@
       },
       {
         "system_transcript": "You are welcome. Have a great day.",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -59060,7 +59060,7 @@
       },
       {
         "system_transcript": "You're welcome. Have a nice day.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -59282,7 +59282,7 @@
       },
       {
         "system_transcript": "You are very welcome. Have a great day!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -60063,7 +60063,7 @@
       },
       {
         "system_transcript": "Thank you for using our service today!",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -60395,7 +60395,7 @@
       },
       {
         "system_transcript": "You're welcome! Please let me know if you need anything else.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -60768,7 +60768,7 @@
       },
       {
         "system_transcript": "Okay, goodbye.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -61087,7 +61087,7 @@
       },
       {
         "system_transcript": "Thank you! Have a wonderful day!",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -62252,7 +62252,7 @@
       },
       {
         "system_transcript": "Have a nice day.",
-        "turn_idx": 14,
+        "turn_idx": 13,
         "belief_state": [
           {
             "slots": [
@@ -62500,7 +62500,7 @@
       },
       {
         "system_transcript": "Thank you, goodbye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -62698,7 +62698,7 @@
       },
       {
         "system_transcript": "Thank you goodbye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -63034,7 +63034,7 @@
       },
       {
         "system_transcript": "Happy to be of help, and I hope you enjoy your meal!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -63455,7 +63455,7 @@
       },
       {
         "system_transcript": "Okay great! I hope you have a wonderful day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -63815,7 +63815,7 @@
       },
       {
         "system_transcript": "I am glad to be of service! Have a wonderful time in Cambridge!",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -64151,7 +64151,7 @@
       },
       {
         "system_transcript": "Okay enjoy your dinner.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -64559,7 +64559,7 @@
       },
       {
         "system_transcript": "Thank you for using our service today.",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -64793,7 +64793,7 @@
       },
       {
         "system_transcript": "Great. Enjoy your meal! Goodbye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -65791,7 +65791,7 @@
       },
       {
         "system_transcript": "Thank you and enjoy your visit.",
-        "turn_idx": 12,
+        "turn_idx": 11,
         "belief_state": [
           {
             "slots": [
@@ -66127,7 +66127,7 @@
       },
       {
         "system_transcript": "Have a swell day.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -66728,7 +66728,7 @@
       },
       {
         "system_transcript": "Great! Have a great day!",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -66923,7 +66923,7 @@
       },
       {
         "system_transcript": "Have a lovely day, goodbye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -67029,7 +67029,7 @@
       },
       {
         "system_transcript": "You are welcome. Thank you for using our service. Goodbye!",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -67658,7 +67658,7 @@
       },
       {
         "system_transcript": "Glad I could help. Have a great day.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -68174,7 +68174,7 @@
       },
       {
         "system_transcript": "You are more than welcome!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -68610,7 +68610,7 @@
       },
       {
         "system_transcript": "Glad I could help, have a great day.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -69202,7 +69202,7 @@
       },
       {
         "system_transcript": "Okay, have a great time in Cambridge!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -69736,7 +69736,7 @@
       },
       {
         "system_transcript": "thank you for all the information. goodbye",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -70196,7 +70196,7 @@
       },
       {
         "system_transcript": "You're very welcome! Have a great time! Bye!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -70838,7 +70838,7 @@
       },
       {
         "system_transcript": "You are more than welcome!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -71035,7 +71035,7 @@
       },
       {
         "system_transcript": "Okay, let us know if you need anything else.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -71510,7 +71510,7 @@
       },
       {
         "system_transcript": "Enjoy the rest of your day.",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -72089,7 +72089,7 @@
       },
       {
         "system_transcript": "You're welcome. Have a great day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -72681,7 +72681,7 @@
       },
       {
         "system_transcript": "Thank you. Let us know if you need more help.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -73224,7 +73224,7 @@
       },
       {
         "system_transcript": "You're welcome. Let me know if there is anything else I can help you with.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -73397,7 +73397,7 @@
       },
       {
         "system_transcript": "Thank you. Goodbye!",
-        "turn_idx": 3,
+        "turn_idx": 2,
         "belief_state": [
           {
             "slots": [
@@ -74458,7 +74458,7 @@
       },
       {
         "system_transcript": "You are welcome. Have a wonderful day and please feel free to reach out again if you have more questions.",
-        "turn_idx": 13,
+        "turn_idx": 12,
         "belief_state": [
           {
             "slots": [
@@ -74833,7 +74833,7 @@
       },
       {
         "system_transcript": "You are welcome. Thank you for calling Cambridge TownInfo Centre. Good bye.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -75332,7 +75332,7 @@
       },
       {
         "system_transcript": "No thank you that will be all",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -75955,7 +75955,7 @@
       },
       {
         "system_transcript": "you are welcome to Cambridge",
-        "turn_idx": 12,
+        "turn_idx": 11,
         "belief_state": [
           {
             "slots": [
@@ -76468,7 +76468,7 @@
       },
       {
         "system_transcript": "please contact us again in the future. goodbye.",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -76954,7 +76954,7 @@
       },
       {
         "system_transcript": "I hope you enjoy your trip! Goodbye.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -77204,7 +77204,7 @@
       },
       {
         "system_transcript": "Thank you for using the Cambridge restaurant system. Goodbye.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -77820,7 +77820,7 @@
       },
       {
         "system_transcript": "You are most welcome. Enjoy your day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -78034,7 +78034,7 @@
       },
       {
         "system_transcript": "You are welcome.",
-        "turn_idx": 3,
+        "turn_idx": 2,
         "belief_state": [
           {
             "slots": [
@@ -78181,7 +78181,7 @@
       },
       {
         "system_transcript": "You're welcome. Have a good day!",
-        "turn_idx": 3,
+        "turn_idx": 2,
         "belief_state": [
           {
             "slots": [
@@ -78676,7 +78676,7 @@
       },
       {
         "system_transcript": "Enjoy your trip!",
-        "turn_idx": 11,
+        "turn_idx": 10,
         "belief_state": [
           {
             "slots": [
@@ -79075,7 +79075,7 @@
       },
       {
         "system_transcript": "You're welcome, have a fantastic day.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -79767,7 +79767,7 @@
       },
       {
         "system_transcript": "Thanks, have a great trip!",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -80067,7 +80067,7 @@
       },
       {
         "system_transcript": "You're welcome, goodbye!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -80209,7 +80209,7 @@
       },
       {
         "system_transcript": "Enjoy your stay in cambridge.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -80495,7 +80495,7 @@
       },
       {
         "system_transcript": "Goodbye.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -81198,7 +81198,7 @@
       },
       {
         "system_transcript": "Okay, great. Have a wonderful day!",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -81699,7 +81699,7 @@
       },
       {
         "system_transcript": "Glad I could help. Goodbye.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -81946,7 +81946,7 @@
       },
       {
         "system_transcript": "You are welcome. Goodbye.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -82161,7 +82161,7 @@
       },
       {
         "system_transcript": "No problem, have a great day.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -82591,7 +82591,7 @@
       },
       {
         "system_transcript": "Thank you for contacting us and have a nice day.",
-        "turn_idx": 12,
+        "turn_idx": 11,
         "belief_state": [
           {
             "slots": [
@@ -82713,7 +82713,7 @@
       },
       {
         "system_transcript": "Thank you. Goodbye.",
-        "turn_idx": 3,
+        "turn_idx": 2,
         "belief_state": [
           {
             "slots": [
@@ -83206,7 +83206,7 @@
       },
       {
         "system_transcript": "Thanks for using the Cambridge TownInfo Centre. Goodbye!",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -84104,7 +84104,7 @@
       },
       {
         "system_transcript": "Thank you for contacting us and have a nice day.",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -84787,7 +84787,7 @@
       },
       {
         "system_transcript": "You are welcome. Have a nice day.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -85100,7 +85100,7 @@
       },
       {
         "system_transcript": "Thank you for using our service. Have a great day!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -85974,7 +85974,7 @@
       },
       {
         "system_transcript": "Great I am glad we could help.",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -86781,7 +86781,7 @@
       },
       {
         "system_transcript": "I hope I've been helpful. Thank you for using the Cambridge TownInfo centre. Have a great day",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -87356,7 +87356,7 @@
       },
       {
         "system_transcript": "You are welcome enjoy",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -87905,7 +87905,7 @@
       },
       {
         "system_transcript": "OK, it was a pleasure helping you. Have a great time in Cambridge. Goodbye.",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -88256,7 +88256,7 @@
       },
       {
         "system_transcript": "Thank you for contacting us have a nice day.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -88428,7 +88428,7 @@
       },
       {
         "system_transcript": "Thank you, goodbye.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -88812,7 +88812,7 @@
       },
       {
         "system_transcript": "Have a great trip!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -89569,7 +89569,7 @@
       },
       {
         "system_transcript": "Thank you, please let me know if you have any more question.",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -90376,7 +90376,7 @@
       },
       {
         "system_transcript": "Thank you. Have a great day.",
-        "turn_idx": 10,
+        "turn_idx": 9,
         "belief_state": [
           {
             "slots": [
@@ -91439,7 +91439,7 @@
       },
       {
         "system_transcript": "You're welcome, have a great day.",
-        "turn_idx": 12,
+        "turn_idx": 11,
         "belief_state": [
           {
             "slots": [
@@ -91938,7 +91938,7 @@
       },
       {
         "system_transcript": "Thank you have a great day!",
-        "turn_idx": 9,
+        "turn_idx": 8,
         "belief_state": [
           {
             "slots": [
@@ -92220,7 +92220,7 @@
       },
       {
         "system_transcript": "Okay, great. Have a good day!",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -92424,7 +92424,7 @@
       },
       {
         "system_transcript": "You're very welcome. Thank you and goodbye!",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -92949,7 +92949,7 @@
       },
       {
         "system_transcript": "Thank you for reminding me, your train ID Number will be: TR4550.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -93373,7 +93373,7 @@
       },
       {
         "system_transcript": "You're very welcome, have a wonderful day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -93581,7 +93581,7 @@
       },
       {
         "system_transcript": "Your welcome. It has been a pleasure assisting you today. Have a wonderful day.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -93839,7 +93839,7 @@
       },
       {
         "system_transcript": "Goodbye.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -94197,7 +94197,7 @@
       },
       {
         "system_transcript": "Alright, have a wonderful time in Cambridge!",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -94668,7 +94668,7 @@
       },
       {
         "system_transcript": "thank you and enjoy your stay in Cambridge!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -94953,7 +94953,7 @@
       },
       {
         "system_transcript": "You're very welcome. Goodbye!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -95340,7 +95340,7 @@
       },
       {
         "system_transcript": "You're welcome. You do the same.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -95746,7 +95746,7 @@
       },
       {
         "system_transcript": "Okay, glad you enjoyed! Have a good day.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -95982,7 +95982,7 @@
       },
       {
         "system_transcript": "Have a good evening.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -96314,7 +96314,7 @@
       },
       {
         "system_transcript": "You are welcome, I am happy to help. Have a great day. Bye.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -96748,7 +96748,7 @@
       },
       {
         "system_transcript": "your welcome, have a nice day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -97353,7 +97353,7 @@
       },
       {
         "system_transcript": "You are very welcome! Have a nice day!",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -97652,7 +97652,7 @@
       },
       {
         "system_transcript": "Have a nice day.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -97895,7 +97895,7 @@
       },
       {
         "system_transcript": "Goodbye to you as well and have a nice stay!",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
@@ -98092,7 +98092,7 @@
       },
       {
         "system_transcript": "The only other option is restaurant alimentum. Their phone number is 01223 413000, their address is 152 - 154 Hills Road and their postcode is C.B 2, 8 P.B.",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -98484,7 +98484,7 @@
       },
       {
         "system_transcript": "You're very welcome.",
-        "turn_idx": 7,
+        "turn_idx": 6,
         "belief_state": [
           {
             "slots": [
@@ -99033,7 +99033,7 @@
       },
       {
         "system_transcript": "Alright, have a lovely day. Goodbye.",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -99395,7 +99395,7 @@
       },
       {
         "system_transcript": "I forgot to add-Yippee Noodle is located on 40428 King Street City Centre. And you have a great day.",
-        "turn_idx": 5,
+        "turn_idx": 4,
         "belief_state": [
           {
             "slots": [
@@ -99666,7 +99666,7 @@
       },
       {
         "system_transcript": "Here is a number for a reliable taxi",
-        "turn_idx": 4,
+        "turn_idx": 3,
         "belief_state": [
           {
             "slots": [
@@ -100115,7 +100115,7 @@
       },
       {
         "system_transcript": "You're welcome! Have a great day!",
-        "turn_idx": 8,
+        "turn_idx": 7,
         "belief_state": [
           {
             "slots": [
@@ -100427,7 +100427,7 @@
       },
       {
         "system_transcript": "Have a good evening.",
-        "turn_idx": 6,
+        "turn_idx": 5,
         "belief_state": [
           {
             "slots": [
