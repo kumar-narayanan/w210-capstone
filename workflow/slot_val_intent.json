@@ -319,16 +319,18 @@
         "is_categorical": true
       },
       {
-        "name": "clinic-doctor",
+        "name": "clinic-servicetype",
+        "description": "whether new or returning patient",
+        "possible_values": [
+          "new",
+          "returning"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "clinic-provider",
         "description": "the doctor of the clinic you are looking for",
-	"possible_values": [
-	  "Dr. Huang",
-	  "Dr. Johnson",
-	  "Dr. Agarwal",
-	  "Dr. Nguyen",
-	  "Dr. Whitman",
-          "First Available"
-	],
+	      "possible_values": [],
         "is_categorical": false
       },
       {
@@ -348,6 +350,16 @@
           "friday",
           "saturday",
           "sunday"
+        ],
+        "is_categorical": true
+      },
+      {
+        "name": "clinic-booktimeofday",
+        "description": "time of the day of the clinic booking",
+        "possible_values": [
+          "morning",
+          "afternoon",
+          "evening"
         ],
         "is_categorical": true
       },
@@ -387,9 +399,49 @@
         "name": "clinic-ref",
         "description": "reference number of the clinic booking",
         "is_categorical": false
+      },
+      {
+        "name": "clinic-customerfirstname",
+        "description": "first name of the customer",
+        "is_categorical": false
+      },
+      {
+        "name": "clinic-customerlastname",
+        "description": "last name of the customer",
+        "is_categorical": false
+      },
+      {
+        "name": "clinic-customerdob",
+        "description": "date of birth of the customer",
+        "is_categorical": false
+      },
+      {
+        "name": "clinic-customerphone",
+        "description": "phone number of the customer",
+        "is_categorical": false
+      },
+      {
+        "name": "clinic-customeremail",
+        "description": "email address of the customer",
+        "is_categorical": false
+      },
+      {
+        "name": "clinic-customereinsurance",
+        "description": "whether customer has insurance",
+        "possible_values": [
+          "yes",
+          "no",
+          "dontknow"
+        ],
+        "is_categorical": yes
+      },
+      {
+        "name": "clinic-customerinsuranceid",
+        "description": "insurance member id of the customer",
+        "is_categorical": false
       }
     ],
-    "description": "find places to dine and whet your appetite",
+    "description": "find clinic for your medical needs",
     "intents": [
       {
         "name": "find_clinic",
@@ -412,10 +464,19 @@
         "required_slots": [],
         "optional_slots": {
           "clinic-area": "dontcare",
-          "clinic-doctor": "dontcare",
+          "clinic-provider": "dontcare",
+          "clinic-servicetype": "dontcare"
           "clinic-bookday": "dontcare",
           "clinic-bookpeople": "dontcare",
-          "clinic-booktime": "dontcare"
+          "clinic-booktimeofday": "dontcare"
+          "clinic-booktime": "dontcare",
+          "clinic-customerfirstname":"dontcare",
+          "clinic-customerlastname":"dontcare",
+          "clinic-customerdob":"dontcare",
+          "clinic-customerphone":"dontcare",
+          "clinic-customeremail":"dontcare",
+          "clinic-customereinsurance":"dontcare",
+          "clinic-customerinsuranceid":"dontcare"
         }
       }
     ]
