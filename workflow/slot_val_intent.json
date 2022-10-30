@@ -433,7 +433,7 @@
           "no",
           "dontknow"
         ],
-        "is_categorical": yes
+        "is_categorical": true
       },
       {
         "name": "clinic-customerinsuranceid",
@@ -465,10 +465,10 @@
         "optional_slots": {
           "clinic-area": "dontcare",
           "clinic-provider": "dontcare",
-          "clinic-servicetype": "dontcare"
+          "clinic-servicetype": "dontcare",
           "clinic-bookday": "dontcare",
           "clinic-bookpeople": "dontcare",
-          "clinic-booktimeofday": "dontcare"
+          "clinic-booktimeofday": "dontcare",
           "clinic-booktime": "dontcare",
           "clinic-customerfirstname":"dontcare",
           "clinic-customerlastname":"dontcare",
