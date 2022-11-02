@@ -1,0 +1,158 @@
+[
+  {
+    "act": "greeting",
+    "transcript": ["hello", "hi", "hey"],
+    "system_transcript": "Hey there!",
+    "slots": []
+  },
+  {
+    "act": "greeting",
+    "transcript": ["see you", "goodbye", "bye"],
+    "system_transcript": "See you later!",
+    "slots": []
+  },
+  {
+    "act": "greeting",
+    "transcript": ["good", "morning"],
+    "system_transcript": "good morning",
+    "slots": ["good", "morning"]
+  },
+  {
+    "act": "greeting",
+    "transcript": ["good", "morning", "afternoon", "how", "are", "you", "doing"],
+    "system_transcript": "I am fine. Thank you!",
+    "slots": ["how", "are", "you", "doing"]
+  },
+  {
+    "act": "greeting",
+    "transcript": ["how is", "your", "day"],
+    "system_transcript": "Very good. Thanky you!",
+    "slots": []
+  },
+  {
+    "act": "greeting",
+    "transcript": ["Thank you", "goodbye", "bye", "see you"],
+    "system_transcript": "You're welcome! Have a great one!",
+    "slots": []
+  },
+  {
+    "act": "greeting",
+    "transcript": ["nice", "to", "meet", "you"],
+    "system_transcript": "The pleasure is all mine!",
+    "slots": ["nice", "meet", "you"]
+  },
+  {
+    "act": "question",
+    "transcript": ["can", "you", "help", "me", "book", "vaccination", "appointment"],
+    "system_transcript": "Sure, when do you want to have it?",
+    "slots": ["appointment", "vaccination"]
+  },
+  {
+    "act": "question",
+    "transcript": ["I", "would", "like", "to",  "have", "vaccination"],
+    "system_transcript": "Sure, when do you want to have it?",
+    "slots": ["have", "vaccination"]
+  },
+  {
+    "act": "question",
+    "transcript": ["vaccination", "how", "can", "I", "get", "want"],
+    "system_transcript": "We can help you make booking for vaccination. Which day you are looking for?",
+    "slots": ["vaccination", "I", "want"]
+  },
+  {
+    "act": "question",
+    "transcript": ["how", "are", "you"],
+    "system_transcript": "I'm great! Thanks for asking.",
+    "slots": ["how", "are", "you"]
+  },
+  {
+    "act": "request",
+    "transcript": ["Nice", "I", "would", "like", "to", "make", "a", "book", "reservation", "vaccination"],
+    "system_transcript": "Which date you are looking for?",
+    "slots": ["I", "would", "like", "to", "make", "a", "book", "reservation", "vaccination"]
+  },
+  {
+    "act": "request",
+    "transcript": ["yes", "I", "had", "vaccination", "before"],
+    "system_transcript": "How many doses?",
+    "slots": ["yes", "I", "had", "vaccination", "before"]
+  },
+  {
+    "act": "request",
+    "transcript": ["I", "had", "two", "before"],
+    "system_transcript": "alright, I can make a booking for you. Which day you are looking for?",
+    "slots": ["I", "had", "two", "before"]
+  },
+  {
+    "act": "request",
+    "transcript": ["can", "appointment", "booking", "make"],
+    "system_transcript": "Which date you are looking for?",
+    "slots": ["appointment", "make"]
+  },
+  {
+    "act": "request",
+    "transcript": ["How", "about", "next", "Thursday"],
+    "system_transcript": "It is available, what time is good for you?",
+    "slots": ["How", "about", "next", "Thursday"]
+  },
+  {
+    "act": "question",
+    "transcript": ["I", "need", "vaccination"],
+    "system_transcript": "Did you have any vacccination before?",
+    "slots": ["need", "vaccination"]
+  },
+  {
+    "act": "booking",
+    "transcript": ["My", "firstname", "is"],
+    "system_transcript": "What is your last name?",
+    "slots": ["name", "firstname"]
+  },
+  {
+    "act": "booking",
+    "transcript": ["My", "lastname", "is"],
+    "system_transcript": "Great! Thank you. I have made the booking for you.",
+    "slots": ["name", "lastname"]
+  },
+  {
+    "act": "confirm",
+    "transcript": ["Can", "you", "confirm", "my", "booking"],
+    "system_transcript": "Your booking is on Thursday 4pm.",
+    "slots": ["confirm", "booking"]
+  },
+  {
+    "act": "confirm",
+    "transcript": ["Yes", "I", "vaccination", "before"],
+    "system_transcript": "You have how many do you have before?",
+    "slots": ["yes", "vaccination", "before"]
+  },
+  {
+    "act": "confirm",
+    "transcript": ["Yes", "I", "did"],
+    "system_transcript": "How many doses you had?",
+    "slots": ["Yes", "I", "did"]
+  },
+  {
+    "act": "confirm",
+    "transcript": ["I", "had", "2", "doses", "before"],
+    "system_transcript": "Alright, I can help you to make booking for the next dose. Which day you want it to be?",
+    "slots": ["had", "2", "doses"]
+  },
+  {
+    "act": "confirm",
+    "transcript": ["I", "want", "next", "Wednesday"],
+    "system_transcript": "Yes, that day is available, what time should I book?",
+    "slots": ["I", "want", "next", "Wednesday"]
+  },
+  {
+    "act": "confirm",
+    "transcript": ["book", "time", "3pm", "at"],
+    "system_transcript": "Sure, your booking is succesful. Is there anything else?",
+    "slots": ["book", "time", "at"]
+  },
+  {
+    "act": "confirm",
+    "transcript": ["that", "will", "be", "all"],
+    "system_transcript": "Have a great day!",
+    "slots": ["that", "will", "be", "all"]
+  }
+]
