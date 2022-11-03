@@ -1,0 +1,2765 @@
+1 I'm looking for an Indian restaurant in the west end of Cambridge.
+2 I do not have a preference, so surprise me!
+3 Nice! I would like to make a reservation for 3 on Thursday at 11:30.
+4 Can I also book a train please?
+5 The train needs to leave from peterborough and arrive at cambridge by 08:30.
+6 No, just Thursday is the day I need it.
+7 That's perfect, though I don't want to book it just yet. Can you give me the travel time, price, and train ID please?
+8 That's all I needed, thank you
+9 Hi, I need a place to stay in the north that includes free wifi please.
+10 I would like a guesthouse that has free parking.
+11 Yes can you tell me the address please?
+12 Not now, thanks. I do need to find a train to cambridge that leaves after 17:30.
+13 Departing from Kings Lynn on Saturday
+14 Yes, book for 2 people. And I need the reference number too pleases.
+15 I am looking for a restaurant serving malaysian food.
+16 I am also looking for a restaurant serving asian oriental food.
+17 I don't care.
+18 I don't care
+19 Yes, and their address too.
+20 What is the postcode?
+21 No, that will be all. Thank you and goodbye!
+22 You, too.
+23 Yes but I need that to be booked for 3 people. I would like the reference number please. I also need a place to stay as well.
+24 I would like a 4-star guesthouse in the north in a moderate price range.
+25 Great can you book that for me from Sunday for 2 nights for 4 people.
+26 Yes that was all I needed thank you so much.
+27 I am looking for college attractions in the centre.
+28 Also want to find someplace to eat. Want to be in the cheap price range and in the same area of town.
+29 I was thinking more on the lines of afghan food. Do you have any listings for that?
+30 Could you check fr mediterranean please?
+31 I will need it for three, at noon, on Thursday.
+32 How about at 11:00?
+33 No, thank you, that should be all.
+34 i am looking for a place to stay. The hotel should include free parking and should have a star of 4.
+35 No, I don't. I just need free parking and 4 stars.
+36 That sounds good. Give me it's details regarding type of gursthouse, price range , area and address
+37 Yes, could you tell me about your museums?
+38 could you give me the postcode and phone number.
+39 That is all I need, thank you!
+40 Hello, I'm looking for a gueshouse on the northside.
+41 Yes, I am looking for free parking. Internet is not important.
+42 Not particularly considered about price range, just as long as it's a 4 star hotel
+43 Okay book it for 2 people for 3 nights and let me have the reference number. Also find me a Train departing from London liverpool street to arrive Cambridge by 08:15.
+44 I want to book a room at the el shaddai for 4 people 4 nights starting tuesday
+45 Thank you.
+46 I would like to book a hotel in Cambridge. Is there any availability at the Autumn House?
+47 Yes. Book it for 6 people and 4 nights from thursday.
+48 I am also looking for a train to Cambridge. I would like to leave Thursday.
+49 Ely. Oh and I'll need to arrive by 9.
+50 Yes, for the same group of 6.
+51 I don't believe so. I think that does it. Have a great night. Bye.
+52 I'm also looking for a hotel to stay that has a star of 0 in the expensive price range.
+53 There's nothing in the north?
+54 Yeah, I think that would be all right.
+55 Yes please for 8 people, 5 nights starting Saturday.
+56 Are there in hotels in the north with a 2 star rating?
+57 I would prefer you to check another area, please.
+58 Can you search for one that is cheap in price then?
+59 I need something in the cheap price range with other restrictions retained.
+60 Are there any cheap 0 star hotels in the north?
+61 Can you book that for 8 people for 1 night since 5 nights did not work earlier?
+62 That would be it. Thank you
+63 What time does that train leave Cambridge? I also need a place to stay in Ely, with free parking and free wifi?
+64 Really makes no difference to me as long as its on the North side of town
+65 I will take any suggestions you have.
+66 Can you confirm if the hamilton lodge has both free parking and free wifi?
+67 No, not today. I just needed information.
+68 no that is all thanks
+69 Yes, I am looking for a 3 star hotel in the expensive price range that includes free parking in the South.
+70 Yes please, for 4 people for 3 nights
+71 I will get there on Saturday.
+72 I need a reference number for the hotel.
+73 Thanks! I will need a taxi, too, please. I'd to leave the hotel by 10:30 to head to the gallery.
+74 Great! That is all I needed, thanks.
+75 I'm looking for a restaurant in the south that is cheap.
+76 Either will work. I would like to book a table for 2 people at 13:25 on Monday.
+77 Thanks. Could you also find a museum to go to in town?
+78 am looking for places to go in town. The attraction should be in the type of museum.
+79 Great. Can you tell me the postcode for Byard Art?
+80 i'll need a taxi
+81 I'd like to get the postcode for the museum first, please. I'll need the taxi to get from the museum to Lucky Star in time for my booking.
+82 You are the one that suggested Byard art. Remember?
+83 That's all I need, thanks so much for all of your help! Have a great day!
+84 Hi, I have a business meeting and I'm looking for an expensive place to eat in the city centre.
+85 I'm sure Moroccan food will impress my clients. Are there any restaurants that serve it?
+86 Can you search for British food instead?
+87 Yes, please book a reservation at Fitzbillies for 4 people at 13:30 on wednesday. Oh! Can I please get the reference number?
+88 Thank you. I also need info on a college to visit in the town centre. Anyone will do. Whatever you recommend.
+89 Great thanks, what is their entrance fee and phone number?
+90 Thank you for all your help. Goodbye.
+91 Hello, I'm trying to find an expensive restaurant in the south. Suggestions?
+92 Okay, please make a reservation at Frankie and bennys for 8 people at 18:30 on Friday.
+93 I also need info on a hotel called the Kirkwood house.
+94 I also need info on a hotel called the Kirkwood house.
+95 Thank you for all your help today I think that is everything. Goodbye.
+96 Thank you for all your help today I think that is everything. Goodbye.
+97 Okay, thanks, bye!
+98 Okay, thanks, bye!
+99 I want to find some information about a hotel called alexander bed and breakfast.
+100 Do they have reservations available for 6 people and 3 nights starting from Thursday?
+101 I am looking for a mexican restaurant in south cambridge
+102 Yes. Actually can you make a booking for me?
+103 Actually, can you just send me the address?
+104 I am needing a place to stay with a star of 3 and free wifi please.
+105 I am needing a place to stay with a star of 3 and free wifi please.
+106 i need something cheap
+107 i need something cheap
+108 Do you have an expensive hotel that meets my other criteria?
+109 Do you have an expensive hotel that meets my other criteria?
+110 Either of those sounds great. There will be 8 of us for 5 nights starting on Sunday. Can you book that, please?
+111 Either of those sounds great. There will be 8 of us for 5 nights starting on Sunday. Can you book that, please?
+112 Darn. Why don't we try booking it for tuesday instead then?
+113 Darn. Why don't we try booking it for tuesday instead then?
+114 Is the system back up now?
+115 Is the system back up now?
+116 That would be great, thank you.
+117 That would be great, thank you.
+118 Nope, that's all I needed. Thanks for your help. Goodbye!
+119 Nope, that's all I needed. Thanks for your help. Goodbye!
+120 I am looking for a cheap restaurant to have a meal.
+121 The restaurant should be in the south, and should serve eastern European food if there is a restaurant like that.
+122 How about Portugese?
+123 What price range is that one?
+124 I need a table for 4 at 19:30 on Thursday. If that time is unavailable, please reserve for 18:30.
+125 No, that is all the information that I needed. Thank you for your time.
+126 Thank you! You too! Good Bye.
+127 I'm looking for a 4 star hotel in the north.
+128 Hm, maybe something moderately priced? With free wifi?
+129 Yes, I would like it to start Monday and be for 5 nights for 4 people. Can I get the reference number?
+130 I also need a train heading to cambridge on monday as well
+131 I'll be leaving kings lynn after 13:15.
+132 No, that is all I needed. Thank you!
+133 Thank you too!
+134 Could I have the phone number please?
+135 Oh! Right. I need a phone number for a restaurant. A Chinese place, in the south, and on the cheap if possible.
+136 No, thank you. That was all I needed today.
+137 I'm looking for information on a restaurant called La Margherita.
+138 I need to find a restaurant in the center of town. A place offering Vietnamese food, if possible.
+139 really, it should be expensive.
+140 How about turkish food?
+141 Yes and I need a confirmation number thank you
+142 I'm not sure yet, can I have the phone number and postcode so I can book the table?
+143 No, I would like to check out going to a boat.
+144 It doesn't matter to me.
+145 No, thanks. Please just select one for me and then let me know the area and address.
+146 I also need a taxi. Can you help with that?
+147 I want to leave the Riverboat Georgina by 23:30, please.
+148 The acorn guest house please.
+149 No, thank you. I have everything I need at this time.
+150 Okay great. I'd also like to find a guesthouse that has a 4 star rating.
+151 I need a hotel that's cheap with free parking.
+152 That would work, can you please book it for 1 person for 5 nights starting from Monday?
+153 Four nights would work.
+154 Great. Thank you. That's all I need.
+155 I'm looking for a restaurant on the north side of town that serves tuscan food.
+156 How about chinese type of food?
+157 Price doesn't matter. Suggest one please.
+158 Thank you, goodbye!
+159 Yes, I'm looking for a place to stay while I'm in town.
+160 I would like a guesthouse in the moderate area, I don't care about free parking, I won't be bringing my mercedes on this trip.
+161 No, thank you. However, will you please tell me the postcode?
+162 Could you tell me now many star rating that has? Is it in the North? I forgot to say I need it there.
+163 Internet doesn't matter to me. Any guesthouse in the north that you recommend will be fine. I'll just need the phone number, star, and postcode.
+164 Thanks, that is all I need.
+165 YOu too thanks so much.
+166 i will be sure to call you if i need your services
+167 I want to find some information on da vinci pizzeria
+168 Yes please. For one person at 12:30 on Sunday.
+169 Yes, please give me the reference number.
+170 Yes how about one in the same area and price range please?
+171 Awesome! Thanks so much. That is all I need.
+172 cheap restaurant, please
+173 do you have any serves jamaican food ?
+174 How about mediterranean?
+175 Yes, and the postcode please.
+176 No, thank you, goodbye,
+177 I'm looking for lodgings on the east side.
+178 Either one is fine, but I would like it to have 4 stars. It doesn't need to have free parking.
+179 Cheap is fine.
+180 No, but can you give me their address, please?
+181 That's all I needed today. Thanks so much for your help!
+182 i need a place to stay that has free parking
+183 I need a guesthouse that includes free parking. I'm needing one in the moderate price range. I don't care what area you find for me.
+184 Any one of the 4 star ones will do. Can you choose one and make me a reservation please?
+185 I will be alone. I need to arrive on Monday for 2 nights. Just someplace clean and I'll be happy :)
+186 Thanks! Can you also tell me about the nightclubs in town?
+187 Great, how much is the entrance fee?
+188 Can you book a taxi that picks me up at Club Salsa at 05:30.
+189 Thank you so much!
+190 No, I'm all set. Thanks!
+191 Thank you!
+192 A cheap restaurant in the south part of town
+193 Chinese, what is the number?
+194 What is their address?
+195 What is the postcode please?
+196 Thank you very much.
+197 I'm looking for a particular restaurant. Its name is called rice boat.
+198 No thanks, but could I get the price range and the postcode please?
+199 Can you recommend me a moderate priced restaurant in the north part of town?
+200 Can I have the address of the Chinese restaurant?
+201 ok thank you good bye
+202 I'm looking for a place to stay in the centre. I also need free wifi there.
+203 I'd like an expensive hotel please.
+204 Yes the university arms would you be able to book that?
+205 6 people, five nights, starting on Thursday, please.
+206 Yes please book that.
+207 That's perfect. Thank you so much.
+208 I'm sorry, I made a mistake! I need for it to start on Tuesday not Thursday!!!! Can you fix that for me???
+209 No, thank you. I think that's it.
+210 Could you tell me whether there are any moderately priced catalan restaurants?
+211 Yes could we try one that serves British food?
+212 No the area doesn't matter. I'd like to book a table for 7 on Sunday.
+213 No the area doesn't matter. I'd like to book a table for 7 on Sunday.
+214 Ok, book that place.
+215 We have seven people.
+216 It will on the same day for 3 nights.
+217 It will on the same day for 3 nights.
+218 i'm sorry i didn't mean to confuse. i was thinking of something else. can i book the oak bistro on sunday for 7 people at 12:45?
+219 i'm sorry i didn't mean to confuse. i was thinking of something else. can i book the oak bistro on sunday for 7 people at 12:45?
+220 Yes, I am also looking for a place to stay. I would like a 4-star hotel.
+221 Yes, I am also looking for a place to stay. I would like a 4-star hotel.
+222 I do not have a preference.
+223 I do not have a preference.
+224 Does it have free parking and wifi? If so yes book it for 3 nights the same day please.
+225 Does it have free parking and wifi? If so yes book it for 3 nights the same day please.
+226 go ahead and book and give me the referrence number
+227 go ahead and book and give me the referrence number
+228 I will be arrving on sunday
+229 I will be arrving on sunday
+230 Thank you. I am also looking for a taxi to commute between the two places.
+231 Thank you. I am also looking for a taxi to commute between the two places.
+232 So I can arrive at my location by the booked time you made.
+233 So I can arrive at my location by the booked time you made.
+234 Can you help me find an expensive restaurant that serves British food?
+235 Is one of them located in Centre? I will be staying over there and would like something close.
+236 Thank you very much for the assistance.
+237 No. I am also looking for a hotel. Alexander Bed and Breakfast.
+238 No. I am also looking for a hotel. Alexander Bed and Breakfast.
+239 yes. i would like to stay starting wednesday for 5 nights with 6 people.
+240 yes. i would like to stay starting wednesday for 5 nights with 6 people.
+241 No that will be all for today. Thanks so much for all your help. Goodbye.
+242 No that will be all for today. Thanks so much for all your help. Goodbye.
+243 I need to find a 4 star hotel that has moderate price.
+244 Yes I would like it to be on the North part of town.
+245 Yes a guesthouse would be fine. Does it have internet? And what is it's postcode?
+246 Great, that's perfect. Thanks for your help!
+247 No that's all for now. Thank you.
+248 I'm looking for a museum in east area.
+249 That will do thank you. I also need a restaurant in the moderate price range.
+250 In the same area as Cambridge Artworks.
+251 Yes. I need to book it for Saturday at 17:30. Just for me.
+252 thanks. thats it for today. thanks again. goodbye.
+253 I am looking for an expensive priced Chinese restaurant
+254 Okay, what is the address and phone number for Ugly Duckling?
+255 That's alright. I'm also looking for a train booking too. I need to go to cambridge from london liverpool street.
+256 I need to arrive by 17:45 on Tuesday
+257 Please book this train for 2 people and provide the reference number.
+258 Ok, great that's everything I needed. Thank You!
+259 Hi there. Real quick. Having a blast. I want a REALLY good restaurant not too far from my hotel. What do you have?
+260 Hi there. Real quick. Having a blast. I want a REALLY good restaurant not too far from my hotel. What do you have?
+261 I'm in the centre of town.
+262 I have no food preference, but I would prefer an expensive restaurant.
+263 Yes. Please book for 7 people on Thursday at 12:30.
+264 I am also looking for an attraction in the same area I will eat.
+265 Can you recommend a place?
+266 Yes, how much is the entrance fee for st. mary's church?
+267 No thank you that will be all
+268 I also need a hotel that has free parking. I don't need internet or anything like that.
+269 Are any of the 29 places, guest houses? I would actually prefer a hotel rather than a guest house.
+270 I am also looking for a guesthouse in the north that has free parking.
+271 yes, please. I want to book it for the same group of people and 4 nights starting from monday.
+272 How about tuesday?
+273 Yes, give me the reference number.
+274 Okay, thank you. Good bye.
+275 I am looking for a moderately priced 4 star hotel.
+276 I don't have a preference for location, but it should be in the moderate price range and should have a star rating of 4.
+277 It should also include free wifi.
+278 Yes. I'll need accomodations for 8 people and 3 nights starting from thursday.
+279 Acorn, please. Could you book that?
+280 Thank you. That should be it, thank you for your time.
+281 Yes I am also looking for a 2 star guesthouse to stay at.
+282 Is it a 2 star or better?
+283 No thank you. I just need the post code.
+284 Thanks. I will also need a taxi to take me from the Junction to the Ashley Hotel. I would like to leave the attraction by 21:15.
+285 Yes. Thank you.
+286 I'm looking for a moderate priced place to stay in the north part of town
+287 Yes, I'd like a 3 star place. It doesn't need to have free parking.
+288 Yes please. Book me a stay for 7 people and 5 nights starting from Saturday.
+289 The Alpha Milton guest house sounds better. Please book a room there.
+290 No that is it ,thanks.
+291 I am looking for a restaurant serving mediterranean food.
+292 Is there another venue?
+293 What is the address and phone number?
+294 Thank you, goodbye.
+295 I don't care about the price. Thank you goodbye.
+296 I need a hotel at the center of town to stay in
+297 Yes, that would be great.
+298 I would like to book it for tonight, please.
+299 I'd like to know the price range, address, and phone number please.
+300 Okay thanks. I am also looking for a restaurant. Can you help me?
+301 Okay thanks. I am also looking for a restaurant. Can you help me?
+302 I would like it to be in the expensive price range and in the same area as the hotel.
+303 I would like it to be in the expensive price range and in the same area as the hotel.
+304 No preference however I just need something for 13:45 on Tuesday
+305 No preference however I just need something for 13:45 on Tuesday
+306 I need a table for five people please. I don't care which kind of food.
+307 I need a table for five people please. I don't care which kind of food.
+308 12:45 will work for me.
+309 12:45 will work for me.
+310 Not at this moment. Thank you so much for all of your help.
+311 Not at this moment. Thank you so much for all of your help.
+312 How about a moderately prices Italian restaurant in the same area as the hotel?
+313 You're right. Now that we have the train booked, that's all I need.
+314 I need some Caribbean food in the south part of town.
+315 Is there an italian restaurant in the south part of town?
+316 I don't care.
+317 Yes, please
+318 May I also get the postcode of the restaurant?
+319 That will be all. Thank you very much!
+320 I am looking for an Italian restaurant in the expensive price range.
+321 Can we do the centre of town?
+322 Phone number and postcode, please.
+323 Thank you, that's all I need today. You've been a great help - goodbye!
+324 I'm looking for a particular restaurant. Its name is called panahar.
+325 Can you book a table for 6 people at 11:00 on sunday?
+326 No, that's it for me today. Thanks for your help!
+327 I would like a 4 star luxury place to stay. It must include free wifi. But I'm cheap as all get out, so nothing too pricey.
+328 The area doesn't matter as long as they have a room available for 3 people staying 4 nights.
+329 from Thursday.
+330 It'll be very good if you can include alexander bed and breakfast but need to be in a reasonable price.
+331 Can you help me to locate a free attraction near the hotel?
+332 Can you direct me to a Catalan restaurant that is moderately priced please?
+333 yes how about a moderate mexican restaurant?
+334 Italian would work just as good.
+335 No, but could you give me the phone number for Pizza Express?
+336 I am also looking for a train going to Bishops Stortford that leaves after 15:30.
+337 I need it for Friday an I'm departing from Cambridge
+338 I'm not sure if I want to book yet or not, can you confirm the travel time for that one?
+339 Thanks that's all I need have a good day.
+340 I am looking for african food
+341 Yes. I need the address please.
+342 Thank you, goodbye.
+343 Could you help me find a thai restaurant?
+344 Please one in the centre.
+345 Yes I am needing a table for 7 this Monday at 11:15 please.
+346 Great. I am also looking for something to do on the West side of town. Any suggestions? I will need the entrance fee and postcode and the type of attraction.
+347 Yes, what type of attraction is it and what is the postcode?
+348 I am also looking for taxi to take from the museum to the restaurant by 11:15. Can you give me a contact number and the car type?
+349 Thank you very much. That's all I need today.
+350 I also need to find an expensive restaurant that serves traditional food please.
+351 Can you find me something expensive in the Cambridge area that serves Gastropub food?
+352 Sounds good! I need a table for 3 people at 19:45 on Thursday.
+353 THank you that is all I need today.
+354 I'm looking for a cheap place to dine that also service danish food. Any suggestions?
+355 Then, how about a place that serves mediterranean food?
+356 Yes can you reserve me a table for 1 at that restaurant? I'd like it to be on Wednesday at 17:00, please.
+357 I'm trying to find a hotel called Worth House. Can you help me?
+358 Great! Yes please book it for 8 people and for 3 nights.
+359 I will be for 3 nights starting this Thursday.
+360 Also I need a train on Sunday for 8 people
+361 I'll be leaving cambridge and going to bishops stortford. I want the train to leave after 10:45
+362 Yes and to make a booking for the same group of people, be sure I get the reference number please.
+363 Great! Thank you so much for your help!
+364 I'm looking for the hotel called Kirkwood House.
+365 I'd like to get the address, hotel type, and price range please!
+366 Perfect, thank you. Can you recommend a Mediterranean restaurant in the centre of town?
+367 Perfect, thank you. Can you recommend a Mediterranean restaurant in the centre of town?
+368 Gardenia is fine. Can I get the postcode and price range?
+369 Gardenia is fine. Can I get the postcode and price range?
+370 Thank you for finding the Gardenia for me, that is all I need today.
+371 Thank you for finding the Gardenia for me, that is all I need today.
+372 I am looking for a restaurant in the city center that serves modern European food.
+373 Yes, I would like to reserve a table for 5 people at 18:00 on Wednesday.
+374 Yes, please find me another restaurant in the city center in the same price range.
+375 I don't need tickets at the moment, but I do need the price and train ID for that 19:40 departure, please.
+376 I'm also looking for a particular restaurant, it's called Frankie and Benny's.
+377 Can you tell me the postcode, food type, and the price range?
+378 No, that's all I needed. Thank you.
+379 Hi. I'm looking for a restaurant that serves Irish food. Can you help me?
+380 Can i have a thai restaurant instead ?
+381 I leave on Tuesday and need to arrive by 11:30.
+382 No but I also need a place to stay that should be in the expensive price range and should include free wifi.
+383 Nope, wherever you recommend will be great. THanks
+384 Yes can you please do that for me?
+385 Book it for 8 people and 4 nights. We will be checking in on Thursday.
+386 No, that will be all. Thank you!
+387 I'm coming from Cambridge and would like to arrive at Kings Lynn by 8 p.m. Monday.
+388 Thanks. I am also looking for a restaurant in the centre that serves African food.
+389 Is it in the moderate price range?
+390 Okay let's look for a moderately priced international restaurant, book me a table anywhere for 8 people at 14:45 on Monday.
+391 Okay, then let's go back to my first choice, African cuisine. You mentioned the Bedouin, earlier. Is it in the city centre?
+392 Yes, I would like to book please.
+393 Have a nice day.
+394 I'm looking for a moderately priced steakhouse.
+395 I'm sorry. Can you check the south and see if there is one?
+396 Sure, are there any moderately priced Italain restaurants in the south?
+397 I think I can find it. Could you book a table for 8 on Friday for 16:45?
+398 Great! Thank you!
+399 I am also looking for an attraction in the same are.
+400 I don't have a preference can you make a suggestion?
+401 That sounds good can I get the postcode and phone number?
+402 I'll a taxi to get between the 2 places.
+403 it will be late at night around 22:00
+404 Thank you so much, Have a great Day!
+405 I will be in the centre area and would like to visit some atractions. Can you assist me.
+406 That sounds amazing! I also want to go to a modern european restaurant in the same area as the nightclub.
+407 Yes, thank you. That's all I need.
+408 Thank you, goodbye!
+409 I would like to book a reservation at the cambridge lodge restaurant
+410 I'm sorry, I'm just looking for information. Could you tell me the area, food type, and post code for that restaurant?
+411 I'm sorry, I'm just looking for information. Could you tell me the area, food type, and post code for that restaurant?
+412 I alkso need a place to stay,what would you offer in cheap price range?
+413 I alkso need a place to stay,what would you offer in cheap price range?
+414 I would like the guesthouse.
+415 I would like the guesthouse.
+416 I need it for 3 days for 2 people.
+417 I need it for 3 days for 2 people.
+418 I do not have a specific day at this time.
+419 I do not have a specific day at this time.
+420 Could you please give me the address and postcode?
+421 Could you please give me the address and postcode?
+422 Hi, I am looking for a restaurant in the south that serves Tuscan food.
+423 Okay. That's fine. Can you find me one that serves chinese food?
+424 I don't care. I just need a table for 5 people at 12:45 on Tuesday if you can book me one.
+425 Lucky star. Sure why not.
+426 Could you find me a place with the same price range in the same area?
+427 Yes, please. Same people, date, and time.
+428 No I do not need anything else, thank you goodbye.
+429 I need to find a restaurant in the west area and more on the expensive side.
+430 I don't have a preference.
+431 That sounds good. I would like a reservation for 6 people at 19:45 on Sunday.
+432 Is there another restaurant available at that time in the same area and price range?
+433 I think that is all, thank you, cheers.
+434 Thank you so much. We also need a cheap place to stay. Can you help with that?
+435 Find me a moderately priced place to dine in the west.
+436 How about the British place, I would like to book for 7 people at 13:15 on sunday
+437 Excellent, thank you so much.
+438 I also need a train to cambridge on sunday
+439 actually, i'm so stupid. i need a train FROM cambridge. i'm going to broxbourne.
+440 I am leaving anytime after 11:30 from cambridge to broxbourne, what is the arrival time?
+441 No thanks, I just wanted to know the arrival time.
+442 No, You have helped with everything I needed. Thanks so much for your time. Bye.
+443 I am looking for a gastropub in the centre of town. What do you have?
+444 It's a special occasion, so let's go with something expensive.
+445 I need a table for 5 people.
+446 for 5, at 17:15 on Friday.
+447 Awesome, I'm also looking for a swimming pool to go to after the restaurant. Can you find one in the same area?
+448 That sounds great. Could you give me their number please?
+449 That takes care of all my needs. Thanks a bunch!
+450 I am looking for a restaurant in the moderate price range that serves bistro type food.
+451 How about one that serves british food then?
+452 No, could you recommend me a place? I'm looking for to book a table for 2 on Thursday at 11:30.
+453 No thank you. It's perfect. Thank you for your help.
+454 i want a place to stay in Cambridge the is moderate price no wifi
+455 An inexpensive area with free parking if possible.
+456 Sure! I would like that!
+457 I need a reservation for 5 people and 5 nights starting Wednesday. Thanks!
+458 No thanks, that's all I needed. I appreciate your help!
+459 I need the address and phone number of a restaurant in the south part of town.
+460 I don't care.
+461 Can you tell me what kind of food they serve?
+462 I want one in the moderate priced range. What is the price range of Chiquito restaurant?
+463 What is the address for Pizza Hut Cherry Hinton?
+464 sorry what is the area again?
+465 Thank you, goodbye
+466 Can I also get a place to stay, needs to include wifi but I dont care about parking.
+467 I actually want a hotel with 0 stars, I don't like stars.
+468 Yes, I would like to book it for 2 nights starting from Monday for 6 people. Please let me know the reference number.
+469 thank you that will be all
+470 I'm leaving on Wednesday.
+471 Thanks. Now please help me find a moderate guesthouse that offers wifi
+472 I'd like to stay in Cambridge, but no area or star rating preference. Just the free wifi. Any suggestions?
+473 Okay. Can you book that for me? It will be 5 of us staying there
+474 I will be staying for 3 nights starting Wednesday.
+475 That's all for now! Thank you, have a good day!
+476 I need a hotel with free parking and free wifi.
+477 It does not matter but I would like it to have a star rating of 0.
+478 What about a guesthouse?
+479 What is the price range of those hotels?
+480 Not at this time. Thank you for all the information. I'm all set. Good bye.
+481 I need a place to stay. It needs to be a hotel that has free wifi.
+482 Price does not matter. I want something on the west.
+483 Maybe. Does it have free parking?
+484 Yes, please book for 4 nights on Thursday for 1 person.
+485 Yes, please book for 4 nights on Thursday for 1 person.
+486 Great! Yes, I also need to find an expensive restaurant close to the hotel.
+487 Great! Yes, I also need to find an expensive restaurant close to the hotel.
+488 Is there one that happens to serve Chinese food?
+489 Is there one that happens to serve Chinese food?
+490 How about one that serves food from The Americas?
+491 How about one that serves food from The Americas?
+492 Are there any expensive restaurant that serves American, anywhere in the city?
+493 Are there any expensive restaurant that serves American, anywhere in the city?
+494 Could you double check for Chinese food?
+495 Could you double check for Chinese food?
+496 What are the expensive Chinese restaurants that are available?
+497 What are the expensive Chinese restaurants that are available?
+498 Yes please book that for one person on thursday at 12:15.
+499 Yes please book that for one person on thursday at 12:15.
+500 It will be just me, myself and I!
+501 It will be just me, myself and I!
+502 That is everything. Thank you so much for your help.
+503 That is everything. Thank you so much for your help.
+504 I'm looking for an expensive restaurant that serves european food while I'm in Cambridge.
+505 Yes, please, and their postcode as well.
+506 No. But I need a train going to Ely.
+507 I am departing from cambridge on monday and I need to arrive to Ely by 11:15.
+508 You choose one please. I need it for 4 people.
+509 Thank you very much.
+510 No that's all. Thanks so much!
+511 Thanks! Now can you help me find an expensive gastropub restaurant in the centre please?
+512 I'm not ready to reserve a table just yet, but could you give me the address, phone, and postcode for The Slug and Lettuce, just because its name is so awesome?
+513 No I just needed the information, thanks for your help you've be so helpful!
+514 I need to leave on Saturday from London Kings Cross. Is there a train leaving after 21:45 that fits my needs?
+515 Can you book autumn house for 7 people, starting on saturday for 4 nights, please?
+516 Yes. I need the reference number.
+517 That is all I needed today, thank you for your help.
+518 Hi, I could sure use some help with my planning. I am looking for a particular hotel.
+519 The name of the place is called a and b guest house.
+520 Yes, I'd like to book for 4 people and for 4 nights, starting from Friday. Can you check availability?
+521 I am also looking for some attractions in the West.
+522 Hmmm. Cafe Jello Gallery sounds interesting. May I please get their address?
+523 I am looking for a 4 star hotel that has free parking.
+524 Does it have free internet?
+525 Great, I'd like to book at room at The Cambridge Belfry.
+526 Yes I'd like to find a hotel with free parking and 5 star rating.
+527 Can you try it in a different area please?
+528 I don't have a preference, but I guess we could stay in a four star hotel with free parking if we absolutely had to.
+529 I'm actually looking for a 5 star place. Any available?
+530 Sure, let's try a 4 star hotel.
+531 I would actually like a 4 star hotel, not a guesthouse.
+532 Is the University Arms a 4 star hotel?
+533 Please book it for 8 people starting Monday for 3 nights.
+534 Ok, can we try 2 nights instead please?
+535 I'm also looking for a moderately priced restaurant.
+536 I need to book a place to stay with a star of 4. I don't need free parking.
+537 I don't care about location, just would like a moderate price with 4 stars please.
+538 I need one with free wi-fi.
+539 Can i book one on tuesday?
+540 I would also need to book it for 4 nights.
+541 One person, and I'd like to arrive on Tuesday.
+542 After that I'm also going to need the reference number.
+543 OK, now can you tell me about some of the attractions in the center of town?
+544 Can you please provide me with the address, telephone number and the cost of admission.
+545 I now need a taxi to get to the church from the hotel. I would like to leave the hotel by 15:45. Can you book that for me?
+546 No, that is all. Thanks so much. Bye.
+547 Are there any cheap restaurants in the south part of town?
+548 I do not have a preference.
+549 Please give me the address and phone number for Nandos.
+550 No, thank you. Good bye.
+551 Thanks so much. Yes, I am trying to find a place to eat also.
+552 I would like Korean food.
+553 Is there anything more moderately priced available by way of Korean food?
+554 How about a restaurant in the moderate price range that serves Italian food?
+555 Just pick one and give me: phone number and postcode
+556 That will work! Thanks so much. Take care. Bye.
+557 I am looking for a restaurant called The Copper Kettle.
+558 I need reservations for 2 people at 13:30 on saturday.
+559 I would also like to book a taxi to commute between the two places.
+560 Thank you no that will be all!
+561 i would also love to find a place to stay and should be in the east
+562 need one in the east and have 2 stars.
+563 I'm looking for a moderately priced restaurant to eat at in the north.
+564 Chinese would be great!
+565 I would like a table for 8 people at 17:30 on Wednesday
+566 Okay, that sounds good. I'll need a reference number.
+567 Thank you so much for your help.
+568 I have a restaurant in mind that I'm trying to eat at tonight.
+569 Yes it's called Rice House. I would like to make a reservation there for 7 people at 16:30 on Saturday.
+570 Yes it's called Rice House. I would like to make a reservation there for 7 people at 16:30 on Saturday.
+571 Ok. Can I have the reference number for that reservation?
+572 I would also like to find a place to stay with free wifi and parking.
+573 I would also like to find a place to stay with free wifi and parking.
+574 Expensive price range, please.
+575 Expensive price range, please.
+576 Yes, please. Book that one, saturday, 4 nights, 7 people.
+577 Yes, please. Book that one, saturday, 4 nights, 7 people.
+578 No, that will be all. Thank you.
+579 No, that will be all. Thank you.
+580 I need a 3 star hotel in the Cambridge centre.
+581 Not sure yet. Is it expensive? I only like to stay in expensive hotels.
+582 Sounds good. I need it for 8, 2 nights Friday.
+583 I was also wanting to see if there is an entertainment place in the centre part of town.
+584 No, but maybe there is something in the type of college?
+585 Yes, could you give me their phone number and the entrance fee?
+586 no thanks. thats all for today. bye.
+587 I'm looking for an expensive Indian restaurant. Can you find me one?
+588 I'm looking for an expensive Indian restaurant. Can you find me one?
+589 Yes, I'd like to eat in the centre if possible.
+590 Could you please just give me the postcode and phone number for the Golden curry?
+591 Thanks. Can you help me find a hotel as well? I don't need internet, but I do need free parking.
+592 Thanks. Can you help me find a hotel as well? I don't need internet, but I do need free parking.
+593 I'd like it to be 3 stars and in the same price range as the restaurant.
+594 I'd like it to be 3 stars and in the same price range as the restaurant.
+595 I would prefer something in the Cambridge area or close to it.
+596 I would prefer something in the Cambridge area or close to it.
+597 That's ok, I just need the postcode and phone number.
+598 That's ok, I just need the postcode and phone number.
+599 can i get a contact number and car type please?
+600 can i get a contact number and car type please?
+601 I would like to go from the hotel to the restaurant no later than 08:00
+602 I would like to go from the hotel to the restaurant no later than 08:00
+603 Thank you, that's everything that I need.
+604 Thank you, that's everything that I need.
+605 I'm looking for information about a restaurant named the golden wok.
+606 Could you book me a table for 5 on Saturday at 12:00?
+607 That is all thank you!
+608 Yes I would also like to find a place to dine that serves italian food and should be in the centre of town.
+609 It should be in the expensive price range.
+610 yes, that's fine. Can I have the address please?
+611 Perfect, that is all I need for right now. Thank you for all of your help! Goodbye.
+612 Ok, thank you. I'm also looking for a restaurant called don pasquale pizzeria.
+613 Yes, please. For 5 people at 14:00 on monday.
+614 Thank you for the reference number. Goodbye!
+615 I am looking for a five star hotel with free wifi.
+616 I could actually do a guesthouse with a star rating of 0.
+617 No, area doesn't matter.
+618 Yes I need it booked for 8 people for 2 nights starting Monday.
+619 That is all for now. Thank you so much.
+620 Hello. I am looking for a hotel with free wifi and free parking.
+621 In the expensive price range please.
+622 I do not care about the area too much. Could you please make a reservation for 1 person starting Thursday for 5 nights?
+623 Is the Gonville a good quality hotel?
+624 That was all, thank you.
+625 I want a moderately priced restaurant in the north part of town. What is the address?
+626 Thank you, goodbye.
+627 I will be departing from Cambridge on Sunday.
+628 I would like to find a restaurant in the moderate price range.
+629 I'm interested in an Italian restaurant. What would you recommend in the moderate price range?
+630 Yes, for 8 people at 10:15 on Sunday
+631 Thank you, that's all I need today!
+632 No thank you have a nice day.
+633 Hello, I am looking for a restaurant that serves international food.
+634 No, any price range is fine. Can you recommend one of the restaurants?
+635 Hmm, I don't really like the food there. Is there anything else?
+636 Can I get the address and phone number, please?
+637 Thank you.
+638 Thank You
+639 I am looking for a restaurant serving turkish food in the centre part of town.
+640 I don't care.
+641 Yes, I would like a different selection please. What other places serve Turkish food?
+642 Thank you goodbye.
+643 I'm looking for a hotel called kirkwood house
+644 Lovely, I would like to book it for 3 people for 3 nights starting Wednesday please.
+645 Lovely, I would like to book it for 3 people for 3 nights starting Wednesday please.
+646 I am looking for an expensive Portuguese restaurant.
+647 I am looking for an expensive Portuguese restaurant.
+648 No, I would like it to be in the centre. Are there any Indian Restaurants?
+649 No, I would like it to be in the centre. Are there any Indian Restaurants?
+650 I'd still prefer to keep it in the expensive price range if possible
+651 I'd still prefer to keep it in the expensive price range if possible
+652 No. I am interested in a booking for the same number of people on the same day at 16:00. Three people on Wednesday.
+653 No. I am interested in a booking for the same number of people on the same day at 16:00. Three people on Wednesday.
+654 Yes, that is correct, I also need a reference number.
+655 Yes, that is correct, I also need a reference number.
+656 I need a ride to and from too please. I'll need the car type and contact number too please.
+657 I need a ride to and from too please. I'll need the car type and contact number too please.
+658 Thanks for all of your help, you've been great!
+659 Thanks for all of your help, you've been great!
+660 I need a place to stay in the east that has free wifi.
+661 A 4 star guesthouse would be ideal, thank you.
+662 Either would be fine as long as it can accommodate 6 people for 2 nights starting this Sunday.
+663 Yes please and I need the address,thank you.
+664 Could you try a different hotel in the same pricerange please?
+665 Thank you so much for all your help. That is all I need.
+666 I am looking for details on the yu garden restaurant.
+667 adress and phone number please and thank you
+668 Thank you. I am also looking for a train to Cambridge form Stansted Airport.
+669 on wednesday leaving after 11:30
+670 Yes it will what is the price?
+671 Great that is all I need for now thank you.
+672 Yes, thanks for all your help today.
+673 Thanks. I appreciate your help. Goodbye.
+674 I am looking for an upscale hotel.
+675 I need the hotel to be in the west part of the city and have free parking please.
+676 If it has free parking, I would like to book it for wednesday please.
+677 Can I get it for three nights. There will be two of us.
+678 Yes something else in the same price range please.
+679 Any area is fine, just in the same price range is what matters to me.
+680 Thank you so much for your help.
+681 No, thank you. That was all I needed.
+682 I would like to find the Anatolia restaurant please.
+683 What is the price range?
+684 No, I'm all set. Thanks! Bye!
+685 I would like to find an expensive hotel to stay at that also has free wifi. Can you help?
+686 I also want to stay in a hotel with star rate of 3 that is in the south. Does University Arms fit that criteria?
+687 Yes, that sounds great. Can you book me a room for 4 people, 2 nights starting Tuesday please?
+688 I could you look for a train leaving thursday to go to leicester?
+689 I am departing from Cambridge.
+690 I don't have a departure preference but would like to arrive by 10:15.
+691 Umm, no I am going to Leicester from Cambridge on Thursday arriving by 10:15.
+692 Yes please! Also, kindly provide the price, travel time, and train ID if you can. Maybe I will visit hogwarts next time HAHA
+693 Thank you very much.
+694 No, thanks, that's all I need, thanks so much! Have a great day!
+695 No, that's all I will be needing today. Good-bye.
+696 Can you get me information on a restaurant called j restaurant?
+697 Yes, I need a table for 3 people.
+698 sunday at 12 please
+699 are their any swimming pools in the east?
+700 Actually, just give me the postal code and entrance fee.
+701 I would also like to book a taxi from the pool to the restaurant
+702 I just need it to arrive to the restaurant before our reservation.
+703 No thanks. I got everything I needed. Take care. Bye.
+704 I need a place to eat in the east.
+705 Something that is moderate in price, and I'll need a table for 3 at 15:45 this coming saturday.
+706 Something that is moderate in price, and I'll need a table for 3 at 15:45 this coming saturday.
+707 That sounds fine. Do they have a table available for 3 on Saturday at 15:45?
+708 That sounds fine. Do they have a table available for 3 on Saturday at 15:45?
+709 Yes, please, I would like that.
+710 Thanks! I also need to book a hotel room.
+711 Thanks! I also need to book a hotel room.
+712 I would love something 4 star rated and I have a lot of work to do in the room so free wifi would be great.
+713 I would love something 4 star rated and I have a lot of work to do in the room so free wifi would be great.
+714 Yes. I'd like to book for 3 people for 5 nights starting on Saturday.
+715 Yes. I'd like to book for 3 people for 5 nights starting on Saturday.
+716 Thank you. That was all I needed. Goodbye.
+717 Thank you. That was all I needed. Goodbye.
+718 Hi, I'm looking for a cheap restaurant in the south. What do you have?
+719 Hi, I'm looking for a cheap restaurant in the south. What do you have?
+720 Chinese would be great.
+721 Yes. Can you book me a take for 5 at 18:00 on monday?
+722 Yes. Can you book me a take for 5 at 18:00 on monday?
+723 Can we try 17:00?
+724 i am also looking for a hotel that includes free wifi.
+725 i am also looking for a hotel that includes free wifi.
+726 I definitely want a hotel, not a guest house. It should also be in the same area as the The Lucky Star restaurant.
+727 I definitely want a hotel, not a guest house. It should also be in the same area as the The Lucky Star restaurant.
+728 I would like to book a room for 5 nights for 5 people starting the same day.
+729 I would like to book a room for 5 nights for 5 people starting the same day.
+730 Any other hotels?
+731 Any other hotels?
+732 I would like to book for the lensfield hotel for 5 people from the same day but for 3 nights only then.
+733 I would like to book for the lensfield hotel for 5 people from the same day but for 3 nights only then.
+734 That's all I need. Thank you for your help!
+735 That's all I need. Thank you for your help!
+736 No but I do need help finding a particular hotel called the Gonville HOtel.
+737 I'd like to book it. Can you book it starting Sunday night for 5 nights. I need reservations for 6 people.
+738 You took care of everything, thank you so much.
+739 Hello, I am looking for a moderately priced restaurant that serves european food.
+740 I don't care.
+741 Can you please give me the address and phone number?
+742 Thank you!
+743 look for a hotel within the cambridge area that has an expensive price range
+744 look for a hotel within the cambridge area that has an expensive price range
+745 That sounds good, does it have a 4 star rating and wifi?
+746 Does it also have free parking?
+747 If that one is in the expensive price range, I'd like to book a room for 2 nights starting Sunday please.
+748 If that one is in the expensive price range, I'd like to book a room for 2 nights starting Sunday please.
+749 There will be two people for two nights.
+750 Yes, I am looking for an Indian restaurant in the east part of town.
+751 Yes, I am looking for an Indian restaurant in the east part of town.
+752 I would like one in the same price range as the hotel.
+753 I would like one in the same price range as the hotel.
+754 Book Sitar Tandoori. 2 people, 14:45, Sunday.
+755 Book Sitar Tandoori. 2 people, 14:45, Sunday.
+756 Great, that's all I need, thanks so much for your help! Have a great day!
+757 Great, that's all I need, thanks so much for your help! Have a great day!
+758 I want to visit a restaurant that would be popular with college students and located near the center of town; can you make a recommendation?
+759 Actually, I want to visit a college. Somewhere in the centre.
+760 Yes, that would be great. Can you also give me the entrance fee and postcode for that college?
+761 Thank you. Do you have the postcode, please?
+762 Yes, I need a place to eat in that area. I want Italian food.
+763 Can you check if they would have a table for 7 at 17:45 on Sunday?
+764 I'll need a taxi to get me from downing college to pizza express by 17:45. can you set that up for me?
+765 Would you know what type of car will pick me up? May I please have a contact number for the taxi?
+766 Thank you! That is all that I need.
+767 I am looking for a hotel, the Alpha-Milton Guest House.
+768 What day would you like me to book a room ?
+769 I would like to book the room for friday for four nights.
+770 Yes, please provide the reference number.
+771 I will have a party of 4 people.
+772 We want to arrive on Friday and stay 4 nights.
+773 Thanks! I also need a train for Tuesday.
+774 I need to go from Cambridge to London Kings Cross.
+775 I would like to leave after 09:15. I'd like the travel time, ID and price please
+776 Thank you for everything, that is all I need.
+777 I am looking for a place to stay that has free wifi and is in the expensive price range.
+778 I just need to have free parking.
+779 I don't need it booked. Can I get the phone number and address of an expensive hotel with free wifi and parking? You choose.
+780 I also need a train departing from Stevenage leaving after 08:45
+781 Cambridge on Friday.
+782 I think so, but can you confirm the price first? Thank you.
+783 Is there any earlier arrival times?
+784 Could you please give me the arrival time and confirm that the price is still 12.80
+785 OK, thank you. That is everything that I need.
+786 Hi there, I need to find a hotel - a guesthouse to be precise. I don't need internet so don't worry about that
+787 I'd like a guesthouse rated 3 stars.
+788 I will take the one in the south as long as they have a room for 4 available for 5 nights.
+789 book it for 4 people and 5 nights starting from thursday.
+790 I'd like to find an expensive restaurant in the west to celebrate our family.
+791 I'd like to find an expensive restaurant in the west to celebrate our family.
+792 I would like chinese.
+793 I would like chinese.
+794 What about greek food?
+795 What about greek food?
+796 Okay, let's try one that serves British food.
+797 Okay, let's try one that serves British food.
+798 OK, that sounds good. The same group of people will be dining on the same day that we arrive. Can you book a table for 15:30?
+799 OK, that sounds good. The same group of people will be dining on the same day that we arrive. Can you book a table for 15:30?
+800 Great. Thank you. Now I need a taxi.
+801 Great. Thank you. Now I need a taxi.
+802 I will need the taxi the same day.
+803 I will need the taxi the same day.
+804 I would like to go from the restaurant to the hotel.
+805 I would like to go from the restaurant to the hotel.
+806 Yes the time works for me . That will be all thanks and have a great day.
+807 Yes the time works for me . That will be all thanks and have a great day.
+808 Can you find a restaurant for me that is southern and is in the mid price range?
+809 Can you find a restaurant for me that is southern and is in the mid price range?
+810 Does either one serve Hungarian food? I'd like Hungarian food.
+811 restaurant alimentum sounds interesting. Could you give me more information about this location?
+812 Yes, I would like a table for 2 on Wednesday.
+813 Yes, I would like a table for 2 on Wednesday.
+814 I would like to dine at 13:30 and I also need the reference number.
+815 I also am looking for a place to stay, it will need to be on the east side and have free parking, I don't need internet.
+816 I also am looking for a place to stay, it will need to be on the east side and have free parking, I don't need internet.
+817 Any of those could work. You decide.
+818 Any of those could work. You decide.
+819 Sure, i want 3 nights starting Wednesday please.
+820 Sure, i want 3 nights starting Wednesday please.
+821 Thank you for all your help. That sounds perfect.
+822 Thank you for all your help. That sounds perfect.
+823 I am in the past of town. Can you recommend a restaurant in a moderate priced range?
+824 I do not care about the type of food.
+825 Is it in the west part of town?
+826 yes west please
+827 Great! Could you please give me the address and phone number of that restaurant?
+828 Thank you, goodbye
+829 Great. By any chance is that near a place called Hamilton Lodge? Someone recommended it to me but I don't know much about it.
+830 Could you give me their phone number and postcode? And is that a guesthouse?
+831 No, you've been a great help! Thank you!
+832 Hi, I'm looking for a guesthouse in Cambridge.
+833 I don't care but it needs to be cheap.
+834 Does it have free parking and internet? Also, I'd like to be in the centre of town.
+835 Yes, I need one that is in the centre. Please give me the postcode, price range and star of the hotel.
+836 Yes thank you. I also needs a train on tuesday that arrives by 16:15.
+837 I would like to depart from kings lynn and go to cambridge.
+838 Whichever one gets me to Cambridge closest to 16:15.
+839 Wonderful, could I just have the price for now? I may book myself later.
+840 Yes, thank you so much! Goodbye!
+841 Hello, I'm looking for a train departing from Norwich on friday.
+842 I'm looking for a train departing from Norwich to Cambridge on Friday, I'm hoping to leave by 12:00.
+843 I would like to find a lovely hotel to stay in cambridge that has free wifi, so I can watch netflix. Can you help me with that as well?
+844 I'd like a 4 star hotel but it doesn't matter which area it's in.
+845 Oh I'm sorry, I forgot I need to know what time my train will arrive in Cambridge. Can you please help me with that first?
+846 Yes, I'll need a hotel for 7 people for 4 nights starting Friday.
+847 Thank you. That will be all.
+848 I need a moderately priced restaurant that serves molecular gastronomy food please.
+849 How about modern european food?
+850 That works just fine. Book it for myself at 17:30 on Tuesday if that's available.
+851 Do they have an opening at 16:30, by any chance?
+852 Thanks! I'm also looking for a guesthouse to stay at. I don't need free parking.
+853 Thanks! I'm also looking for a guesthouse to stay at. I don't need free parking.
+854 It doesn't matter, but I would prefer a 3 star one.
+855 It doesn't matter, but I would prefer a 3 star one.
+856 That one sounds perfect. Can I get the address for the alpha-milton guesthouse please.
+857 That one sounds perfect. Can I get the address for the alpha-milton guesthouse please.
+858 No that is great. Thanks for all your help.
+859 No that is great. Thanks for all your help.
+860 Hello, I am trying to locate a restaurant that serves northern European food, and I would prefer a more elegant setting.
+861 How about an expensive restaurant that serves British food?
+862 It's all new to me. Could you recommend one?
+863 Great. Could you also help me find a cinema in the south of town?
+864 Cineworld sounds perfect. What's their postal code?
+865 No, that'll be all. Thank you for all of your help today.
+866 Can you get me information on a place called kymmoy?
+867 Can you book a table for 5 people at 18:45 on tuesday.
+868 No that is it. Thank you.
+869 i'm looking for a place to stay that is on the cheap side.
+870 I have no preference regarding the area.
+871 Are any of them 4 star guesthouses?
+872 What's the postcode for your favorite of those guesthouses?
+873 Okay. Can you also provide me with information on The Cambridge and County Folk Museum? I would like their phone number, venue type and postcode.
+874 The County Folk Museum. I need the phone number, venue type and postcode.
+875 Can you reserve tickets for me?
+876 I am looking for a place to stay that is expensive, I am not worried if I pay to pay for parking.
+877 That doesn't matter as long as it's in the north.
+878 could you check for something in the moderate price range?
+879 That doesn't matter as long as it's in the north.
+880 That's okay, I can book later. Can you help me find a train departing from Leicester on Tuesday?
+881 I need to arrive by 08:15 in Cambridge please.
+882 I also need a place to stay, I'd like possibly a guesthouse with free wifi.
+883 I would like some information on the gonville hotel
+884 Excellent. Could you book it for myself and my partner?
+885 My companion and I will arrive on Monday, staying for 5 nights, could you provide me with the reference number? We will need to book a train as well.
+886 uh why yes you are very perceptive. depart cambridge arrive by 9:45 leaves on sat going to ely
+887 Yes, please. Could you book that for five people as well?
+888 Thank you. That is all I need today.
+889 Could you give me some information about a hotel called Allenbell?
+890 Can you please book it for me? 5 nights starting on Monday for 7 people. Please and thank you.
+891 No, nothing else. Thanks so much.
+892 I'm looking for a mexican restaurant in the south part of town.
+893 What is the phone number and price range
+894 I would like the address please.
+895 OK thank you. That's all for today then.
+896 I need to depart broxbourne to cambridge leaving after 20:00 on thursday
+897 Thanks! I'm also looking for moderately-priced 4-star accommodations in the north.
+898 Yes, I would like to book it.
+899 Yes, for 5 people and for 2 nights please.
+900 Starting on thursday night please.
+901 Thank you I appreciate it.
+902 Can you check one more time?
+903 It's about time, thanks. That is everything I need.
+904 Nope, that will be all for now, thanks!
+905 One moment i need to located a hair salon near the hotel can you assist me?
+906 That's fine I didn't actually need one. I don't need anything else. That's it. Thanks and bye!
+907 I need to book a 3 night stay starting on Tuesday for 8 at the Aylesbray Lodge Guest house. I need a reference number for it.
+908 thank you that is all
+909 Hello I am looking for a guesthouse please.
+910 I would like to stay in the west. I prefer the hotel to have free wifi and be a 3 star.
+911 Could I please get the postcode, and the address for this guesthouse?
+912 Great. I'll also need a train going to cambridge.
+913 I'm departing from leicester. The train should leave on monday.
+914 I would like the earliest train available please. Can you tell me the train ID and travel time please?
+915 Not right now, but I do need to know the fare for that train.
+916 Nope, I think that's it for today. Have a nice one. Goodbye.
+917 Looking for a place to eat in the city center.
+918 I'd like to have some Chinese food.
+919 I am looking for a moderately priced place to eat, I am also looking to book a room in the bridge guest house hotel.
+920 I am looking for a moderately priced place to eat, I am also looking to book a room in the bridge guest house hotel.
+921 Before I commit I have a few questions. What area is the hotel located in?
+922 Before I commit I have a few questions. What area is the hotel located in?
+923 Does it provide free parking?
+924 Does it provide free parking?
+925 OK, 2 questions. 1 - What are the moderately priced restaurants in the center of town; and 2 - how many stars does the Bridge Guest House have? Thanks!
+926 OK, 2 questions. 1 - What are the moderately priced restaurants in the center of town; and 2 - how many stars does the Bridge Guest House have? Thanks!
+927 That was all the questions I had. Thank you very much for helping me.
+928 That was all the questions I had. Thank you very much for helping me.
+929 Great. I'm also looking for a place to stay. Can you look for a 4 star hotel with free parking?
+930 Are any of them in the moderate price range?
+931 Are any of them in the moderate price range?
+932 How about guesthouses? Any matches?
+933 Yes, I'll be coming in on Wednesday with 5 people total. We'll be staying for 5 nights.
+934 Thanks, i also need a taxi between the two places. I need to get there by 22:00
+935 from the hotel to the attraction please
+936 Great, thanks! You've been a big help.
+937 I only need a taxi.
+938 I am looking for a hotel with a 3 star rating and free parking
+939 Either is fine. I'd like a guesthouse.
+940 Yes please. Which is the cheapest?
+941 No. I would like to make a reservation for Wednesday for 3 nights and 8 people. I will also require a reference number.
+942 Can you please try a 2 day stay.
+943 Thank you. Have a nice day.
+944 I'm looking for cheap places to eat in the centre of the city.
+945 I'm looking for cheap places to eat in the centre of the city.
+946 Not really. Which is your favorite?
+947 Yes, for 6 people, 12:15 on Wednesday. Reference number please.
+948 I would also like a place to stay. I would like a cheap 0 star hotel in the centre.
+949 I would also like a place to stay. I would like a cheap 0 star hotel in the centre.
+950 Is there not a hotel?
+951 Is there not a hotel?
+952 How about a guesthouse with 0-star and cheap?
+953 How about a guesthouse with 0-star and cheap?
+954 More information please. I'd just like the address and postcode for El Shaddai.
+955 More information please. I'd just like the address and postcode for El Shaddai.
+956 I am looking for a place to go in the centre of town. I'm really interested in a theatre.
+957 I am also looking for a restaurant in the same area as Mumford Theatre.
+958 do you have any in mind? It really doesn't matter, as long as its moderately priced and in the same general area as the mumford.
+959 yes book for 3 people at 19:30 on friday please
+960 Great, I also need a taxi from the attraction to the restaurant and want to arrive by the reservation time.
+961 Thank you. That will be all.
+962 I am looking for a restaurant in the west side of town.
+963 How about a moderately priced Russian restaurant? I don't care what part of town it's in.
+964 How about Chinese food?
+965 I would like a moderately priced chinese restaurant any where in town.
+966 What is the phone number?
+967 Which part of town it is in ?
+968 Thank you goodbye.
+969 Yes, actually. Can you tell me about City Stop Restaurant?
+970 What area is it located in please?
+971 Ok, thank you!
+972 No thanks I just needed to know the area, thank you for your help.
+973 No, that is all I need help with. Thank you very much!
+974 I am looking for the phone number and address of a restaurant that serves european food?
+975 I don't care. give me the address and phone number of one of them.
+976 Great! thank you
+977 Hi, I'd like to find an expensive cantonese restaurant.
+978 How about North American food?
+979 Yes, I would like their phone number and postcode, please.
+980 No, thank you for the information. Goodbye.
+981 Hey there. I am trying to plan my trip for Cambridge and am trying to find this particular restaurant. It's called the Sesame Restaurant and Bar.
+982 I want to book a table for one for Tuesday 12:00.
+983 i need a train which goes to birmingham new street and should arrive by 09:00
+984 I need to leave on Wednesday and depart from Cambridge.
+985 Um sorry but can we actually go back to the restaurant again really quick. Did you even really book that for me? I never got a reference number from you...
+986 That's it for now, thank you!
+987 Hello, I am looking for a restaurant that serves African food.
+988 What are the address and postcode, please?
+989 that's all, thanks!
+990 I am planning a trip to Cambridge, looking for a place to dine.
+991 turkish is really good to me
+992 I prefer the moderately priced. Kindly book a table for 5 people for me for Saturday by 18:00.
+993 Thanks, I'm also looking for a train that leaves on sunday from birmingham new street.
+994 I need to leave Sunday from Cambridge and travel to Birmingham New Street, arriving before 17:45.
+995 No thank you, what time does the train leave Cambridge?
+996 How long is the journey between the two places?
+997 Yes, please make a booking.
+998 I need five tickets.
+999 Great, thank you. Is there a confirmation number?
+1000 Thanks for all your help today. I think that's it.
+1001 I am looking for a moderately priced restaurant in the north part of town, what do you have available?
+1002 Please tell me the address and phone number of the indian restaurant
+1003 That's all I need, thank you. Goodbye!
+1004 I need a place with rated 4 stars in the east. Can you help me find one that like a guesthouse?
+1005 Yes please. I need it booked for 1 person for 2 nights starting tuesday. Can i get a reference number?
+1006 Thank you, that is it for today. Goodbye.
+1007 Can you help direct me a restaurant called Golden House?
+1008 Can you provide me reviews about this listing. Is this a great hotel and what are the accommodations. Does this place have good customer service
+1009 Can you provide me reviews about this listing. Is this a great hotel and what are the accommodations. Does this place have good customer service
+1010 Yes sorry I meant does the restaurant have any reviews? Also I need help looking for a train leaving on Saturday and arriving in Kings Lynn.
+1011 Cambridge
+1012 just me, leave at 19:45. please tell me the arrival time and travel time
+1013 thank you
+1014 I'm looking for a guesthouse to stay at. Can you help me with that?
+1015 I'd like it to be in the east. A guesthouse would be great with a 4 star. Also, I don't care about internet.
+1016 Price range doesn't matter, can you find one with free wifi?
+1017 Nope. Any of them will be fine. I'll just need to know the address, price range, and postcode, please?
+1018 Thanks. I'm also looking for a train to stevenage for tuesday.
+1019 I will be leaving from Cambridge.
+1020 The train should leave at 10:45.
+1021 Yes, please. I need tickets for 7 people.
+1022 Great, thank you very much!
+1023 No that's it. Thanks for everything! Bye!
+1024 Hi, I'm looking for a place to stay. Can you help me?
+1025 Moderately priced with a star of 3 will do.
+1026 I would like one in the North please
+1027 Does it have free wifi? I will need the postcode if it does.
+1028 No, that's ok. May I have the post code for the Hamilton?
+1029 I am also looking for places to go in the same area as the hotel.
+1030 The boat sounds like something I'd enjoy. Is there an entrance fee?
+1031 Okay. Well, thank you and goodbye! Have a nice day.
+1032 I'm looking for some Chinese food, any good places in town?
+1033 Let's do expensive.
+1034 Let's do expensive.
+1035 I was hoping to find something located in the center of town. Are there any expensive Chinese restaurants there?
+1036 I was hoping to find something located in the center of town. Are there any expensive Chinese restaurants there?
+1037 This restaurant will be fine.
+1038 Yes please, 2 people at 19:00 on sunday.
+1039 Yes please, 2 people at 19:00 on sunday.
+1040 Thanks! I'm also looking for a place to stay in the same area. Can you help me with that?
+1041 I'm looking for a guesthouse to stay in that is cheap. Can you help me with that?
+1042 Does not matter but I do need free wifi and and a star of 0.
+1043 North B and B sounds nice. Could you book this for me?
+1044 There will be four people.
+1045 I'll be arriving on Saturday and staying 3 nights.
+1046 I also need a train. It should leave Bishops stortford after 12:15, going to cambridge on saturday.
+1047 Sounds perfect. Please book me enough tickets for the same group of people. Thanks
+1048 Can we increase the amount of people to 8?
+1049 I think that is it, got bookings for hotel and train.
+1050 Nope. That's all. Bye, thanks.
+1051 Thank you for that. Can you give me the postcode and entrance fee?
+1052 Yes, can you help me find an expensive restaurant that serves british food?
+1053 i'd like it to be in the west.
+1054 I would like to try Graffiti. Can I get the address, postcode, and phone number?
+1055 Thank you very much, that should be it.
+1056 Thank you, you too!
+1057 Hi, I'm trying to find a moderate turkish place to eat at. Is there anything like that?
+1058 Are either of those in the centre of town?
+1059 Okay. Can you book me a table for 4 at the Anatolia?
+1060 I need it for Saturday at 14:15.
+1061 I need a train departing from Peterborough on the same day as the restaurant booking.
+1062 I want to arrive by 11:30. Departure time doesn't matter, but I'd like to know what time.
+1063 I prefer the 10:19 train please. thank you.
+1064 Thank you, have a nice day.
+1065 Hi I need to find a restaurant in the Centre part of Cambridge that falls in the moderate price range, can you give me some suggestions please.
+1066 Hi I need to find a restaurant in the Centre part of Cambridge that falls in the moderate price range, can you give me some suggestions please.
+1067 A reservation at any will do. Please reserve a table for 3 at 19:15 on sunday.
+1068 I am looking for a place to stay in an expensive price range. I don't need any free parking.
+1069 I am looking for a place to stay in an expensive price range. I don't need any free parking.
+1070 I don't care about the area, I just want it to be a hotel type and not a guesthouse.
+1071 I don't care about the area, I just want it to be a hotel type and not a guesthouse.
+1072 Book the Huntingdon Marriott please.
+1073 Book the Huntingdon Marriott please.
+1074 Arriving on Saturday and departing on Monday, please, for two adults. I'll also need the phone number, postcode, and internet availability with my confirmation number, please.
+1075 Arriving on Saturday and departing on Monday, please, for two adults. I'll also need the phone number, postcode, and internet availability with my confirmation number, please.
+1076 Great, thanks a lot for your help!
+1077 Great, thanks a lot for your help!
+1078 I'd like to know what my options are, as far as expensive restaurants in the city center.
+1079 Yes, is there any chinese in the area?
+1080 On second thought, I'd rather have Mediterranean food. Would you see if there's an expensive one in the centre area?
+1081 Yes,table for 1 people at 12:15 on friday , thank you
+1082 Also looking to visit a museum in the same area as the restaurant. Could you give me the phone number and postcode of one please?
+1083 Next, I will need a taxi to go from the museum to the restaurant so I can get there in time for lunch. Is that possible?
+1084 Thank you that's all the help I need today.
+1085 I am looking for a place to stay. The hotel doesn't need to have free parking and should be in the north
+1086 50 to 75 dollars
+1087 I would like to move in on Saturday and stay for 4 nights.
+1088 I also need to make sure it has free wifi and can accommodate two people.
+1089 How about starting on Sunday?
+1090 Thanks! May I have the reference number?
+1091 Thank you very much.
+1092 Can you help me find a hotel called city centre north b and b please?
+1093 Can you help me find a hotel called city centre north b and b please?
+1094 yes, please. 2 people for 3 nights starting on wednesday
+1095 yes, please. 2 people for 3 nights starting on wednesday
+1096 Yes, are there any vietnamese restaurants in the north area of town?
+1097 Yes, are there any vietnamese restaurants in the north area of town?
+1098 How about a chinese restaurant instead?
+1099 How about a chinese restaurant instead?
+1100 Could you reserve a table at Hakka for me?
+1101 Could you reserve a table at Hakka for me?
+1102 i would like to book a table for the same day at 17:15
+1103 i would like to book a table for the same day at 17:15
+1104 Just two please.
+1105 Just two please.
+1106 Ok that is all I needed thank you!
+1107 Ok that is all I needed thank you!
+1108 Yes, I need to find a place to stay.
+1109 I'd like a guesthouse that includes free parking.
+1110 I have no preference for the area, but I would like something that includes free wifi and is in the expensive price range, please.
+1111 Could you check to see if there are any expensive hotels then?
+1112 I don't need to book but would you give me the star rating for the Gonville Hotel plus the address and phone number.
+1113 Wonderful. Thank you for all your help.
+1114 I need a 2 star hotel with free parking.
+1115 It can be anywhere in town, but I'd like the hotel to be in the cheap price range if possible.
+1116 How about in the expensive price range?
+1117 How about in the expensive price range?
+1118 I would prefer one with a rating of 2 stars.
+1119 Yes, I would like to book it for two people for five nights, starting from Monday.
+1120 I would like to eat at a restaurant please.
+1121 I would like to eat at a restaurant please.
+1122 I'm just looking for something that's in the same price range as the Hotel
+1123 I'm just looking for something that's in the same price range as the Hotel
+1124 I would like a cuisine of asian oriental.
+1125 I would like a cuisine of asian oriental.
+1126 Can I please get the address for Saigon City?
+1127 Can I please get the address for Saigon City?
+1128 Thank you. I would also like to book a taxi to go from the hotel to the restaurant.
+1129 Thank you. I would also like to book a taxi to go from the hotel to the restaurant.
+1130 I'd like to leave the hotel by 6:45. Once that is booked can you provide me with the phone number and car type?
+1131 I'd like to leave the hotel by 6:45. Once that is booked can you provide me with the phone number and car type?
+1132 Can you book reservations for the restaurant at 7:30
+1133 Can you book reservations for the restaurant at 7:30
+1134 2 people on a Monday I think please.
+1135 2 people on a Monday I think please.
+1136 No thank you
+1137 No thank you
+1138 Yes, I wasn't planning to book but since I have I suppose I'll take that number. That will be all for today - thank you for your help!
+1139 Yes, I wasn't planning to book but since I have I suppose I'll take that number. That will be all for today - thank you for your help!
+1140 Thank you for your help!
+1141 Thank you for your help!
+1142 I am looking for a 3 star expensive place to stay in Cambridge.
+1143 That sounds good!
+1144 I'd like to travel there myself, may I have the address?
+1145 I'm also looking for places to that are near the hotel
+1146 I'm also looking for places to that are near the hotel
+1147 I forgot to ask, does the Gonville hotel include free wifi and is it in the centre?
+1148 I forgot to ask, does the Gonville hotel include free wifi and is it in the centre?
+1149 Actually, I'm looking for an attraction in the area of the hotel.
+1150 Actually, I'm looking for an attraction in the area of the hotel.
+1151 Can I get the address please?
+1152 Can I get the address please?
+1153 Can I get the precise address please?
+1154 Can I get the precise address please?
+1155 No, that should be it. Thanks!
+1156 No, that should be it. Thanks!
+1157 I am looking for a place to dine that serves north american food located within the town centre.
+1158 Can you tell me the postcode and phone number for Gourmet Burger Kitchen?
+1159 Yes I would also like to visit some colleges in the same part of town. Is that possible?
+1160 Could you give me the address for one of the free colleges?
+1161 Yes. I'd like a taxi to pick me up at Christ's College and take me to the restaurant. I'd like to leave the attraction by 19:00.
+1162 That is all I need for today. Thanks for all your help!
+1163 I am looking for college attractions in the centre.
+1164 Great! Also I would like to find a place to eat. Somewhere in the same area and expensive.
+1165 I don't care about the type of food. Do you have a suggestion?
+1166 That sounds great. Please book a table for 1 at 19:45 on Monday.
+1167 Nope, that's all I need today. Thank you for your help - goodbye!
+1168 Looking for a restaurant in the East side of town
+1169 yes expensive restaurant please
+1170 May I have the address and phone number please?
+1171 Yes, I'd like the postcode too please.
+1172 That is all. Thank you.
+1173 I am looking for a restaurant in the moderate price range that serves Lebanese food.
+1174 Tell me the address and phone number of Ali baba restaraunt.
+1175 Thank you bye bye
+1176 I need to find a place to dine in the expensive price range that serves indian food.
+1177 I think I'd like to eat on the west side.
+1178 That sounds wonderful. Can you book me a table for 7?
+1179 This will be for 7 people at 19:15 on friday
+1180 This will be for 7 people at 19:15 on friday
+1181 Yes, how about 18:15 on Friday?
+1182 Yes, how about 18:15 on Friday?
+1183 I would also like to find a guesthouse. I want something 2-star that has free parking and free wifi.
+1184 I would also like to find a guesthouse. I want something 2-star that has free parking and free wifi.
+1185 Not really. I just need a 2 star guesthouse or 4 star hotel.
+1186 Not really. I just need a 2 star guesthouse or 4 star hotel.
+1187 How about a guesthouse with a star of 4?
+1188 How about a guesthouse with a star of 4?
+1189 Yes, I'd like it for the same number of people for 4 nights on the same day.
+1190 Yes, I'd like it for the same number of people for 4 nights on the same day.
+1191 Awesome! Thanks. That's all I needed. Have a good one. Bye.
+1192 Awesome! Thanks. That's all I needed. Have a good one. Bye.
+1193 No, I'm all set. Have a great day.
+1194 No, I'm all set. Have a great day.
+1195 Okay great, that's everything else I needed. Goodnight!
+1196 Okay great, that's everything else I needed. Goodnight!
+1197 I'd like to find a cheap restaurant in the center of town.
+1198 I'd like Chinese, please.
+1199 Just cheap, Chinese and in the center of town.
+1200 I need a table for 8 at 13:15 on Wednesday.
+1201 i'm also looking for a train.
+1202 It should depart from Cambridge, arriving by 18:00 on Thursday
+1203 I am looking to go to London kings cross.
+1204 Sure. Could you give me the train ID and travel time?
+1205 No, that's all I need today. Thank you.
+1206 I need a restaurant in the east part of town that serves world food.
+1207 How about chinese food?
+1208 Yes, please, and the address and postcode also.
+1209 thank you, goodbye.
+1210 I am looking for an expensive Indian restaurant.
+1211 I am looking for an expensive Indian restaurant.
+1212 Yes, I'd like to find one in the centre.
+1213 Is Curry Garden expensive? If so, I want to make a reservation for Sunday.
+1214 Is Curry Garden expensive? If so, I want to make a reservation for Sunday.
+1215 1 person and 12:15 on Sunday or Thursday. I also need a reference number
+1216 1 person and 12:15 on Sunday or Thursday. I also need a reference number
+1217 Yes I already asked you to do it!! And send the reference number!
+1218 Could you please try again? I really need that reservation. I'd prefer it for Sunday but if they can't accommodate that time, Thursday will suffice.
+1219 Could you please try again? I really need that reservation. I'd prefer it for Sunday but if they can't accommodate that time, Thursday will suffice.
+1220 Could you try again, just want something on Thursday, at 12:15.
+1221 Could you try again, just want something on Thursday, at 12:15.
+1222 Great. Now I need somewhere to stay. I want an expensive place with 2 stars plus parking and wifi too.
+1223 Great. Now I need somewhere to stay. I want an expensive place with 2 stars plus parking and wifi too.
+1224 Yes, please, for 4 people, 4 nights. Same day as the restaurant booking.
+1225 Yes, please, for 4 people, 4 nights. Same day as the restaurant booking.
+1226 No thank you, you have been very helpful but please use you're and your in the right places.
+1227 No thank you, you have been very helpful but please use you're and your in the right places.
+1228 I'm looking for a multiple sports attraction in the south. Anything available?
+1229 Do you have any that are in the south?
+1230 Thank you! Can you also find a Chinese place to eat that is on the cheap side in the same area please?
+1231 How about Chinese but in the cheapish price range?
+1232 No, I really need it in that area and I'm desperately craving Chinese food. Can you please check again and make sure you're looking in the south area?
+1233 Wonderful, thanks. I need a table for 6 on Friday. We'd like to eat tat 19:30.
+1234 Can you try 18:30 for me?
+1235 Yes, could get get me a taxi to get me to the restaurant by the booked time?
+1236 The nightclub at 22 sidney street, the place, you said it was called.
+1237 Sorry for the confusion. I have everything I need, you've been very helpful, thanks!
+1238 Hi. I'm looking for a fancy restaurant that serves English food.
+1239 Not really. How about a place that has Mexican food?
+1240 Can I have the area and address please not sure if I want to book it yet?
+1241 Yes, are there any parks nearby that I can visit as well?
+1242 Great, can I get the postcode?
+1243 No. That is all. Thank you!
+1244 Could you help me find a 4 star lodging on the south end?
+1245 Are either of them cheap?
+1246 Yes please. I need 3 nights starting on friday for 1.
+1247 Okay great. That is all I need.
+1248 You do the same!
+1249 I'm looking for a guesthouse to stay at with a four star rating
+1250 Yes in the north and it should be 4 stars and have free wifi please.
+1251 Yes! I would like a booking please.
+1252 On second thought, I am not quite ready to book yet. Could you send me their postcode, please?
+1253 Thanks so much for your help!
+1254 That is all! Thank you!
+1255 I am looking for a moderate price 3 star hotel. Can you help with that please?
+1256 I'm looking to stay at a guesthouse please.
+1257 Yes please. I need to book it for Monday for 4 guests staying 2 nights.
+1258 Can you try booking it for just one night? If that works I will need the reference number, too.
+1259 Great! I am also looking to do something fun, what kind of entertainment is available in the south area?
+1260 Sure, is it labelled as entertainment? I will just need the postcode.
+1261 No thank you. Thank you for everything!
+1262 Can you find me an expensive restaurant in the centre?
+1263 I am looking for an expensive restaurant that serves Indian food.
+1264 I would actually like to book it for 6 people at 13:45 on Sunday.
+1265 Can you try to book for 6 at 12:45 instead? And if it is availabe, can I get a reference number for my booking?
+1266 Could you tell me about a place to go in town, maybe a college?
+1267 There is not. Can you give me the address for one of the colleges? Also I would like to know which area it is in.
+1268 That sounds good. What's the address?
+1269 Thank you. Please tell me the area and address of Christ's College.
+1270 Great thank you for all your help, that's all I needed today.
+1271 I'm looking for a place to dine. The restaurant should serve indian food and should be in the centre.
+1272 No. I'm not looking for a particular price range.
+1273 I don't have a price range but I would like it to be in the town centre for 2 people at 18:45.
+1274 book a table for 2 people at 18:45 on thursday.
+1275 thank you so much.
+1276 That's it, thank you!
+1277 I am looking for a moderately priced restaurant in the south part of town.
+1278 dont care but I would like the address and phone number
+1279 Which part of town it is in ?
+1280 Thank you, goodbye.
+1281 I am looking for a place to stay in the north of town.
+1282 I'm looking for a moderately priced place in the north side of town.
+1283 Yes, I'd like both free wifi and parking.
+1284 i already told you. moderately priced.
+1285 Yes, please. 7 people for 3 nights starting monday.
+1286 I need a reservation for Archway House, did you make it? I need the reference number, please.
+1287 Do you know any other hotels that fit my criteria which you could contact at the moment?
+1288 Do you have any other suggestions?
+1289 Is there any attraction in town near where I am staying?
+1290 How much is the entrance fee?
+1291 I am also going to need a ride between the two places please.
+1292 Archway House to Milton Country Park by 15 00
+1293 Thank you so much!
+1294 No, all my questions were answered. Thank you much. Goodbye.
+1295 I want to book a room in a place that has a 4-star rating.
+1296 What price ranges are available for a 4 star hotel that includes free wifi and free parking?
+1297 I don't care which price range it is as long as it has free wifi and parking.
+1298 Thanks, I will keep that one in mind when I am ready to book. I need to find a train also. From Liverpool Street on Friday.
+1299 I need to get to Cambridge by 09:15.
+1300 Yes that will work thank you.
+1301 I need 5 tickets please. I'll also need the reference number.
+1302 Thanks so much for your help today.
+1303 Hi, I'll be visiting soon and can't wait to try local restaurants. I need a cheap place to stay and would like to try a guesthouse. Any recommendations?
+1304 Hi, I'll be visiting soon and can't wait to try local restaurants. I need a cheap place to stay and would like to try a guesthouse. Any recommendations?
+1305 I would prefer to stay on the East side, with free parking available.
+1306 I would prefer to stay on the East side, with free parking available.
+1307 yes i will take the first choice can you book it for 4 people for 2 nights starting wednesday and i need a reference number
+1308 yes i will take the first choice can you book it for 4 people for 2 nights starting wednesday and i need a reference number
+1309 Yes, I am also looking for a restaurant in the same area as the hotel within the same price range as the hotel.
+1310 Yes, I am also looking for a restaurant in the same area as the hotel within the same price range as the hotel.
+1311 That sounds great! Can I get a table for 4 at 13:15 Wednesday?
+1312 That sounds great! Can I get a table for 4 at 13:15 Wednesday?
+1313 That's all. Thanks for the help!
+1314 That's all. Thanks for the help!
+1315 I'm looking for an expensive hotel.
+1316 I would like to stay in the North please.
+1317 Well, the area doesn't matter, as long as it offers free parking.
+1318 If it has free parking then I need a booking for 7 people and 5 nights starting from sunday.
+1319 No that will be all thank you so much.
+1320 I'm looking for a guest house with free parking.
+1321 I'd like it to be in the centre, 4 stars preferably.
+1322 I'd like it to be in the centre, 4 stars preferably.
+1323 No but I would like the post code please.
+1324 Thank you. I'm also interested in finding a cheap Italian place to eat.
+1325 Thank you. I'm also interested in finding a cheap Italian place to eat.
+1326 Yes, I need it to be located in the town centre.
+1327 Yes, I need it to be located in the town centre.
+1328 No thank you. I'd prefer to book it myself. May I have the telephone number for the restaurant?
+1329 No thank you. I'd prefer to book it myself. May I have the telephone number for the restaurant?
+1330 that is all i needed for today thanks for your help
+1331 that is all i needed for today thanks for your help
+1332 No, thank you. I have all I need.
+1333 No, thank you. I have all I need.
+1334 I love the centre of Cambridge but I always spend too much, are there cheap places to eat there so I can stay within my budget?
+1335 restaurant should serve indian food is what I need
+1336 HOw about mahal and can you give their phone number and postcode?
+1337 Great. I'm also looking for a train. I need to leave after 16:15 from London Liverpool Street.
+1338 I'll need it to be on Tuesday. I'm going to Cambridge.
+1339 make a booking for 1 people. Make sure you get the reference number
+1340 thank you very much.
+1341 That is all, make it a great day!
+1342 Hi, I'd like a listing for a Mediterranean restaurant.
+1343 That sounds wonderful. Can you help me book a table for 2 people at 18:00 on Wednesday?
+1344 Can I book a table for 17:00 instead?
+1345 Can you help me find a train going to Stevenage and leaving Thursday instead?
+1346 I am going to stevenage on thursday and need a ticket leaving cambridge anytime after 15:30 please
+1347 Yes, please can I book for two people at 17:21?
+1348 I also need a train going to Stevenage on Thursday leaving Cambridge after 15:30 for the same group of people.
+1349 I am looking for more information regarding the cambridge chop house.
+1350 I guess I just need the address.
+1351 That's all I needed. Thank you!
+1352 Nope, that's it! Thanks for your help.
+1353 Yes, I was wondering if you could assist me with finding a train for Thursday.
+1354 I am also looking for a hotel. I would like it to be a four star that includes wi-fi.
+1355 Actually, I'd like the hotel to include free parking if possible, but it doesn't need to have free wifi. I'd like to stay on the north end of town.
+1356 Is that in the north? It sounds like what I'm looking for if it's in that area.
+1357 Yes, I need of for seven people starting today and lasting five nights.
+1358 Thanks for you're help! That'll be all.
+1359 I'm looking for a cheap place to dine that serves danish food.
+1360 I've got my heart set on Danish but we could go a bit more expensive, I guess.
+1361 How about asian oriental food?
+1362 Yes, for 2 people at 17:00 on thursday.
+1363 Thanks. That is all I need today.
+1364 Can you help me find a hotel in the North part of Cambridge?
+1365 Can you help me find a hotel in the North part of Cambridge?
+1366 Does it have internet?
+1367 I would like to book the Ashley Hotel.
+1368 There will be 7 of us arriving Sunday. We will be staying 3 nights.
+1369 There will be 7 of us arriving Sunday. We will be staying 3 nights.
+1370 Yes I am needing a restaurant that is the same price range as my hotel and in the same area.
+1371 Yes I am needing a restaurant that is the same price range as my hotel and in the same area.
+1372 I will go with The Nirala since I love Indian food. Please book it for 11:00 for the 7 of us on Sunday.
+1373 I will go with The Nirala since I love Indian food. Please book it for 11:00 for the 7 of us on Sunday.
+1374 Yes, I want a taxi too. I'll need contact number and car type. It should pick me up at the hotel and arrive at restaurant by 11:00
+1375 Yes, I want a taxi too. I'll need contact number and car type. It should pick me up at the hotel and arrive at restaurant by 11:00
+1376 thanks very much to you! I am done now. Farewell!
+1377 thanks very much to you! I am done now. Farewell!
+1378 I'd like more information about the Ashley Hotel, can you help?
+1379 That is what I am looking for. I need to book for 2 nights starting on Wednesday. Four people will be staying. Please give a reference number.
+1380 That is what I am looking for. I need to book for 2 nights starting on Wednesday. Four people will be staying. Please give a reference number.
+1381 Yes. I'm also looking for an expensive restaurant in the west side of the city.
+1382 Yes. I'm also looking for an expensive restaurant in the west side of the city.
+1383 Yes. I would like to eat Indian food.
+1384 Yes. I would like to eat Indian food.
+1385 Please book a table for 4 at 15:15 on wednesday.
+1386 Please book a table for 4 at 15:15 on wednesday.
+1387 Yes, please provide the me the reference number for the reservation.
+1388 Yes, please provide the me the reference number for the reservation.
+1389 Thanks, that was all I needed. Have a nice day.
+1390 Thanks, that was all I needed. Have a nice day.
+1391 No problem. I'm glad I did.
+1392 No problem. I'm glad I did.
+1393 I want to find a restaurant in any part of town and serves seafood.
+1394 What is the phone number and price range?
+1395 That sounds great. Thanks!
+1396 Need a restaurant called the golden curry
+1397 Yes please. There will 8 of us at 15:15 on Monday.
+1398 I'm looking for a train as well to Cambridge that will arrive by 12:15, is there anything available?
+1399 I would like to leave from Birmingham New Street.
+1400 Same day as my Golden Curry reservation, please.
+1401 Yes that is all I need, thank you.
+1402 I need a hotel to stay in that has free parking.
+1403 Just a hotel with free parking, free wifi and a star of 0.
+1404 Can you see if you find one with a start of 4?
+1405 Yes, one person two nights from Thursday.
+1406 What is the name of the hotel?
+1407 Yes, I need a train from cambridge to peterborough on monday. I want to leave after 14:45
+1408 Yes, I need one ticket please.
+1409 Thank you, that is all I need.
+1410 I'm looking for information on a hotel called alexander bed and breakfast.
+1411 Yes please book it for 4 people and 5 nights starting from Wednesday.
+1412 Thank you. I also need a train on wednesday arriving by 17:00.
+1413 I would like to depart from Kings Lynn.
+1414 No, I just need to arrive by 17:00. On Wednesday. Please book the train closest to that arrival for 4 people and give me a reference number
+1415 Awesome, thank you so much for your help! That will be all, goodbye.
+1416 Can you help me find a restaurant located in the south area?
+1417 Can you help me find a restaurant located in the south area?
+1418 I would like Chinese food, please.
+1419 book the expensive one a table for 4 people at 13:00 on monday
+1420 It doesn't matter. Just book one for 4 people at 13:00 on Monday. I need the reference number.
+1421 Great! I also need a place to stay in the same area as that restaurant, and I need free parking.
+1422 Great! I also need a place to stay in the same area as that restaurant, and I need free parking.
+1423 I need it to include free wifi.
+1424 I need it to include free wifi.
+1425 I just need the address please.
+1426 I just need the address please.
+1427 Can you help me book a taxi to get between the two?
+1428 Can you help me book a taxi to get between the two?
+1429 from the hotel to the restaurant, then back.
+1430 from the hotel to the restaurant, then back.
+1431 No that is all. Thank you!
+1432 No that is all. Thank you!
+1433 I'm looking for a place to stay that has free wifi and parking.
+1434 No particular area but I need it to be cheap.
+1435 No particular area but I need it to be cheap.
+1436 I'd prefer a hotel, rather than a guesthouse.
+1437 Yes please book it for 3 people for 2 nights starting monday
+1438 Yes please book it for 3 people for 2 nights starting monday
+1439 How about booking it for 1 night instead.
+1440 Yes I need a chinese place in the cheap range
+1441 Yes I need a chinese place in the cheap range
+1442 Can you reserve me a table that the Lucky Star on Monday for 3 people at 13:15?
+1443 Can you reserve me a table that the Lucky Star on Monday for 3 people at 13:15?
+1444 Alright, that's all I need today, thanks!
+1445 Alright, that's all I need today, thanks!
+1446 A friend was raving about this restaurant called Pizza Hut. Can you help me find it?
+1447 It doesn't matter. What is the food type and addresses?
+1448 Actually, could you check if there is a pizza hut in fen ditton? If so, could I have the address and phone number?
+1449 Thank you - that's all I need today.
+1450 I want to find a zero star rated hotel.
+1451 It should be in the cheap price range
+1452 It should be in the cheap price range
+1453 I would prefer the centre please.
+1454 I would prefer the centre please.
+1455 Yes can you please book that?
+1456 Sorry, I actually won't need it booked after all. I only want to know if they have free parking and also the phone number and address there please.
+1457 Great, thank you so much! Now I just need to find a place to eat.
+1458 Great, thank you so much! Now I just need to find a place to eat.
+1459 Let's look for a cheap place.
+1460 Let's look for a cheap place.
+1461 Sounds fine. Could you make a reservation for 4 at 11:45 on Wednesday? I will need the reference number too
+1462 Sounds fine. Could you make a reservation for 4 at 11:45 on Wednesday? I will need the reference number too
+1463 No thank you that will be all.
+1464 No thank you that will be all.
+1465 I am looking for a hotel in the north to stay in. Can you help me with this?
+1466 I'm looking for a proper hotel, please. If it had free wifi, well, I wouldn't complain about that either.
+1467 Yes, I want to book it for 6 people and 5 nights starting from sunday. May I also have the reference number?
+1468 I would like to have the reference number for the room booking please.
+1469 Yes. I want to check out a college in the centre.
+1470 That sounds great. Can I get the address and postcode?
+1471 I would now like to book a taxi from my hotel at 06:15 going to the college.
+1472 Actually, can I get the street address of Downing College before we go?
+1473 What sort of moderately priced restaurants does Cambridge offer? I'm only interested in restaurants located in the Centre.
+1474 I am looking to eat at a steakhouse.
+1475 Can you check for Chinese? I haven't had Chinese in awhile.
+1476 That would be just fine. Can you make reservations for 5 people at 18:00 on wednesday.
+1477 I am also looking for a train to Cambridge
+1478 I'll be traveling from Ely to Cambridge on Wednesday. I need to get to Cambridge before noon.
+1479 Yes thats perfect book that for the same group of people please.
+1480 Thank you. That is all that I need.
+1481 Thanks for all your help! Goodbye!
+1482 I am looking for a moderately priced restaurant that serves Caribbean food.
+1483 Spanish food
+1484 What is the address, phone number, and post code?
+1485 No preference on arrival. As long as it leaves after 18:45.
+1486 I just need one ticket.
+1487 That's all I needed about the train I also need some information on a restaurant called The Gandhi
+1488 That's all I needed about the train I also need some information on a restaurant called The Gandhi
+1489 Uhm? Do you have any info about the Gandhi? I'd like the phone number, address, and area.
+1490 Uhm? Do you have any info about the Gandhi? I'd like the phone number, address, and area.
+1491 Do you have the phone number of the restaurant? Also, what area of town is it in?
+1492 Do you have the phone number of the restaurant? Also, what area of town is it in?
+1493 Yes could I also have their address?
+1494 Yes could I also have their address?
+1495 That will be all, thank you very much.
+1496 That will be all, thank you very much.
+1497 I will leav on monday.
+1498 Also looking for a restaurant by the name of Midsummer House. I need a reservation for 7 people at 10:15 on Monday.
+1499 That's it! Thank you for all your help!
+1500 No thank you, that's all the information I need.
+1501 Does Cambridge offer any expensive, Singaporean cuisine?
+1502 How about Indian food instead? I like Indian food just as much.
+1503 No thanks, I just need the phone number and postcode, for now.
+1504 Yes, can you help me find a hotel?
+1505 Yes, can you help me find a hotel?
+1506 I actually need a train. For Thursday.
+1507 I'm departing from Cambridge and it should arrive at Peterborough by 11:15.
+1508 Yes, please book it for two!
+1509 Thank you for the service, that's all I needed.
+1510 I am looking for a hotel on the west side of Cambridge.
+1511 I am looking for a hotel on the west side of Cambridge.
+1512 I would like a moderate rate please.
+1513 I would like a moderate rate please.
+1514 I would like to book a room at the hotel for 8 people for three nights please.
+1515 I would like to book a room at the hotel for 8 people for three nights please.
+1516 I'll be starting on thursday.
+1517 I'll be starting on thursday.
+1518 Thank you. Do you have information on City Stop Restaurant?
+1519 Thank you. Do you have information on City Stop Restaurant?
+1520 Can you tell me their postcode?
+1521 Can you tell me their postcode?
+1522 Thank you that's all I needed
+1523 Thank you that's all I needed
+1524 I am looking to stay in a guesthouse with a 4 star rating.
+1525 I will trust you to pick me a great one anywhere in the city as long as it is a 4 star guesthouse that includes wifi.
+1526 That would be great thank you.
+1527 There will be 2 of us, and we're hoping to arrive on Thursday and stay for 3 nights.
+1528 Yes can you please?
+1529 I also need a train to bishops stortford on friday.
+1530 I'm departing from Cambridge and want to leave after 17:45.
+1531 no thanks. i just needed the information. thanks. bye.
+1532 Yes I would like to find Spanish food in the center of town.
+1533 Let's go with the cheap one. I'll need a table for 7 on Sunday at 12:15 please.
+1534 Can you try on saturday, 7 people, at 12:15
+1535 No, that's all I need. Thanks for your help!
+1536 Thanks. A friend told me about a restaurant called the rice boat. Do you know it?
+1537 Yes please, 2 people at 20:30 on sunday. Can I also get a reference number?
+1538 Nope, that takes care of everything. Thank you!
+1539 I am looking for a Persian restaurant with expensive price range food.
+1540 Oh, how disappointing. There are no expensive persian restaurants in the center of town?
+1541 Is there a italian restaurant in the centre of town in the expensive range?
+1542 I've heard good things about Clowns Cafe. Do you have the address?
+1543 Do you know of any nightclubs in the area?
+1544 All of those sound great. Can you recommend one and just give me the postcode and entrance fee?
+1545 Thanks. Now can you have a taxi take me from the restaurant to Ballare? I want to leave after 18:30. I'll need car type and contact number too.
+1546 Thanks for that! Can you double check when the car is picking me up? I think I misspoke - I'd like to leave the restaurant by 18:30, not after.
+1547 That is all I needed. Thanks for all your help!
+1548 I am also looking for a place to stay in a cheap price range. Do you have any suggestions?
+1549 I would like to stay in the North area, please. I need free parking also.
+1550 Is it in the moderate price range
+1551 Please book Worth House for 3 people, for 3 nights starting on Sunday.
+1552 Nope, that's all I need.
+1553 I am looking for a place to stay in the north while I'm there.
+1554 I would prefer a hotel that is nice but in the cheaper price range.
+1555 Sure, could you give me their name and postcode?
+1556 Yes, please book it for me.
+1557 I do not need to book it. I need a train to depart from leicester.
+1558 I'll be traveling on Thursday.
+1559 I need to leave for Cambridge after 13:45. Don't let me forget to back track and check on another place to stay please.
+1560 Before you book it, I need the price and I need the approximate travel time.
+1561 Yes book 2 seats please and I'll need the train ID. Also book the Worth House guesthouse for 3 people and 4 nights. And give me the reference number please.
+1562 No thank you that will be all
+1563 Thank you so much!
+1564 Hi I'm looking for a hotel in the are that includes free wifi.
+1565 I would like to be in the west, and it would be great if it was an expensive hotel.
+1566 Yes please for this weekend.Thank You.
+1567 There will be 2 people and a total of 4 nights stay starting from tuesday.
+1568 Yes, as long as the hotel is in the expensive price range, please try booking it.
+1569 Thank you. That's everything I need.
+1570 Hello, I am looking for an expensive restaurant that is on the east side of town.
+1571 What is the postcode?
+1572 What is the address, phone number, and type of food?
+1573 Great, thank you!
+1574 No thank you. Goodbye!
+1575 You too!
+1576 I am also looking for a particular restaurant,the Cow Pizza Kitchen and Bar.
+1577 What type of cuisine is it? Can I also get a price and phone number?
+1578 nope that's it thanks
+1579 Are there any entertainment attractions in the centre of town?
+1580 Sure. Are there any colleges in the centre?
+1581 Thank you. Can you also find a turkish restaurant that is moderately priced?
+1582 Is one of them in the centre area. I would like one close to the college.
+1583 We'll try Efes, could you book me a table for 2 on Thursday at 11:15? I'll need the reference number also.
+1584 No that is it thank you.
+1585 I want to find a hotel to stay in located in the centre
+1586 Can you help me find a hotel in the cheap price range that includes free wifi?
+1587 Try a guesthouse please.
+1588 Is it cheap? I don't have much money. And do they have free wifi?
+1589 Just information for now, can you please give me the address?
+1590 That is all I needed. Thank you!
+1591 I wold like to book a room near downtown that has wi-fi and a free parking.
+1592 Actually, I think that what I really want is a hotel that is in the same area as a swimming pool. Are there any public swimming pools in town?
+1593 get me the address, phone number, and area. i am also looking for a 4 start place to stay in the north
+1594 I also need a place to stay, it should be 4 stars, in the north and include free wifi.
+1595 Yes, I'll need it for 5 nights starting from sunday. Oh, and book it for 7 people!
+1596 Can you see if they have anything for 2 nights?
+1597 No, that should be all. Thank you for your help! Goodbye.
+1598 I am looking for a restaurant in the south part of town that is moderately priced.
+1599 Is there any Korean food?
+1600 No, I need something moderate priced in the south. Is there one that serves modern european food?
+1601 No but I would like their phone number, address and postcode.
+1602 I am also looking for a place to go. Can you recommend a theatre?
+1603 Area doesn't really matter. Are there a lot of theatre options in town?
+1604 That sounds great! Could you please give me the phone number?
+1605 I think that's it. Thank you!
+1606 Great, thank you for the help.
+1607 Hello, I'm looking for a hotel in the north, and I'd like the more expensive range please.
+1608 I'm sorry not hotels, guesthouses please.
+1609 Yes, please check one in the moderate range.
+1610 Honestly, I would prefer if you could suggest one as long as its moderately priced.
+1611 That would be fine. Could you also find out some information about the india house restaurant?
+1612 That would be fine. Could you also find out some information about the india house restaurant?
+1613 Thanks. Could you reserve a table for 3 people at 16:30 on Thursday?
+1614 Thanks. Could you reserve a table for 3 people at 16:30 on Thursday?
+1615 How about 15:30?
+1616 How about 15:30?
+1617 Yes, actually. I'll be needing a taxi between those two locations. Please make sure they can have me at the restaurant by my reservation time.
+1618 Yes, actually. I'll be needing a taxi between those two locations. Please make sure they can have me at the restaurant by my reservation time.
+1619 That's all I needed. Thank you.
+1620 That's all I needed. Thank you.
+1621 i am, Also looking for a place to stay. The hotel should be in the north and should be in the moderate price range
+1622 I'd prefer a guesthouse. A 4 star one, if possible.
+1623 Do any have both free parking and internet? If so, I'll need their phone number.
+1624 Can I have their phone number, please?
+1625 No, that is all I need. Thank you!
+1626 Yes thanks, that will be all.
+1627 Hi there, can you help me find a restaurant in the centre of town? Someplace with British food?
+1628 What price range is that restaurant?
+1629 No that won't be necessary, could you just give me the address and postcode please?
+1630 Great, that's all for now. Thanks!
+1631 I need to find a moderately priced north indian restaurant.
+1632 How about an Italian restaurant, then?
+1633 Any would be fine.
+1634 That sounds good to me. Can you please book a table for 8 at 12:15 on Saturday?
+1635 I also will need a train.
+1636 I will depart from Birmingham New Street.
+1637 I'll be leaving birmingham new street and going to Cambridge. I need to arrive by 09:30.
+1638 the same day as the restaurant booking and should arrive by 09:30.
+1639 Awesome! You were a huge help. Thanks.
+1640 I need some tacos! Can you help me find a Mexican restaurant on the south side of the city?
+1641 Thank you very much for the information!
+1642 Yes, I'm also looking for a train leaving Cambridge after 20:30.
+1643 peterborough and I need to leave on Saturday after 20:30
+1644 Book it for 4 people, yes. I need the reference number too.
+1645 No that is it thank you.
+1646 I want to have some afghan food.
+1647 Is there any Chinese restaurants in the area?
+1648 Moderate price range
+1649 I don't care
+1650 Please give me their number, too.
+1651 what type of food do they serve ?
+1652 No thank you, goodbye.
+1653 I'd like to leave cambridge after 18:15 on Wednesday.
+1654 There is a restaurant called Eraina, I would like to book a table for 3 at 21:00?
+1655 For Wednesday, please.
+1656 How about 20:00?
+1657 No, that's all. Thank you very much.
+1658 Can you help me find a cheap african restaurant in the centre?
+1659 Yes can you check for italian please?
+1660 Sorry, I'm actually looking for moroccan food.
+1661 How about Portuguese?
+1662 Yes can you book a table for four please at 17:00?
+1663 What is the reference number for that reservation?
+1664 I apologize, I need an earlier reservation now for 7 people at 15:45 on Friday. Can you reschedule?
+1665 I could use a recommendation on a nightclub in the centre of town.
+1666 I'd like to stay around the restaurant.
+1667 Cheap price please.
+1668 Cheap price please.
+1669 I don't need a hotel. I'd just like a recommendation for a nightclub near the restaurant.
+1670 Do you know what the entrance fee is?
+1671 Great that is everything, I apologize for being so high maintenance, thanks for the help.
+1672 Hi, I need to find a hotel to stay at. It doesn't need to have wifi.
+1673 It needs to be a hotel and include free parking.
+1674 no but should include free parking
+1675 Yes please, I need 3 people for 3 nights starting saturday
+1676 That's all I need today, thank you.
+1677 Hello, I'm seeking a cheap restaurant.
+1678 I would like mediterranean food.
+1679 Great can I get the postcode and address?
+1680 Thank you, that's all I need today.
+1681 I am looking for a hotel that include free parking and has a 1 star rating.
+1682 Yes can you find guesthouses meeting that criteria?
+1683 Can you locate a cottage that offers what i am looking for.
+1684 Could you please try guesthouse, with free parking and a 4 star then?
+1685 Could find one in a moderate or cheap price range?
+1686 Yes go ahead and try that please.
+1687 for 8 people. Starting from Sunday for 4 nights, please.
+1688 Yes, please. In the same price range, if possible.
+1689 Yes please try to book that for me thank you.
+1690 Nope, that's all for me. Thanks for your help. Goodbye!
+1691 Is there a guesthouse nearby that is rated at least 4/5?
+1692 That sounds like what I'm looking for. Is it a guesthouse?
+1693 Yes, I will need accommodations for 7 people, for 5 nights. We want to check in Thursday.
+1694 Please try for two nights then at minimum from Thursday evening on. We need a guesthouse for 7 people, and I will need the reference number when booked. Thanks!
+1695 Now I will need to find a hotel for the remainder of my visit. Can you help with that?
+1696 Never mind. That will be all.
+1697 I am looking for a place to dine. The restaurant should serve african food and should be in the centre
+1698 First, what is the address please?
+1699 Thanks, what's the price range and phone number?
+1700 thanks for your help
+1701 I am looking for an Italian restaurant in the west part of town
+1702 I want the cheap one please
+1703 Yes, Please. I'd like it for 3 people at 6:45pm on Saturday.
+1704 Thank you for all your help. Have a great day.
+1705 I need help finding a book on italian food
+1706 I'm looking for parks in Cambridge can you help me?
+1707 No, area doesn't matter. What park would you recommend?
+1708 No just the postcode please.
+1709 Thanks. Could you help me find and expensive Indian restaurant perhaps?
+1710 book a table for 6 people at 12:00 on wednesday
+1711 Thank you that is all I need for now.
+1712 I am looking for lodging in the moderate price range with free parking.
+1713 Which ones have free parking and Wifi?
+1714 Yes. Book whatever is available.
+1715 There will be 7 people.
+1716 We are arriving on Tuesday and want to stay 2 nights.
+1717 Yes. I have heard great things about that guest house.
+1718 No, that's all I needed today. Thank you!
+1719 Can you help me find a place to stay in the south?
+1720 i would prefer 3 stars.
+1721 I'll take the hotel. Please book for 2 people starting on monday for 4 nights.
+1722 Thank you for your time that is all I needed today.
+1723 Hi, i am looking for a middle eastern restaurant in the expensive price range.
+1724 Yes, can we try a moderate price range.
+1725 Hmm, how about Italian? Expensive.
+1726 Nope! Could you pick your favorite and book a table for me? 2 people at 12:30 on Tuesday, please.
+1727 Awesome. Thanks for your assistance, that's all I need.
+1728 I'm looking for a restaurant called the copper kettle.
+1729 Yes I would like a table for 3 on tuesday at 15:15.
+1730 Can you find me another place in the same area and price range?
+1731 That is all thank you.
+1732 Can you please help me find guesthouses that offer free parking in Cambridge?
+1733 I need it to include free wifi please.
+1734 No matter. Could you make a recommendation? I will need a room for 1, for 5 nights starting Sunday.
+1735 Yes, I'm looking for an expensive Chinese restaurant.
+1736 Yes, I'm looking for an expensive Chinese restaurant.
+1737 No, but I need the address.
+1738 No, but I need the address.
+1739 I want to book a taxi to commute between the two places.
+1740 I want to book a taxi to commute between the two places.
+1741 I want to leave the hotel by 19:00.
+1742 I want to leave the hotel by 19:00.
+1743 No thanks, have a good day.
+1744 No thanks, have a good day.
+1745 no am ok, thanks
+1746 no am ok, thanks
+1747 Thank you, that was all I needed.
+1748 Thank you, that was all I needed.
+1749 Thank you. You've been a big help. Good-bye.
+1750 Thank you. You've been a big help. Good-bye.
+1751 Know any good bites around here?
+1752 I would like to dine in the south, preferably Chinese and expensive.
+1753 Can I just get the address for the Peking Restaurant?
+1754 Nope, that'll do it. I'm going to go eat! Thanks for your help!
+1755 I am traveling to Cambridge and looking for a restaurant in the cheap price range in the cente.
+1756 Lets try rice house.
+1757 Actually can you check for a place that serves Vietnamese food?
+1758 No problem. How about indian food?
+1759 Please book for 8 people. Friday at 18:45. Reference number, please.
+1760 I also need a train to bishop's stortford.
+1761 Yes, I would prefer train and would like to arrive by 09:45 on saturday.
+1762 Yes it sure will, what are the times you've got on those two?
+1763 I would like to book the train arriving at 8:07 for 8 people. Can you do that? I will need the reference number.
+1764 Yes that would work, please book for my party.
+1765 Thank you so much, that should be it!
+1766 I'm interested in places that you can get a 1-star room for the night.
+1767 The hotel should be in the cheap price range and should include free wifi.
+1768 Is it a 4 star place?
+1769 Sure, please book it for 4 people for 5 nights from saturday.
+1770 Thank you for your help.
+1771 No, I am done for the day. Thanks again. Bye!
+1772 Perfect. I am also looking for a hotel in the south side.
+1773 No, but I want something 4-star that offers free wifi.
+1774 I do not want to book yet, just gathering information. What is the postcode?
+1775 Yes can you book me a taxi to go from the hotel to the pool?
+1776 I need to leave the hotel by 6:00, need the contact # and car type please
+1777 Thank you, that was quick. That is all I need, thanks for your help.
+1778 I need a place in the centre that serves african food.
+1779 What is the price range?
+1780 No thanks what is their postcode though?
+1781 Yes, I am also looking for a museum in the same area as the restaurant.
+1782 Thanks for the good suggestion. What is the postcode for Primavera?
+1783 No, that's everything I needed.
+1784 Could you help me locate a restaurant in the east area of town?
+1785 I am interested in an expensive restaurant. See what's available, and maybe I can choose from there.
+1786 Italian would be great. I also need a train to Cambridge that arrives on Tuesday by 15:30.
+1787 any expensive restaurant will suffice. Reserve it for 8 people at 18:30 on tuesday and I'll need the reservation number please.
+1788 I also need a train to Cambridge departing from Stevenage.
+1789 I'll be traveling Tuesday, and need it booked for 8. Could I also get the reference number for that as well?
+1790 Anytime would be great, I'd like to book it for the same number of people as my restaurant.
+1791 Reference number is IAYFJ8SI, that will be all
+1792 I need an expensive place to stay.
+1793 Please look in the centre of town.
+1794 I don't have a star rating preference but it needs to have free wifi.
+1795 Yes can you please book four nights starting thursday
+1796 I will need you to make that reservation and provide a reference number.
+1797 Actually I changed my mind just 2 nights for 5 people
+1798 Yes, I need the postcode for Bangkok city restaurant please.
+1799 Yes, I need the postcode for Bangkok city restaurant please.
+1800 No, thanks, but I will be needing a taxi.
+1801 No, thanks, but I will be needing a taxi.
+1802 Nee to go from the hotel and the restaurant. I should leave by 2:15.
+1803 Nee to go from the hotel and the restaurant. I should leave by 2:15.
+1804 Thank you so much. That's all I need today.
+1805 Thank you so much. That's all I need today.
+1806 Hello, I am looking for a guest house.
+1807 I need one in Cambridge and I would like a 4 star rating.
+1808 I need a place with free parking.
+1809 I have no particular preference on price range.
+1810 That doesn't matter. I just need the price range, address, and postcode. You pick the type.
+1811 Thanks. Could you tell me what kind of food the Peking Restaurant serves?
+1812 Thanks. Could you tell me what kind of food the Peking Restaurant serves?
+1813 Thank you for your help. That's all I need for now!
+1814 Thank you for your help. That's all I need for now!
+1815 Thank you, goodnight.
+1816 Thank you, goodnight.
+1817 Where can I find a moderately priced restaurant that serves European food?
+1818 I would prefer the centre of town.
+1819 can you book a table for 3 on monday at 18:45
+1820 Thank you. I need to find a train from Cambridge to Birmingham New Street leaving on Tuesday and I need it to arrive by 12:45.
+1821 That sounds perfect. Could you book it for the same group of people, please?
+1822 You are great thanks !
+1823 That is everything that I need.
+1824 Is there a latin american restaurant in the center?
+1825 sure, what else is there?
+1826 how about latin american food?
+1827 Why don't we try for lebanese food instead
+1828 Yes, please. There will be 3 of us for Tuesday at 13:30.
+1829 Of course I'll need that.
+1830 that is it. thanks
+1831 Does that train leave on Wednesday and go to Cambridge?
+1832 I'm also looking for a expensive indian restaurant.
+1833 I would like it in the west please.
+1834 No, just pick one and book it and provide me with the reference number please.
+1835 Just a table for 1 at 18:45 on Wednesday please
+1836 That's great you've been a big help.
+1837 I'm looking for an expensive restaurant in the centre please.
+1838 I think Chinese sounds good, are there any of those in the centre?
+1839 yes please, book a table for 8 people at 19:30 on thursday
+1840 I am also trying to find places to go for entertainment. Can you please help me?
+1841 Could you give me the area, address, and entrance fee fo the Funky Fun House?
+1842 I'm actually all set now, thanks so much! Take care now!
+1843 I can't find a restaurant I am looking for.
+1844 The good luck Chinese takeaway.
+1845 Yes please. Book a table for my party of 8 for 12:45 on Monday.
+1846 Yes please. Book a table for my party of 8 for 12:45 on Monday.
+1847 Yes, I am also looking for a hotel named kirkwood house.
+1848 Yes, I am also looking for a hotel named kirkwood house.
+1849 Yes please for 5 people for 5 nights from Monday please.
+1850 Yes please for 5 people for 5 nights from Monday please.
+1851 I also need a taxi between the two places.
+1852 I also need a taxi between the two places.
+1853 I want to arrive in time for my lunch reservation.
+1854 I want to arrive in time for my lunch reservation.
+1855 No, that's all I needed. Thank you for your help, it's much appreciated!
+1856 No, that's all I needed. Thank you for your help, it's much appreciated!
+1857 Hello, I'd like some information on a train departing from Cambridge on sunday that leaves after 18:15.
+1858 I would like to dine at an expensive restaurant.
+1859 I would like Indian food please.
+1860 Yes, I would like the east area please.
+1861 Yes go ahead an book it. Could I get the reference number please?
+1862 There will be three of us dining on Sunday at 12:15.
+1863 Thank you for your help. thats all i need today.
+1864 I am looking for a cheap local restaurant located in the centre of town
+1865 I am looking for one that serves Spanish food
+1866 Would you please book a table for 4 people at 15:30 on Saturday?
+1867 Yes, I am also looking for a college to visit in the center of town.
+1868 I don't care, but could you make me a suggestion but tell me the entrance fee along with their address and postcode?
+1869 Thank you for your help.
+1870 No, thank you very much for this!
+1871 I'm also looking to eat at a restaurant called graffiti.
+1872 No thanks, I just need the address please.
+1873 I am looking for the address for graffiti
+1874 No, that will be all. Thank you!
+1875 What about a museum in the centre of town?
+1876 I'd also like a guesthouse with 0 stars. I don't need wifi or parking but should be in same area as attraction. Can you help with that?
+1877 Yes, that sounds great. Thank you.
+1878 I need the hotel to be booked for 4 people for 5 nights starting on Wednesday. Is this possible?
+1879 Great, thanks so much for all your help. Have a good day!
+1880 I'm coming to Cambridge to visit, and I'd like to try some Chinese food in the centre. Can you help me, please?
+1881 I would like a restaurant in the moderate price range.
+1882 I don't need a reservation right now, but if you could give me the phone number, postcode, and address, that would be great.
+1883 I am interested in some attractions in the centre as well. What is there?
+1884 Can you recommend a theatre?
+1885 Sure. What is the postcode?
+1886 Yes, could you help me book a taxi from Jinling noodle bar to ADC please? I would like it to arrive at the restaurant by 10:45.
+1887 Great, that is everything I needed. Thanks!
+1888 Sure. No problem. Bye now.
+1889 I am also looking for a guesthouse.
+1890 I definitely need free parking also, please.
+1891 I want it to be 4 stars and moderately priced
+1892 No, not right now but do you have their address handy?
+1893 No thank you. I appreciate all you have done to help me.
+1894 Of course I will. Thank you also.
+1895 Hi, I'm looking for upscale hotels in the north part of Cambridge. Are there any that also include free parking?
+1896 Does it include free wifi?
+1897 Can you book it for 6 people staying 5 nights starting on saturday? I'll need the reference number as well.
+1898 thanks!
+1899 Yes. Can you also tell me if there is a park in the North by the hotel?
+1900 Great! May I have the address and phone number?
+1901 No, I think that's everything. Thanks for the info.
+1902 I'm looking for a restaurant in the west in the expensive range.
+1903 I don't really have a preference. I think I'd like to try something new.
+1904 Yes, could you book a table for 1 at 11:30 on thursday?
+1905 im looking also for a place to go still in the west
+1906 How about a museum? What kind are there?
+1907 What is the postcode?
+1908 No that is it. Thank you.
+1909 I am looking for a restaurant in the centre that serves indian food.
+1910 as cheap as possible
+1911 ok lets try the gandhi, a table for 4 on sat at 14:15, and I need the reference number
+1912 I'm also looking for a train that leaves London Kings Cross on Saturday and arrives in Cambridge by 09:45.
+1913 Would it be possible to book that train for 4 people?
+1914 Thanks, that's all I needed today!
+1915 I'm also looking for a expensive restaurant in the north.
+1916 Choose your favorite. I do need an address and post code, please.
+1917 The Hotpot sounds great! Can you please make a reservation for Friday for 2 people at 8 pm?
+1918 Yes please, thank you for your help. The reference number will come in handy.
+1919 Alright, thank you, I think that will be all for today.
+1920 Again, thanks for all of your help today. Good bye.
+1921 I need the phone number of a restaurant in the west part of town that serves italian ood.
+1922 Thank you, goodbye.
+1923 Hi there. I was wondering if you could provide some information on the Bridge Guest House hotel.
+1924 Sounds good. Could you book me a room for 5 nights, starting Sunday? There will be six of us.
+1925 Is it available on Monday?
+1926 Would 3 nights starting Sunday work?
+1927 Thank You. I also need a train from Cambridge on Wednesday.
+1928 I need to arrive in Stevenage by 09:45 on wednesday
+1929 I would like the one that arrives at 8:10. Could you book it for 6 people?
+1930 Nothing else. Thank you for your help
+1931 I need a restaurant in Cambridge that has international food and a moderate price range please.
+1932 Yes please make me a reservation at the Bloomsbury for 2 people at 19:30 on Thursday.
+1933 Yes please make me a reservation at the Bloomsbury for 2 people at 19:30 on Thursday.
+1934 How about 18:30 instead? Does that work?
+1935 I am also looking for a place to stay. Are there any 5 star hotels that include free parking?
+1936 I am also looking for a place to stay. Are there any 5 star hotels that include free parking?
+1937 Yes please, but it definitely needs to be a hotel, not a guesthouse.
+1938 Yes please, but it definitely needs to be a hotel, not a guesthouse.
+1939 Yes, that would be great. I also need the reference number for the Bloomsbury booking please.
+1940 Yes, that would be great. I also need the reference number for the Bloomsbury booking please.
+1941 Thank you so much.
+1942 Thank you so much.
+1943 I would like to book The Huntingdon Marriott on Thursday for 5 nights for the same 2 people. If it is not available, please book another one.
+1944 I would like to book The Huntingdon Marriott on Thursday for 5 nights for the same 2 people. If it is not available, please book another one.
+1945 Do they have a booking for one day?
+1946 Do they have a booking for one day?
+1947 I'm also in need of a taxi to commute between the locations, can you find me one?
+1948 I'm also in need of a taxi to commute between the locations, can you find me one?
+1949 I'd like the taxi to pick me up from the hotel. I need to be at the restaurant at 18:30.
+1950 I'd like the taxi to pick me up from the hotel. I need to be at the restaurant at 18:30.
+1951 No, thank you for your help.
+1952 No, thank you for your help.
+1953 Can you help me find and expensive restaurant in the west?
+1954 I would like to eat at an indian restaurant please.
+1955 Yes, please choose one and book it for 6 people at 13:30 on Thursday.
+1956 No, that's it for today. Thank you for all your help. Good bye.
+1957 I need a place to grab a bite to eat today in Cambridge.
+1958 I would like a "chinese bite".
+1959 Yes, I am looking for expensive Chinese food in the South.
+1960 Can you book me a table at The Peking Restaurant for 4 people at 11:30 on Friday.
+1961 I'm also interested in visiting Sidney Sussex college.
+1962 No, that is all I needed to know. Thank you.
+1963 I'm looking for a cheap restaurant. Can you help?
+1964 I'm looking for a cheap restaurant. Can you help?
+1965 I don't have a preference. Just need it to be cheap and in the south.
+1966 I don't have a preference. Just need it to be cheap and in the south.
+1967 please get me their address.
+1968 Yes, I need a place to stay, a guesthouse please.
+1969 Yes, I need a place to stay, a guesthouse please.
+1970 I'm looking for something in Cambridge, probably in the south as well, but it's not necessary.
+1971 I'm looking for something in Cambridge, probably in the south as well, but it's not necessary.
+1972 Is Bridge Guest House in the south? If so, I will also need a taxi to take me from the restaurant to the guesthouse.
+1973 Is Bridge Guest House in the south? If so, I will also need a taxi to take me from the restaurant to the guesthouse.
+1974 What is the star of that hotel? The address, including area of town too.
+1975 What is the star of that hotel? The address, including area of town too.
+1976 Great, thanks. Can you also help me get a taxi from the restaurant?
+1977 Great, thanks. Can you also help me get a taxi from the restaurant?
+1978 Thanks! I don't care, I just want to leave at 06:45, please.
+1979 Thanks! I don't care, I just want to leave at 06:45, please.
+1980 Thanks that's all I need.
+1981 Thanks that's all I need.
+1982 Thanks again, goodbye.
+1983 Thanks again, goodbye.
+1984 I'm looking for a restaurant in centre.
+1985 I am really in the mood for Italian food tonight. Something expensive!
+1986 Yes. What is the address and phone number of that place?
+1987 Not at this time. I also need a train going from Cambridge to Kings Lynn.
+1988 I don't have a preference on what time to leave, however, I do need to be there by 08:00.
+1989 I'll be leaving on Monday.
+1990 That would be excellent. Could you also give me the travel time once you book it for me?
+1991 actually, i think i will book it later. thanks though. goodbye.
+1992 I'm looking for a certain hotel called the cityroomz. Can you tell me more about it?
+1993 Yes thanks. There will be 2 of us arriving for 5 nights on Sunday.
+1994 Yes thanks. There will be 2 of us arriving for 5 nights on Sunday.
+1995 I need the reference number please.
+1996 Yes I need to find a restaurant serving Irish food in the center of town that is expensive.
+1997 Yes I need to find a restaurant serving Irish food in the center of town that is expensive.
+1998 Aww, that's a bummer. I was really wanting Irish food. How about Indian food? I could go for some good curry.
+1999 Aww, that's a bummer. I was really wanting Irish food. How about Indian food? I could go for some good curry.
+2000 That sounds great. Can you book a table for 2 Sunday at 15:00?
+2001 That sounds great. Can you book a table for 2 Sunday at 15:00?
+2002 I also need a taxi to take me from the hotel to the restaurant. I need it to arrive by the booking time.
+2003 I also need a taxi to take me from the hotel to the restaurant. I need it to arrive by the booking time.
+2004 Yes, thank you, that will be all.
+2005 Yes, thank you, that will be all.
+2006 Hello, I am looking for a train that leaves on Friday after 10:00.
+2007 Yes, I need some information on rosa's bed and breakfast.
+2008 Hi I am looking for a hotel called limehouse.
+2009 Can I book a room starting sunday for 4 nights and seven people?
+2010 Yes, would you try to book it for three nights?
+2011 Thank you. Can you book us a train that gets there by 13:15?
+2012 I am looking to go to cambrige and arrive by 13:15, and want to go on sunday, it should depart from kings lynn.
+2013 That's okay I guess, but is there any later train? We're not early birds.
+2014 That's much better, thank you. I'll need tickets for 7.
+2015 Thank you so much. I think that did it for today. Have a great one!
+2016 A cheap jamaican restaurant, please. If you cannot find one, then mediterranean.
+2017 Okay what is the phone number and postcode of that mediterranean place?
+2018 Thank You
+2019 Could you tell me if Cambridge has any expensive Austrian restaurants?
+2020 Are you sure there's no expensive Austrian food in the north? It's what I'm really set on.
+2021 Could you look for something Chinese with the same criteria?
+2022 That sounds good - can you book a table for 8 at 12:00 on Thursday, please?
+2023 I am also looking for a boat in the North of town.
+2024 Please tell me the postcode
+2025 That is all. Thank you for your help.
+2026 I'm looking for and expensive restaurant in the east part of town. Ask for address, phone number and type of food.
+2027 thank you goodbye
+2028 I want to find a moderately priced restaurant in the west part of town. What is the address?
+2029 Thank you. Goodbye.
+2030 I am looking for a moderate priced restaurant while I am visiting.
+2031 Yeah, I'd like to stay in the centre of town.
+2032 Thank you! I don't care what kind of cuisine they serve.
+2033 Sure could I get the phone number to Jinling Noodle Bar?
+2034 i am also looking for places to go in town.
+2035 An entertainment venue, I think. Near the restaurant, if possible.
+2036 No, let's try a college instead. What do you recommend?
+2037 Thanks, I also need a taxi between the two places and arrive to the retaurant at 14:45.
+2038 Okay, great. Thank you for your help!
+2039 Uh, you already did. That was all I needed today. Goodbye.
+2040 I am looking for a place called stazione restaurant and coffee bar. Can you help me?
+2041 Yes. I would like to book a table for 7 on saturday at 11:15 please. And I'll need a reference number.
+2042 Yes, I'm looking for information on an attraction called the cambridge corn exchange.
+2043 Yes, I'm just curious of the entrance fee.
+2044 I also need a taxi between the two places, I need to arrive by at the restaurant 11:15.
+2045 No, that's all. Thank you, goodbye.
+2046 I'm looking for a hotel room. Can you help me find one?
+2047 I would prefer a guesthouse in the cheap price range.
+2048 The area does not matter.
+2049 Yes. Book for 7 people for 2 nights starting on Wednesday.
+2050 Yes, I would like to book a train from cambridge to stansted airport please.
+2051 I will be travelling on Wednesday.
+2052 I'd like to arrive by 14:15 and would like to book on the same day as the hotel booking, please.
+2053 Yes, please. I need 7 tickets.
+2054 Thank you. That is all that I need.
+2055 I am looking for a hotel called finches bed and breakfast.
+2056 Yes I am, I need a reservation for 6 people for 3 nights starting on Wednesday.
+2057 Is there anything open for just 1 night?
+2058 Great, that's all I need today. Thank you for your help!
+2059 I'm looking for a moderately priced place to eat in the North please
+2060 I would prefer the Indian restaurant please.
+2061 Yes. Can you book for 8 people at 19:15 on Monday?
+2062 I also need to get a train.
+2063 I want the train from birmingham new street to arrive in cambridge by 09:30. I plan to travel on monday. Please provide me with the travel time for this trip
+2064 Get the earliest one, please.
+2065 Yes I would like to book, for 8 people.
+2066 Thank you for all of your help!
+2067 I want to find a hotel located in the west please.
+2068 Yes please. I would like for it to include free wifi.
+2069 I want the most expensive one.
+2070 Yes, can you please book me a room for 4 people for 5 nights starting Saturday.
+2071 Yes. I am looking to go to london Kings cross on thursday via train. Is this something you can assist with?
+2072 I will be departing from Cabridge.
+2073 I need the train to leave after 16:45.
+2074 Sure. What is the cost and what time will it arrive?
+2075 thankyou so much
+2076 I am looking for a place to stay. The hotel should be in the expensive price range and should be in the type of guesthouse
+2077 Well I'm really looking for that expensive guesthouse type. How about something in the north with free parking included?
+2078 how about something in the moderate price range?
+2079 Sure, please make a reservation for 2 people 2 nights starting on thursday.
+2080 Can we make it 1 night then?
+2081 Thank you for assisting me with that. I won't need anything else today.
+2082 I am looking for information on places to stay in Cambridge.
+2083 I need free parking, free wifi, and something moderately priced, please.
+2084 Can you find a guesthouse for me?
+2085 No preference I also need a train leaving on wednesday and should depart from cambridge.
+2086 Birmingham new street
+2087 I would like to leave after 10:45 to birmingham new street.
+2088 Yes,please book this trip!
+2089 Yes, I'm traveling alone, so just one ticket. Don't forget to find me a guesthouse to stay in, as well!
+2090 Can I get the price and travel time for the train?
+2091 I still need the price and travel time for train TR2694. For the guesthouse, I need the address and number of stars for a moderate guesthouse with wifi and parking.
+2092 I was still needing the address and number of stars for a moderately priced guesthouse with free wifi and parking.
+2093 That works! Please book it!
+2094 How many stars is Acorn Guesthouse, and what is its address?
+2095 No, don't book it. Can you look for a train that leaves Cambridge on Wednesday?
+2096 That sounds good. What is the train ID number? I also need the price and travel time.
+2097 Thanks, that's all I need today. Goodbye!
+2098 I need a place to stay.
+2099 I need something in the south and free parking.
+2100 Can you tell me what their star rating is?
+2101 yes, 7 people 4 nights starting Wednesday.
+2102 How about just 2 nights instead?
+2103 thats it, thanks!
+2104 Yes, can you help me with my hotel plans?
+2105 I want to stay in Cambridge and I need a cheap hotel.
+2106 I prefer a hotel. Preferably one with free parking.
+2107 I would like to be in the center.
+2108 After rethinking some things, I actually would like an expensive hotel in the centre. I'd still like free parking as well. Are any available?
+2109 That's lovely. We also require lodging. Could you help find a guesthouse with free parking?
+2110 It doesn't matter, we will also need wifi, and will be staying for 2 nights, starting on Monday.
+2111 That sounds great. Can you go ahead and book it for me?
+2112 Thanks so much! I'm all finished now, goodbye!
+2113 I'm looking for a place to stay, do you have any suggestions?
+2114 I'm a sophisticated man. I will only consider expensive guesthouses.
+2115 I would like to make sure it has free wifi.
+2116 Yes can you please?
+2117 monday and for 5 nights for 4 people.
+2118 We need a place to go in town. Can you help?
+2119 I'm looking for a place to go in the east, entertainment type.
+2120 Sounds great. I'd love to know the postcode, phone number, and address for that attraction if you wouldn't mind.
+2121 Yes, can you help me book a taxi?
+2122 Yes, I want to depart Cherry Hinton Hall and Grounds by 16:00. I will be going to the hotel.
+2123 You just reserved the Gonville hotel for me. That's where I'd like to go.
+2124 No thank you that will be all.
+2125 Thank you. Goodbye.
+2126 Yes, I'm looking to book the hotel El Shadai starting on Thursday for 8 people and 4 nights.
+2127 No. I think that's all. Good day. Bye.
+2128 I'm also looking for a place to eat. I don't mind where, but I want an expensive chinese place.
+2129 A recommendation would be fine. Can I get the area they're in and post code?
+2130 I'd also like to book a taxi between the two places. I'd like to leave the restaurant by 2:30
+2131 Thank you. That's all I needed.
+2132 Hi, this is a two-fer. I need to find a hotel that offers both free wifi and free parking
+2133 Yes, it needs to be cheap with 0 stars!
+2134 what type of hotels are they?
+2135 Which one do you suggest?
+2136 Ok great. What is the postcode and what area is it in?
+2137 I am also looking for a particular restaurant.
+2138 I am also looking for a particular restaurant.
+2139 Yes, it's called Graffiti.
+2140 Yes, it's called Graffiti.
+2141 i want to know the food type and area
+2142 i want to know the food type and area
+2143 Thank you! That is all I need!
+2144 Thank you! That is all I need!
+2145 I am looking for an expensive restaurant that serves Persian food.
+2146 How about a restaurant that serves European food?
+2147 The area doesn't matter.
+2148 Yes please. And the address as well.
+2149 Thank you goodbye.
+2150 I'm looking for a guesthouse to stay in that's moderately priced.
+2151 It doesn't really matter, I'm not familiar with the town. I just need free WiFi and free parking.
+2152 That's what I need. Will you book acorn guest house for me starting Wednesday for 7 people, please.
+2153 Can you try again, please? I never told you how many nights we need. We'd like to arrive Wednesday and stay for 5 nights. We're a party of 7.
+2154 Yes, I need a train to get me to Cambridge. I'm coming from Broxbourne.
+2155 I'd like to arrive by 14:15.
+2156 How long will I be on the train?
+2157 Yes, so to clarify, what time will that train be departing?
+2158 No, thank you. The information was all I needed for today.
+2159 I am looking for an expensive restaurant for us to eat at. Some place nice.
+2160 I was thinking of having caribbean food
+2161 how about indian. yummy !
+2162 Sure! I need a table for just me on Tuesday at 16:45, please.
+2163 I'm also looking for places to go in the city centre.
+2164 It should be in the same area as the restaurant.
+2165 Lets pay, this trip is a business write off, so money is no object, Ill take the 2 pound entrance fee.
+2166 That sounds good. Can you give me the address, postcode, and phone number please?
+2167 No, thank you. I think I have everything I need at this time.
+2168 I need a place to eat that serves north indian food.
+2169 No thank you. Can you please search for Japanese food instead?
+2170 i wish to book a table for 5 people at 16:15 on teusday
+2171 Great. I also need to find a train going to cambridge for the same day.
+2172 I need a train from Cambridge by no later then 10:45 for five people please. May I have the confirmation number for that please?
+2173 Great, thank you so much for your help. Goodbye!
+2174 Are there any guest houses currently available iin the moderately priced range?
+2175 yes I would like to be in the north with the same requirements, thank you
+2176 It really doesn't matter but I'll need to know if the particular hotel has free parking and internet please.
+2177 I will hold off on the booking for now but thank you. I am also looking for a particular restaurant called stazione restaurant and coffee bar. Can you give me details?
+2178 I will hold off on the booking for now but thank you. I am also looking for a particular restaurant called stazione restaurant and coffee bar. Can you give me details?
+2179 Can you book a table for four on Thursday at 16:00?
+2180 Can you book a table for four on Thursday at 16:00?
+2181 Thank you for all your help.
+2182 Thank you for all your help.
+2183 Are there any places that offer rooms in the north that also give free wifi, or do you have to go to other parts of town for that?
+2184 The hotel should include free wifi
+2185 The hotel should have a star of 3 and doesn't need to have free parking.
+2186 Perfect. What's the price range and postcode?
+2187 Thank you, that will be all. good bye.
+2188 Hello, I'd like some information about a hotel called the hamilton lodge, please.
+2189 Not today I was just looking for information. Thank you though for your help.
+2190 I am also looking for a train leaving from Cambridge anytime after 17:00. Can you help me with that?
+2191 I need the train to leave Cambridge after 17:00 on Wednesday heading to Kings Lynn.
+2192 What is the cost and trainID for the 17:11 train?
+2193 No thank you, I'll take care of it myself. I think that'll be all for tonight.
+2194 i want information about sesame restaurant and bar.
+2195 Thanks. That's what I needed.
+2196 Yes, I'd like to find a theatre near centre, too.
+2197 Can I also get their phone number and postcode?
+2198 Need a taxi from the restaurant to the theater, I want to leave the restaurant by 06:15
+2199 No thank you. That is all that I needed.
+2200 I am looking for a moderately priced hotel with free parking.
+2201 No, but I would like a 4-star guesthouse.
+2202 That sounds good. Yes, please book it for 2 nights starting on Tuesday.
+2203 3 people only.
+2204 That is all. Thank you for your help.
+2205 I need a restaurant in the town's centre
+2206 I need a restaurant in the town's centre
+2207 Yes i am looking for one that serves molecular gastronomy.
+2208 How about any Italian restaurants in the same area?
+2209 Show me the one you think is best. I will need the postcode, phone number and price range for it.
+2210 I also need a place to stay in the Centre, free parking as well.
+2211 I also need a place to stay in the Centre, free parking as well.
+2212 I would like a cheap option please.
+2213 I would like a cheap option please.
+2214 Possibly, do they have free wifi?
+2215 Possibly, do they have free wifi?
+2216 Great, I would like a reservation for 1, 3 nights starting from Wednesday. If that fails, then Friday and the reference number.
+2217 Great, I would like a reservation for 1, 3 nights starting from Wednesday. If that fails, then Friday and the reference number.
+2218 Thank you! Have a great day!
+2219 Thank you! Have a great day!
+2220 Thank for calling.
+2221 Thank for calling.
+2222 No. The restaurant and lodging are all. Thank you, again. Goodbye.
+2223 No. The restaurant and lodging are all. Thank you, again. Goodbye.
+2224 Great, that's helpful, thanks. Can you also help us find a hotel? We'd like to stay on the west side, and we really dislike guesthouses. What can you recommend?
+2225 I would prefer the cheaper one. Can you tell me if they offer free parking?
+2226 I'm not quite sure yet, could I get the address there please?
+2227 Yes, I need you to go ahead and book that for me. I would like to stay for two nights starting on Sunday.
+2228 Actually, just send me the address. Thank you.
+2229 No, thank you. That is everything I needed.
+2230 I need the address and postcode of a cheap restaurant on the north side of town.
+2231 Than you.
+2232 I need a train leaving from Kings Lynn on Tuesday.
+2233 book for 3 people. also find me a restaurant in the central that serves traditional food
+2234 Yes, I am looking for a restaurant in the centre that serves traditional food.
+2235 I would like a mexican food restaurant nearby also.
+2236 I like italian also. Are there any in that area?
+2237 No. I don't. Can I book a table for the same 3 people at 18:45?
+2238 How about Italian food?
+2239 Tuesday, 3 people, 18:45pm, italian, not mexican, please book and give me a name and confirmation number.
+2240 Great! Thanks for all your help!
+2241 That's all I needed today. Thank you! Bye!
+2242 please fid me a place to go in the centre
+2243 I would like to visit a nightclub in the centre. Can you provide me with entrance fee info and postcode?
+2244 Perfect, thank you. I'm also looking for information on hotels in the centre that have free wifi. Could you recommend one?
+2245 Any will do. Whichever one you recommend.
+2246 As long as this is a hotel, it sounds great. Can you give me the address?
+2247 Yes. If you read the conversation above, you'll notice my second request was for a hotel. I'd like one in the same area of the nightclub.
+2248 I just need their address please.
+2249 Thanks, I also need a taxi to get between the hotel and the club.
+2250 I want to leave the club by 02:15.
+2251 That is all I will be needing today. Thanks.
+2252 I'm looking for a moderate priced place to dine in the centre of town
+2253 I'm looking for a moderate priced place to dine in the centre of town
+2254 How about Chinese food?
+2255 That sounds great! Can you see if there's a table for 3 available at 16:00 on Monday?
+2256 That sounds great! Can you see if there's a table for 3 available at 16:00 on Monday?
+2257 Great. i also need to find a place to stay in the same price range as the restaurant and I am looking for a hotel.
+2258 Great. i also need to find a place to stay in the same price range as the restaurant and I am looking for a hotel.
+2259 Yes, please, so moderately priced hotel in the centre.
+2260 Yes, please, so moderately priced hotel in the centre.
+2261 Great, we need that booked as well starting monday for 5 nights.
+2262 Great, we need that booked as well starting monday for 5 nights.
+2263 Yes, I need a booking for 3 people.
+2264 Yes, I need a booking for 3 people.
+2265 I also need a taxi.
+2266 I also need a taxi.
+2267 No you have been great! Thank you for all your help.
+2268 No you have been great! Thank you for all your help.
+2269 I also need a place to stay
+2270 The attraction should be in the type of museum. I don't care about the price range or the area
+2271 That museum from earlier is fine, I just need their postalcode. I need a hotel two in the west and moderately priced.
+2272 Do they have internet?
+2273 No thanks. I will do that later. Can you please arrange for taxi service from Cafe Jello to Hobson's House sometime after 04:00?
+2274 Well that you that is all i need for today
+2275 i am looking for a place to dine. The restaurant should be in the cheap price range and should be in the west part of town.
+2276 How about the Italian one? Book for 1 people at 13:00 on saturday. reference number please?
+2277 Thanks so much. I also need info on magdalene college
+2278 May I have their postcode as well?
+2279 Yes, i also need a taxi between the two places.
+2280 I would like to arrive by 5:30, if that would be possible.
+2281 No thank you so much for all of your help
+2282 I want something cheap in the west part of town.
+2283 I don't care.
+2284 I would like the phone number and address for La Margherita please.
+2285 Thank you, goodbye.
+2286 I am also looking for a hotel called Leverton House. Do you have any information on it?
+2287 Yes, could you book me a room for 4 nights starting on Tuesday. There will be 5 of us staying there.
+2288 That's all I needed. Thank you!
+2289 I want information on a particular hotel called home from home. Can you send me what you have on that?
+2290 Please book it for 6 people for 2 nights starting on Wednesday.
+2291 I am also looking for a train. Can you help me?
+2292 We are departing from cambridge on friday going to kings lynn. Arrival time should be around 09:00. Please book 6 seats.
+2293 okay thank you! What is the travel time on that?
+2294 No, Friday works for me.
+2295 No thanks that is all I need.
+2296 I'm looking for a moderate place to dine in the south. Do you have any recommendations?
+2297 I think modern European sounds good. Can you book me a table for 7 people at 19:45 on a Friday?
+2298 Can you find me another restaurant then, just so its in the south with a moderate price range. I need a table for 7 Friday at 19:45.
+2299 Would you check the moderately priced Italian restaurant in the south please?
+2300 Could I please get the reference number for the booking?
+2301 Yes, I'm also looking for some interesting architecture in town.
+2302 that sounds interesting, im also looking for a restaurant
+2303 Yes, a taxi please! I need to get from the church to the restaurant by 19:45. Gotta make sure I get there for that reservation!
+2304 Thank you so much!
+2305 Would you be able to tell me where to find a moderately priced, Halal restaurant?
+2306 How about British food?
+2307 i don't care about the location. which one would you recommend?
+2308 yes please book me a table thank you
+2309 I need a table for 1 on tuesday at 14:45.
+2310 Are there any good architecture places in the west?
+2311 How about a museum?
+2312 I'd like the phone number and address, please.
+2313 no thanks
+2314 Ok, I'm also looking for a cheap place to grab some food. Maybe carribean?
+2315 Hmmm how about Italian then
+2316 I just want a cheap italian place. Choose one you recommend for me. Then I need help reserving it.
+2317 6 on Thursday at 16:45 please
+2318 I will also need a taxi.
+2319 Old schools to the restaurant.
+2320 I would like to make sure the taxi arrives at the restaurant by my 16:45 reservation.
+2321 Thank you for your help today, I do not need anything else.
+2322 I don't know if you've heard of it but can you please get me some information on the la tasca restaurant?
+2323 Great! will you please book that for 2 people at 17:30 on Sunday?
+2324 Great! will you please book that for 2 people at 17:30 on Sunday?
+2325 thank you for helping
+2326 I need a place to stay, a hotel in the north. Preferably in the guesthouse category
+2327 I need a place to stay, a hotel in the north. Preferably in the guesthouse category
+2328 Does that include wifi? I don't want it to be too expensive.
+2329 Does that include wifi? I don't want it to be too expensive.
+2330 I would like to book the Acorn for 2 people for 5 nights starting Sunday.
+2331 I would like to book the Acorn for 2 people for 5 nights starting Sunday.
+2332 I also need a taxi from my room to the restaurants by the time of my reservation.
+2333 I also need a taxi from my room to the restaurants by the time of my reservation.
+2334 No that was everything, thank you!
+2335 No that was everything, thank you!
+2336 Perfect. Thanks for that info. Now please find me a restaurant that serves crossover food in the centre
+2337 How about one that serves Chinese food?
+2338 ok, what's the phone number for ugly duckling?
+2339 i would like the address please.
+2340 What is the postcode for that address, please?
+2341 Thank you for all your research--you saved me time. Great service. Goodbye.
+2342 I'm looking for a hotel that includes free wifi and free parking.
+2343 I would like a hotel in the centre and it should be in the cheap price range.
+2344 Yes, that would be fine. What are the names of the two guesthouses?
+2345 What star ratings are they?
+2346 I am looking for an expensive restaurant that serves Korean food. I would like the address and area, please.
+2347 Thank You.
+2348 Thank you, goodbye.
+2349 Can you also look up the Alexander Bed and Breakfast for me?
+2350 No thanks. I may be back in touch though!
+2351 I'm also looking for a place to stay in, preferably something 0 stars.
+2352 I prefer something in the cheap price range.
+2353 Let me think about it.
+2354 I'm looking for a restaurant called little seoul?
+2355 Can you book it for me for 7 people at 11:15 on Saturday and get a reference number ?
+2356 Can you book it for me for 7 people at 11:15 on Saturday and get a reference number ?
+2357 Thank you! I'm also looking for information on a hotel called Huntington Marriott Hotel please.
+2358 Thank you! I'm also looking for information on a hotel called Huntington Marriott Hotel please.
+2359 Yes i need it booked for our group for 3 nights.
+2360 Yes i need it booked for our group for 3 nights.
+2361 We'll be coming in on Saturday and will be staying for three nights.
+2362 We'll be coming in on Saturday and will be staying for three nights.
+2363 That is all I need. Goodbye.
+2364 That is all I need. Goodbye.
+2365 I'm coming to visit Cambridge! I can't wait to see all of the local tourist attractions! Do you have any Mediterranean restaurants around there?
+2366 Yes, expensive. The food should serve eritrean food. British if that's not available.
+2367 Yes, book the Shiraz for one at 11:00 on Monday, please.
+2368 Um. How about 10:00?
+2369 I will need the reference number. Also, I'm looking for places to go in the south.
+2370 I don't know the city very well. Do you have any recommendations for attractions in the south?
+2371 A museum if you have it, otherwise I'll take what you have at the top of your list.
+2372 That sounds perfect! Can I have the address and phone number?
+2373 That's all I need!
+2374 I need a hotel with free wifi.
+2375 It needs to be four star, but on the cheaper range, and free parking doesn't need to be included.
+2376 Either is fine. Which one is your favorite?
+2377 Great that sounds like a plan.
+2378 No thanks. Is that a guesthouse?
+2379 Okay, great. I'm also looking for attractions in the west.
+2380 What attraction do you suggest?
+2381 That sounds good. Is there an entrance fee?
+2382 What's their phone number?
+2383 Yes, I'll need a taxi from the attraction to the guesthouse. I want to leave the attraction by 05:30. What is the car type and contact number please.
+2384 that will be it for today and thanks for your help
+2385 You bet. This is the end.
+2386 I am looking for an Indian Restaurant with high ratings in the moderate price range please?
+2387 Could you tell me more information about Curry Price?
+2388 Yes please. I would like to book a table for 5 at 12:30 on Friday, please.
+2389 Is it available at 11:30?
+2390 Yes I'm also looking for a train to Kings Lynn on Saturday.
+2391 I want to depart from Cambridge after 10:45.
+2392 Maybe. How much does that cost?
+2393 That one will work just fine, thank you.
+2394 No need, that's all I wanted. Thank you for the help!
+2395 Hey, I need a moderately priced place to stay.
+2396 The area doesn't matter, but I do need free wifi.
+2397 A hotel is fine whichever you recommend.
+2398 Yes, please for 3 people on Monday.
+2399 I need to stay for 2 nights with 3 people from Monday.
+2400 Thank you, I'm also looking for some places to go in town. Something along the lines of college, I also need the address and postcode.
+2401 Thank you for your help!
+2402 Can you help me find a moderately priced Indian food restaurant?
+2403 If it is in the west part of town, yes. If not can you suggest something else?
+2404 If it is in the west part of town, yes. If not can you suggest something else?
+2405 Yes, I need a reservation on Thursday.
+2406 Yes, I need a reservation on Thursday.
+2407 3 people at 12:15 on thursday
+2408 3 people at 12:15 on thursday
+2409 I am also going to need a place to stay - somewhere in the north, I think.
+2410 I am also going to need a place to stay - somewhere in the north, I think.
+2411 I don't need parking, but I would like to make sure it is a hotel, not a guesthouse.
+2412 I don't need parking, but I would like to make sure it is a hotel, not a guesthouse.
+2413 It doesn't matter.
+2414 It doesn't matter.
+2415 Yes 3 people, two nights on thursday.
+2416 Yes 3 people, two nights on thursday.
+2417 I also need a taxi that will arrive at the restaurant by the booked time.
+2418 I also need a taxi that will arrive at the restaurant by the booked time.
+2419 I am departing from The Ashley.
+2420 I am departing from The Ashley.
+2421 that will be it for today. thanks
+2422 that will be it for today. thanks
+2423 Hi, I am looking for a r star place to stay that has free wifi.
+2424 Four stars please.
+2425 I would like something in the north and has free wifi and free parking if possible.
+2426 Can you book the Acorn Guesthouse for Thursday?
+2427 Great, I need it for 5 people for 3 nights, and let me know the reference number.
+2428 Excellent! Thank you!
+2429 Actually that is all. Have a lovely day.
+2430 Thanks. Bye now.
+2431 Can you recommend a restaurant in the center of Cambridge that has moderate prices?
+2432 I would like Italian food.
+2433 No thank you. I just need the post code for now.
+2434 Yes, I would like some places to visit while I'm in town. Perhaps something in the same area as the restaurant.
+2435 Can I get their phone number please?
+2436 I also need to book a taxi to get from the restaurant to the museum. I plan on leaving the restaurant by 14:00.
+2437 It is just me by myself
+2438 Thanks so much! That is all I need. Have a good day!
+2439 Yes, can I have the phone number? I am also looking for a place to stay in the west, with a moderate price range, free parking, and a star of 3.
+2440 Do you have Hobsons House phone number?
+2441 No thanks. I also need a taxi to commute between the two places. I want to leave the attraction by 03:45.
+2442 thank you that will be all goodbye
+2443 Hello, I'd like to book a train on Friday that arrives by 17:30.
+2444 Yes, I'm wondering if there are any expensive modern european restaurants in town.
+2445 I would like to book a table for 2 people at 20:00 on friday please.
+2446 Thank you, that will be all.
+2447 I am looking for a place to stay. The hotel should be in the type of guesthouse and should include free wifi
+2448 I would prefer a price range of expensive
+2449 How about moderate price range with a star of 4?
+2450 Area doesn't matter but I need to know if they have free parking
+2451 Sounds great, Thank you.
+2452 Yes please make a reservation in my name. Thank you.
+2453 I'm sorry I don't need a reservation right now. Can you just tell me if they offer free parking?
+2454 Great, thanks. That is all I needed.
+2455 No, I can book myself later. Thanks. Good bye.
+2456 I'm also looking for information on a hotel called cityroomz.
+2457 I just needed to find out if they offer free parking there.
+2458 No thank you.
+2459 I need to find a hotel in the south please
+2460 I need to find a hotel in the south please
+2461 Uh, I want to find a place to go in town. I really want to look at some of the colleges.
+2462 Not really. Any college would be great.
+2463 That sounds great! What's the postcode?
+2464 Could you look up Don Pasquale Pizzeria for me? I'd like to know the postcode.
+2465 Could you look up Don Pasquale Pizzeria for me? I'd like to know the postcode.
+2466 Can I book a taxi from Christ's College to Don Pasquale Pizzeria?
+2467 Can I book a taxi from Christ's College to Don Pasquale Pizzeria?
+2468 Actually I need to go from the restaurant to the college. I'd like to leave by 7:15.
+2469 Actually I need to go from the restaurant to the college. I'd like to leave by 7:15.
+2470 No, that will be all. Thank you.
+2471 No, that will be all. Thank you.
+2472 I am looking for a moderate price placed to say in the North side of the city please.
+2473 As long as there is available parking I'd like to book my reservation there please.
+2474 Can I get it starting Monday for 3 nights with 6 people please
+2475 I want to leave on sunday from Cambridge.
+2476 Ok, the 15:21 going to Stevange on sunday would be great. I'll need the price and train ID as well please.
+2477 Not quite yet, could you tell me what the travel time is for that trip? I also am looking for a restaurant to dine at.
+2478 Find expensive welsh food, or if not welsh, indian, for 6 people at 10:30 Sunday. I need a reference number, please.
+2479 Sounds good to me. Book it for six people at 10:30 on Sunday. Out of curiousity... how long is that train trip going to take?
+2480 Great - I do still need to know the travel time for that train, though. The 15:21 train to stevenage?
+2481 Yes, can you also let me know the price for that train?
+2482 Can you book me 6 seats on that train?
+2483 You're still not done! Give me the train ID for the train.
+2484 Cambridge, and it will be on sunday.
+2485 Awesome! I also need help finding a place to stay in the South. Not driving so don't need parking.
+2486 I would like a hotel and my only preference, besides being in the south, is I would like it to have a 3 star rating please.
+2487 Yes I'll need it for Sunday for 2 nights and 4 people.
+2488 That takes care of everything for me, thank you! Bye!
+2489 I would like to try something new, I am looking for an Irish restaurant, preferably in the moderate price range.
+2490 Yes, I'd be willing to try international cuisine if you could find an establishment that serves it.
+2491 Could you give me the phone number and postcode for the Bloomsbury?
+2492 Yes. I need to find a train going to Stansted Airport by 19:30.
+2493 I would like to leave on Monday
+2494 I need to arrive by 19:30.
+2495 Thank you so much, that is all I need.
+2496 I'm looking for a hotel in the north part of town with free wifi.
+2497 Yes, I'd like a place in the north with a 4 star rating including free wifi please.
+2498 Is there a guesthouse?
+2499 And the Avalon is in what part of town?
+2500 No thanks can I just have the address and postcode? I also need help finding a restaurant.
+2501 Okay, thank you.
+2502 Yes I need a romanian place to eat in the same area, please make sure it's expensive.
+2503 Yes I need a romanian place to eat in the same area, please make sure it's expensive.
+2504 What about Indian food?
+2505 What about Indian food?
+2506 No thank you that will be all
+2507 No thank you that will be all
+2508 Hello! I'm looking for a nice restaurant that serves Scottish food. Can you recommend one?
+2509 No, any part of town is good.
+2510 How about a restaurant that serves British food?
+2511 May I get the restaurant phone number please?
+2512 Thank you, goodbye
+2513 On Friday. I want to leave in the evening after 19:45.
+2514 also looking for a place to dine,that is cheap and in the centre part of town
+2515 Asian Oriental food.
+2516 Sounds delicious. Yes, for 13:45 on the same Friday for the two of us, please.
+2517 Excellent, that's all I needed today. Goodbye!
+2518 Hi, I need to locate a particular restaurant please.
+2519 It is the Pizza Hut City Centre. I'd like to eat there on Monday if you could reserve a table for me.
+2520 We'll need a table for 4, please. I'd love it if we can get the 15:15 time slot.
+2521 I also need to find a train that leaves on the same day as my reservation and would allow to arrive by 10:00.
+2522 I need to depart from london kings cross and go to cambridge.
+2523 Yes, I will need 4 tickets.
+2524 Thats great thanks so much for all the help.
+2525 I am looking for a place to stay in the centre area.
+2526 It doesn't matter, but it should have free wifi.
+2527 Do any of them have a zero star rating?
+2528 Thank you and the address please ?
+2529 No thank you. Good bye.
+2530 I am seeking an expensive restaurant in Cambridge.
+2531 How about one in the east area?
+2532 Tell me your favorite. I'd like their phone number and address, please?
+2533 Great, also, are there any museums in that same area?
+2534 What is the postcode for the Cambridge Museum of Technology?
+2535 That's all I needed today, thank you.
+2536 Please see if you can find me an Indian restaurant on the East end
+2537 Cheap price and address and phone number
+2538 Cheap price and address and phone number
+2539 Sure, I think any price range is actually fine, as long as it's indian and in the east. I'll need their address and phone number.
+2540 I need a place to stay also. free wifi please, but no parking is needed
+2541 I need a place to stay also. free wifi please, but no parking is needed
+2542 Yes, I'd prefer a guesthouse that's cheap if any are available.
+2543 Yes, I'd prefer a guesthouse that's cheap if any are available.
+2544 How about a hotel that is really cheap? I need a room for 7 for 3 nights on friday
+2545 How about a hotel that is really cheap? I need a room for 7 for 3 nights on friday
+2546 Thanks so much. Have a great day. Goodbye
+2547 Thanks so much. Have a great day. Goodbye
+2548 I am traveling to Cambridge and looking forward to try local restaurants.
+2549 Yes. It's called the Golden Wok.
+2550 book a table for 8 people at 15:45 on tuesday.
+2551 Thank you. I also need to find a train.
+2552 I will be departing from cambridge to norwich on Wednesday and the train should arrive norwich by 16:45
+2553 yes, thats all tge info i need thanks
+2554 yep your awesome thanks
+2555 I'm looking for a cheap restaurant in the west area of town.
+2556 What its phone number?
+2557 Can you give me the phone number of a different, cheap restaurant in the west part of town?
+2558 Thank you! Goodbye.
+2559 Can you find a hotel by the name of Leverton House?
+2560 Great, can you book a room for people please? We would like 3 nights arriving on Sunday.
+2561 Sorry about that. I would like it for 5 people.
+2562 Please, search another hotel in the same pricerange that the Leverton house.
+2563 i don't care.
+2564 Great that was all I needed today, thank you!
+2565 Yes please, I am looking for a hotel that has 4 stars and is guesthouse. Preferably in the east with free wifi.
+2566 That doesn't matter. You can just recommend one and then help me with a booking please
+2567 4 people. Starting saturday, 3 nights.
+2568 That's not necessary at all. Thanks.
+2569 Any attraction is fine as long as it's in the centre of town.
+2570 Yes i am also looking for a restaurant in the same area that is moderately priced.
+2571 I would like something in the moderate price range. I will be requiring their address.
+2572 no particular cuisine I will need a taxi to commute need to leave by 24:15 and need number and car type please.
+2573 The Yippee Noodle Bar sounds great. Do you have their address?
+2574 I also want to book a taxi from Parkside Pools to the bar. I want to leave around 24:15.
+2575 Great thank you, that's all I will need.
+2576 I'm looking for a restaurant called ask. Do you know of it?
+2577 Yes, we would like a reservation there for Thursday.
+2578 Yes, we would like a reservation there for Thursday.
+2579 16:15 for 4 people, I am also needing a hotel with a 2 star rating and in the expensive price range.
+2580 16:15 for 4 people, I am also needing a hotel with a 2 star rating and in the expensive price range.
+2581 I think you forgot to give me the reference number for my dinner reservation? Does the hotel have free wifi and free parking?
+2582 I think you forgot to give me the reference number for my dinner reservation? Does the hotel have free wifi and free parking?
+2583 I would like to book it for 5 nights for 4 people from Saturday please. I will need my reference number.
+2584 I would like to book it for 5 nights for 4 people from Saturday please. I will need my reference number.
+2585 I also need a taxi to commute from the hotel to the restaurant, leaving at 16:00.
+2586 I also need a taxi to commute from the hotel to the restaurant, leaving at 16:00.
+2587 Great thanks! I need to get to work, so thanks again. Goodbye.
+2588 Great thanks! I need to get to work, so thanks again. Goodbye.
+2589 I am looking for a hotel to stay in with a 4 star rating that is in a guesthouse style.
+2590 Does that include free wifi?
+2591 Just one more question: Is it in the moderate prince range? If so, please give me their address. If not, I need something moderately priced.
+2592 No thanks. Not at this time. I would appreciate some help finding a train to get me to Ely though.
+2593 I would like to leave after 15:15 on Thursday.
+2594 Yes that works great. Can you book 2 tickets for that train and give me the reference number?
+2595 Great. That's all I needed. Thank you.
+2596 I'm looking for a nice expensive restaurant to dine in aat the centre of town.
+2597 I am not. I do want a table for 5 at 17:30 on Thursday though.
+2598 Great, can you also help me find a place to visit, like a park?
+2599 Are there any parks I could visit?
+2600 The location isn't important, maybe just something near the restaurant. I just need the park's address and I would like to know of any entrance fees.
+2601 Thank you very much, that's all I needed!
+2602 Can you please help me find a place to stay? I'm looking for an average priced place in a guesthouse style. Thankyou.
+2603 Does the Acorn Guest House have free wifi and is it located in the south?
+2604 Yes, I would like something in the south. There will be 5 guests and will be needed for 5 nights, starting Saturday.
+2605 Can yo also find a guesthouse with a five star rating?
+2606 How about a 5 star hotel
+2607 A four star with free parking would be fine
+2608 No, it doesn't matter. Which ever you recommend would be fine. I do need to get the postcode for it.
+2609 Thank you, that was everything I needed for this trip. Have a great day!
+2610 I want to know if any trains run on Sunday?
+2611 I'll be heading to Cambridge from Stevenage, and I'd like to arrive on Sunday by 12:45, please.
+2612 Yes please go ahead and book that for me. I am also looking for a place to stay and can you find me a Guest house with free wifi?
+2613 Actually, I would prefer a guesthouse is the north.
+2614 no, i just need to know the price
+2615 Okay. I would like to book the Archway House for three nights and for one person starting on Sunday and what is the price.
+2616 Is there an email I can contact them at?
+2617 That would be all thanks you very much
+2618 Actually, I'm sorry. Would you be able to confirm that the hotel you've booked has wifi? I don't have that in my notes.
+2619 I don't actually need the train booked yet, I just needed to know the price. I think I have everything I need now, thanks for your help!
+2620 Thank you for looking that up for me.
+2621 Yes that is everything thank you for all your help. Goodbye
+2622 Can you help me find a train departing from norwich leaving on sunday?
+2623 Yes, I'm also looking for a place to stay in the north that has free wifi.
+2624 The hotel should be in the moderate price range and should have a star of 4.
+2625 Sure, thanks! Will you please book it for the same group of 4 for 5 nights, starting Sunday?
+2626 That is all. Thank you!
+2627 I also am looking for an expensive caribbean restaurant.
+2628 How about Gastropub? In the centre?
+2629 I don't need a reservation at the moment but can i have their post code?
+2630 Thank you for all your help!
+2631 Thanks. I am also looking for some Korean food in the north part of town.
+2632 I don't have a preference. Pick one that you like?
+2633 Then can I do a search for one that serves Italian food instead?
+2634 That works, can I get an address?
+2635 No thank you. That was all I needed to know. Thanks and goodbye.
+2636 Hi, I'm looking for a moderately priced restaurant on the south side of town.
+2637 Yes. phone number please
+2638 I'm not sure where on the south side I'm going to be. Could you suggest an alternate restaurant and give me their information, too?
+2639 I am in desperate need of a getaway. Can you help me find a cheap place to stay?
+2640 I like staying on the north side of town and I do need free wifi.
+2641 Does it have free wifi?
+2642 The Worth house sounds fine. I would need the postcode.
+2643 Yes please. I'm also looking for a train that leaves on friday that departs from leicester and goes to Cambridge.
+2644 I'd like to leave after 11:45, please.
+2645 Yes please. I need 8 tickets. And I'm sorry, I didn't need you to book the hotel, hope it's not too late.
+2646 No, I believe that is everything. Thank you.
+2647 Thanks one more time. Lets end this conversation PLEASE
+2648 Hello, I am looking for a moderately priced restaurant in the south part of town.
+2649 I do not care.
+2650 Is there anything else available?
+2651 Give me the address and postcode of any of them, please.
+2652 What is the postcode?
+2653 That's great. Thank you so much
+2654 I want a place to stay with 3 stars.
+2655 I'd like one with free parking, located in the north area, and is a guesthouse.
+2656 Yes, please book for 5 people and 4 nights starting from saturday.
+2657 Thank you that is all I need today.
+2658 Seventy-nine, wow this is going to be so much fun! Anyway I need a 0 star hotel with free parking.
+2659 Yes, that would be fine. Something in the west would be great.
+2660 What about in the center?
+2661 Yes, please. I need to book it for 2 people and 4 nights starting from Friday.
+2662 Thank you. I am also looking for a place to go in town. I would prefer something near the hotel.
+2663 That will be fine. I'll need the postcode and attraction type?
+2664 Thank You!, I will need to book a taxi that can depart by 12:30, please provide me with contact and the type of car.
+2665 thanks alot for yor help. that is all for today
+2666 I will, thanks! You have a great day to. Bye.
+2667 So I'm planning a trip and I need some information about where to stay in the North. I prefer hotels with free parking
+2668 So I'm planning a trip and I need some information about where to stay in the North. I prefer hotels with free parking
+2669 north 2 star and should include free wifi
+2670 north 2 star and should include free wifi
+2671 Yes please. I need the reservation to be for 5 people and 4 nights starting on Friday.
+2672 Yes please. I need the reservation to be for 5 people and 4 nights starting on Friday.
+2673 Thank you. I would also like to find a Chinese restaurant in the same area. Can you let me know what is available?
+2674 Thank you. I would also like to find a Chinese restaurant in the same area. Can you let me know what is available?
+2675 The Hakka sounds good. Can you book it for 5 people on friday?
+2676 The Hakka sounds good. Can you book it for 5 people on friday?
+2677 I would like it at 18:45.
+2678 I would like it at 18:45.
+2679 I also need a cab to get me to and from both places. I need the contact # and car type
+2680 I also need a cab to get me to and from both places. I need the contact # and car type
+2681 To the restaurant, I would like to arrive before the reservation time of 18:45.
+2682 To the restaurant, I would like to arrive before the reservation time of 18:45.
+2683 That'll be everything thanks!
+2684 That'll be everything thanks!
+2685 I am also looking for a place to dine. I need something moderately priced in the city's centre please.
+2686 Go ahead and suggest a moderately priced one in the centre area of town.
+2687 Please reserve a table for 5 people at 11:00 on Monday.
+2688 No, that was everything. Thanks for your help. Goodbye!
+2689 Yes. I need a place to stay. Free parking and free wifi are important to me
+2690 No but it needs to be in the moderate price range.
+2691 I would rather have a hotel. I need it for 8 people for 3 nights. Is there anything available?
+2692 The Ashley Hotel sounds great. Can you reserve a room on Thursday for 8 people, 3 nights please?
+2693 Ok, thanks for that. What's the reference number?
+2694 Yes please, I'll need a taxi from the pool to the hotel. I'd like to leave the pool by 05:15.
+2695 What kind of car is the taxi?
+2696 Thanks! That's all I need.
+2697 Thanks! Could you also help me find somewhere cheap to stay?
+2698 The area doesn't matter but I do need free wifi, please.
+2699 A guesthouse will work out better and I need free parking too.
+2700 Sure. The two of us want to stay for two nights starting Saturday.
+2701 Great that's all that I needed for today.
+2702 Thank you, you too.
+2703 Hello, we're planning on a trip to Cambridge and would like lodging info. Can you tell us if there is a hotel in the economical range near the centre?
+2704 Really? Not even a guest house?
+2705 I'm looking for a cheap hotel in the centre.
+2706 Sounds great! Can you book it for 5 people and 4 nights starting from monday?
+2707 Thank, you goodbye
+2708 Hi, I am looking for a 4 star hotel to stay at. Free parking is not necessary.
+2709 I would prefer to keep it in the moderate price range and I really need free WiFi as well, please.
+2710 No, not really. Just needs to be in the moderate price range.
+2711 Yes, I would. Can you book it for 2 people for 5 nights starting Saturday?
+2712 Yes, I would. Can you book it for 2 people for 5 nights starting Saturday?
+2713 I am also looking for a resturant called Nandos City centre. Can you make a reservation there for 2 people at 17:00 on Saturday?
+2714 I am also looking for a resturant called Nandos City centre. Can you make a reservation there for 2 people at 17:00 on Saturday?
+2715 I am going to need a taxi to go between the two places. I need to arrive by my reservation time.
+2716 I am going to need a taxi to go between the two places. I need to arrive by my reservation time.
+2717 I need some help finding a place to stay with a 4 star rating and free wifi.
+2718 I prefer the north.
+2719 Yes, please. 3 people for 5 nights starting on Sunday
+2720 No, that's all I need. Thanks.
+2721 I'm sorry, I just remembered I'm looking for an attraction as well. Can you help?
+2722 I would like something near the Avalon guesthouse.
+2723 It does not matter can you recommend one please?
+2724 Yes please! Could I get their entrance fee and address?
+2725 Could I have the phone number as well?
+2726 Thank you very much. That is all I needed.
+2727 I'm looking for a 3 star rated place to stay at that doesn't need to have free parking
+2728 Can you tell me the price of the room per night?
+2729 Yes, give me their phone number and I will call them.
+2730 I also need to find Portuguese restaurant in the south.
+2731 I also need to find Portuguese restaurant in the south.
+2732 What is the price range of that restaurant?
+2733 What is the price range of that restaurant?
+2734 I want something in the moderate price range.
+2735 I want something in the moderate price range.
+2736 What about modern European food?
+2737 What about modern European food?
+2738 No thank you I just need information right now. I would like the address and phone number.
+2739 No thank you I just need information right now. I would like the address and phone number.
+2740 Thanks! I also need to book a taxi between my hotel and the restaurant, leaving my hotel by 04:30, please.
+2741 Thanks! I also need to book a taxi between my hotel and the restaurant, leaving my hotel by 04:30, please.
+2742 Thank you. That is all that I need.
+2743 Thank you. That is all that I need.
+2744 i am looking for a place to stay. The hotel should have a star of 1 and should be in the type of guesthouse.
+2745 well anything with free parking.
+2746 Actually, if you don't have any 1 star guesthouses, how about a 4 star guesthouse, with free parking.
+2747 I do not care book it for 3 people and 3 nights starting from saturday.
+2748 Thank you. Can you help me find a place to go? maybe a park.
+2749 Thank you so much for your help.
+2750 Yes, what was the name of the guesthouse you booked for me?
+2751 Can I get a taxi between Acorn and the park?
+2752 I would like to leave the park by 04:00
+2753 Great that's all I needed today thank you.
+2754 I also need a place to stay. I am thinking a guesthouse in the east part of town.
+2755 That sounds great. Can I have the number?
+2756 Can you confirm if this hotel is 4 star? If so, I will need to book it for 1 person for five nights starting on wednesday.
+2757 Can you try for 2 nights instead?
+2758 Thanks. I also want to book a taxi to commute between the college and the hotel.
+2759 I want to leave the hotel at 15:15 to go to the college.
+2760 No, I think that takes care of it. Thank you.
+2761 I am looking for restaurants in the north part of town
+2762 I'd like a cheap restaurant. What types of food are available with those parameters?
+2763 Can you give me the name and phone number of a cheap Indian restaurant in the north?
+2764 How much is the average dish?
+2765 Thank you goodbye.
