@@ -1,0 +1,223 @@
+[
+  {
+    "service_name": "hotel",
+    "intents":[
+      {
+        "name": "find_hotel",
+	"new-name": "find"
+      },
+      {
+        "name": "book_hotel",
+	"new-name": "book"
+      }
+    ],
+    "slots": [
+      {
+        "name": "hotel-pricerange",
+        "new-name": "pricerange"
+      },
+      {
+        "name": "hotel-type",
+        "new-name": "type"
+      },
+      {
+        "name": "hotel-parking",
+        "new-name": "parking"
+      },
+      {
+        "name": "hotel-bookday",
+        "new-name": "bookday"
+      },
+      {
+        "name": "hotel-bookpeople",
+        "new-name": "bookpeople"
+      },
+      {
+        "name": "hotel-bookstay",
+        "new-name": "bookstay"
+      },
+      {
+        "name": "hotel-stars",
+        "new-name": "stars"
+      },
+      {
+        "name": "hotel-internet",
+        "new-name": "internet"
+      },
+      {
+        "name": "hotel-name",
+        "new-name": "name"
+      },
+      {
+        "name": "hotel-area",
+        "new-name": "area"
+      },
+      {
+        "name": "hotel-address",
+        "new-name": "address"
+      },
+      {
+        "name": "hotel-phone",
+        "new-name": "phone-number"
+      },
+      {
+        "name": "hotel-postcode",
+        "new-name": "postal-code"
+      },
+      {
+        "name": "hotel-ref",
+        "new-name": "reference-number"
+      }
+    ]
+  },
+  {
+    "service_name": "restaurant",
+    "intents":[
+      {
+        "name": "find_restaurant",
+	"new-name": "find"
+      },
+      {
+        "name": "book_restaurant",
+	"new-name": "book"
+      }
+    ],
+    "slots": [
+      {
+        "name": "restaurant-pricerange",
+        "new-name": "pricerange"
+      },
+      {
+        "name": "restaurant-area",
+        "new-name": "area"
+      },
+      {
+        "name": "restaurant-food",
+        "new-name": "food"
+      },
+      {
+        "name": "restaurant-name",
+        "new-name": "name"
+      },
+      {
+        "name": "restaurant-bookday",
+        "new-name": "bookday"
+      },
+      {
+        "name": "restaurant-bookpeople",
+        "new-name": "bookpeople"
+      },
+      {
+        "name": "restaurant-booktime",
+        "new-name": "booktime"
+      },
+      {
+        "name": "restaurant-address",
+        "new-name": "address"
+      },
+      {
+        "name": "restaurant-phone",
+        "new-name": "phone-number"
+      },
+      {
+        "name": "restaurant-postcode",
+        "new-name": "postal-code"
+      },
+      {
+        "name": "restaurant-ref",
+        "new-name": "reference-number"
+      }
+    ]
+  },
+  {
+    "service_name": "clinic",
+    "intents":[
+      {
+        "name": "find_clinic",
+	"new-name": "find"
+      },
+      {
+        "name": "book_clinic",
+	"new-name": "book"
+      }
+    ],
+    "slots": [
+      {
+        "name": "clinic-area",
+        "new-name": "area"
+      },
+      {
+        "name": "clinic-servicetype",
+        "new-name": "servicetype"
+      },
+      {
+        "name": "clinic-provider",
+        "new-name": "doctor-name"
+      },
+      {
+        "name": "clinic-name",
+        "new-name": "name"
+      },
+      {
+        "name": "clinic-bookday",
+        "new-name": "bookday"
+      },
+      {
+        "name": "clinic-booktimeofday",
+        "new-name": "booktimeofday"
+      },
+      {
+        "name": "clinic-bookpeople",
+        "new-name": "bookpeople"
+      },
+      {
+        "name": "clinic-booktime",
+        "new-name": "booktime"
+      },
+      {
+        "name": "clinic-address",
+        "new-name": "address"
+      },
+      {
+        "name": "clinic-phone",
+        "new-name": "phone-number"
+      },
+      {
+        "name": "clinic-postcode",
+        "new-name": "postal-code"
+      },
+      {
+        "name": "clinic-ref",
+        "new-name": "reference-number"
+      },
+      {
+        "name": "clinic-customerfirstname",
+        "new-name": "customer-firstname"
+      },
+      {
+        "name": "clinic-customerlastname",
+        "new-name": "customer-lastname"
+      },
+      {
+        "name": "clinic-customerdob",
+        "new-name": "customer-dob"
+      },
+      {
+        "name": "clinic-customerphone",
+        "new-name": "customer-phone-number"
+      },
+      {
+        "name": "clinic-customeremail",
+        "new-name": "customer-email-address"
+      },
+      {
+        "name": "clinic-customereinsurance",
+        "new-name": "customer-has-insurance"
+      },
+      {
+        "name": "clinic-customerinsuranceid",
+        "new-name": "customer-insurance-id"
+      }
+    ]
+  }
+]
