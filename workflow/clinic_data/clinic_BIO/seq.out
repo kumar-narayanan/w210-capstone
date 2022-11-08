@@ -1,0 +1,15 @@
+O O O O O O O O O O O O B-clinic-servicetype O 
+O O O O O O O B-clinic-bookperson O B-clinic-booktime O B-clinic-bookday 
+O O O O O O O 
+O O O O 
+O O O O O O O O O B-clinic-covidbrand B-clinic-servicetype O 
+O O O O O O B-clinic-covidbrand 
+O O O O O B-clinic-area O 
+O O O O O B-clinic-bookpeople O O B-clinic-booktime O B-clinic-bookday 
+O O O O O O O 
+O O O O O 
+O O O O O B-clinic-servicetype O O O O B-clinic-area O O O 
+O O O B-clinic-area O O O 
+O O O B-clinic-covidbrand 
+O O O B-clinic-bookpeople O O B-clinic-bookday O B-clinic-booktime O 
+O O O O O O O O O O O 

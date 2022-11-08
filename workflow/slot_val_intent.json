@@ -307,6 +307,12 @@
     "service_name": "clinic",
     "slots": [
       {
+        "name": "clinic-name",
+        "description": "name of the clinic",
+        "possible_values": [],
+        "is_categorical": false
+      },
+      {
         "name": "clinic-area",
         "description": "area or place of the clinic",
         "possible_values": [
@@ -338,6 +344,16 @@
         "description": "name of the clinic",
         "possible_values": [],
         "is_categorical": false
+      },
+      {
+        "name": "clinic-covidbrand",
+        "description": "brand of the covic vaccine offered at clinic",
+        "possible_values": [
+          "moderna",
+          "pfizer",
+          "novaform"
+        ],
+        "is_categorical": true
       },
       {
         "name": "clinic-bookday",
@@ -450,6 +466,8 @@
         "required_slots": [],
         "optional_slots": {
           "clinic-area": "dontcare",
+          "clinic-name": "dontcare",
+          "clinic-covidbrand": "dontcare"
           "clinic-doctor": "dontcare",
           "clinic-name": "dontcare",
           "clinic-bookday": "dontcare",
@@ -464,19 +482,14 @@
         "required_slots": [],
         "optional_slots": {
           "clinic-area": "dontcare",
+          "clinic-name": "dontcare",
+          "clinic-covidbrand": "dontcare"
           "clinic-provider": "dontcare",
           "clinic-servicetype": "dontcare",
           "clinic-bookday": "dontcare",
           "clinic-bookpeople": "dontcare",
           "clinic-booktimeofday": "dontcare",
-          "clinic-booktime": "dontcare",
-          "clinic-customerfirstname":"dontcare",
-          "clinic-customerlastname":"dontcare",
-          "clinic-customerdob":"dontcare",
-          "clinic-customerphone":"dontcare",
-          "clinic-customeremail":"dontcare",
-          "clinic-customereinsurance":"dontcare",
-          "clinic-customerinsuranceid":"dontcare"
+          "clinic-booktime": "dontcare"
         }
       }
     ]

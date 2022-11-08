@@ -151,6 +151,10 @@
         "new-name": "servicetype"
       },
       {
+        "name": "clinic-covidbrand",
+        "new-name": "covidbrand"
+      },
+      {
         "name": "clinic-provider",
         "new-name": "doctor-name"
       },

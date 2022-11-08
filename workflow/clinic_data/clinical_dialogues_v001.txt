@@ -1,0 +1,63 @@
+----find_clinic_and_book_clinic
+USER: I am looking for a clinic. I would like something that offers flu shots.
+slots: clinic-servicetype=flu; slot_vals: clinic-servicetype=flu; intent: find_clinic
+SYSTEM: ABC Clinic offers flu shots. Need a appointment?
+[]
+USER: Yes, could you make an appointment for 1 at 10:00 on Saturday?
+slots: clinic-booktime=10:00; slot_vals: clinic-bookperson=1, clinic-servicetype=flu, clinic-bookday=saturday, clinic-booktime=10:00; intent: book_clinic
+SYSTEM: Your booking was successful. The table will be reserved for 15 minutes. Reference number is : FDLFKTZM .
+[]
+USER: Thank you so much for your help!
+slot_vals: clinic-name=ABC, clinic-servicetype=flu, clinic-bookday=saturday, clinic-booktime=10:00
+SYSTEM: You're welcome. Thank you! Have a good day now!
+[]
+USER: Thanks, you too. Goodbye.
+slot_vals: clinic-name=ABC, clinic-servicetype=flu, clinic-bookday=saturday, clinic-booktime=10:00
+SYSTEM: Thank you for using CAiFE for your services. Good-bye
+[]
+----find_clinic
+USER: Hi, can you find me a clinic that offers moderna COVID shots?
+slots: clinic-covidbrand=moderna; slot_vals: clinic-servicetype=COVID, clinic-covidbrand=moderna; intent: find_clinic
+SYSTEM: I actually cannot find any clinic that offer moderna shots. There is however a clinic that offers pfizer shots. Would that be okay?
+[]
+USER: Are there any clinic that offer novavax?
+slots: clinic-covidbrand=novavax; slot_vals: clinic-servicetype=COVID, clinic-covidbrand=novavax; intent: find_clinic
+SYSTEM: Yes, I have 3. Two are located in the centre and one is located in the east. Do you have a preference?
+[]
+USER: Yes, the one in the east please.
+slot_vals: clinic-servicetype=COVID, clinic-covidbrand=novavax, clinic-area=east; intent: find_clinic
+SYSTEM: One in the East is called Royal clinic. Can I book an appointment for you?
+[]
+USER: Yes, please book it for 2 people at 13:45 on monday.
+slots: clinic-booktime=13:45; slot_vals: clinic-booktime=13:45, clinic-bookpeople=2, clinic-bookday=monday, clinic-servicetype=COVID, clinic-covidbrand=novavax, clinic-area=east; intent: find_clinic
+SYSTEM: I'm sorry that isn't available. Can I try a different clinic for you?
+[]
+USER: No thank you that will be all.
+slot_vals: clinic-booktime=13:45, clinic-bookpeople=2, clinic-bookday=monday, clinic-servicetype=COVID, clinic-covidbrand=novavax, clinic-area=east
+SYSTEM: Is there anything else I can assist you with?
+[]
+USER: That was all thank you.
+slot_vals: clinic-booktime=13:45, clinic-bookpeople=2, clinic-bookday=monday, clinic-servicetype=COVID, clinic-covidbrand=novavax, clinic-area=east
+SYSTEM: Thank you. Good bye
+[]
+----find_clinic_and_book_clinic
+USER: I am looking for a covid shot clinic in the north side of town
+slots: clinic-servicetype=covid; slot_vals: clinic-servicetype=COVID, clinic-area=north; intent=find_clinic
+SYSTEM: I'm sorry, but there aren't any places that meet those qualifications. Would you like to try a different part of town?
+[]
+USER: How about the south side of town?
+slots: clinic-area=south; slot_vals: clinic-servicetype=COVID, clinic-area=south; intent=find_clinic
+SYSTEM: There is one option, it is Thrive clinic. Do you want me to book an appointment for you?
+[]
+USER: Does it offer moderna?
+slots: clinic-covidbrand=moderna; slot_vals: clinic-covidbrand=moderna, clinic-servicetype=COVID, clinic-area=south; intent=find_clinic
+SYSTEM: Yes the Thrive clinic offers moderna.
+[]
+USER: book it for 3 people on tuesday at 11:00 am.
+slots: clinic-booktime=11:00, clinic-bookpeople=3, clinic-bookday=tuesday; slot_vals: clinic-booktime=11:00, clinic-bookpeople=3, clinic-bookday=tuesday, clinic-covidbrand=moderna, clinic-servicetype=COVID, clinic-area=south; intent=find_clinic
+SYSTEM: The booking was successful. Your reference number is 8DT64NSI . Is there anything else I can help with today?
+[]
+USER: No that is all I need. Thank you for your time.
+slot_vals: clinic-booktime=11:00, clinic-bookpeople=3, clinic-bookday=tuesday, clinic-covidbrand=moderna, clinic-servicetype=COVID, clinic-area=south
+SYSTEM: we appreciate you using our services. have a good day.
+[]
