@@ -223,5 +223,219 @@
         "new-name": "customer-insurance-id"
       }
     ]
+  },
+  {
+    "service_name": "train",
+    "intents": [
+      {
+        "name": "find_train",
+        "new-name": "find"
+      },
+      {
+        "name": "book_train",
+        "new-name": "book"
+      }
+    ],
+    "slots": [
+      {
+        "name": "train-arriveby",
+        "new-name": "arriveby"
+      },
+      {
+        "name": "train-departure",
+        "new-name": "departure"
+      },
+      {
+        "name": "train-day",
+        "new-name": "day"
+      },
+      {
+        "name": "train-bookpeople",
+        "new-name": "bookpeople"
+      },
+      {
+        "name": "train-leaveat",
+        "new-name": "leaveat"
+      },
+      {
+        "name": "train-destination",
+        "new-name": "destination"
+      },
+      {
+        "name": "train-trainid",
+        "new-name": "trainid"
+      },
+      {
+        "name": "train-ref",
+        "new-name": "reference-number"
+      },
+      {
+        "name": "train-price",
+        "new-name": "price"
+      },
+      {
+        "name": "train-duration",
+        "new-name": "duration"
+      }
+    ]
+  },
+  {
+    "service_name": "attraction",
+    "intents": [
+      {
+        "name": "find_attraction",
+        "new-name": "find"
+      }
+    ],
+    "slots": [
+      {
+        "name": "attraction-area",
+        "new-name": "area"
+      },
+      {
+        "name": "attraction-name",
+        "new-name": "name"
+      },
+      {
+        "name": "attraction-type",
+        "new-name": "type"
+      },
+      {
+        "name": "attraction-entrancefee",
+        "new-name": "entrancefee"
+      },
+      {
+        "name": "attraction-openhours",
+        "new-name": "openhours"
+      },
+      {
+        "name": "attraction-address",
+        "new-name": "address"
+      },
+      {
+        "name": "attraction-phone",
+        "new-name": "phone-number"
+      },
+      {
+        "name": "attraction-postcode",
+        "new-name": "postal-code"
+      }
+    ]
+  },
+  {
+    "service_name": "hospital",
+    "intents": [
+      {
+        "name": "find_hospital",
+        "new-name": "find"
+      }
+    ],
+    "slots": [
+      {
+        "name": "hospital-department",
+        "new-name": "department"
+      },
+      {
+        "name": "hospital-address",
+        "new-name": "address"
+      },
+      {
+        "name": "hospital-phone",
+        "new-name": "phone-number"
+      },
+      {
+        "name": "hospital-postcode",
+        "new-name": "postal-code"
+      }
+    ]
+  },
+  {
+    "service_name": "taxi",
+    "intents": [
+      {
+        "name": "book_taxi",
+        "new-name": "book"
+      }
+    ],
+    "slots": [
+      {
+        "name": "taxi-leaveat",
+        "new-name": "leaveat"
+      },
+      {
+        "name": "taxi-destination",
+        "new-name": "destination"
+      },
+      {
+        "name": "taxi-departure",
+        "new-name": "departure"
+      },
+      {
+        "name": "taxi-arriveby",
+        "new-name": "arriveby"
+      },
+      {
+        "name": "taxi-type",
+        "new-name": "type"
+      },
+      {
+        "name": "taxi-phone",
+        "new-name": "phone-number"
+      }
+    ]
+  },
+  {
+    "service_name": "bus",
+    "intents": [
+      {
+        "name": "find_bus",
+        "new-name": "find"
+      }
+    ],
+    "slots": [
+      {
+        "name": "bus-departure",
+        "new-name": "departure"
+      },
+      {
+        "name": "bus-destination",
+        "new-name": "destination"
+      },
+      {
+        "name": "bus-leaveat",
+        "new-name": "leaveat"
+      },
+      {
+        "name": "bus-day",
+        "new-name": "day"
+      }
+    ]
+  },
+  {
+    "service_name": "police",
+    "intents": [
+      {
+        "name": "police",
+        "new-name": "police"
+      }
+    ],
+    "slots": [
+      {
+        "name": "police-address",
+        "new-name": "address"
+      },
+      {
+        "name": "police-phone",
+        "new-name": "phone-number"
+      },
+      {
+        "name": "police-postcode",
+        "new-name": "postal-code"
+      },
+      {
+        "name": "police-name",
+        "new-name": "name"
+      }
+    ]
   }
 ]
