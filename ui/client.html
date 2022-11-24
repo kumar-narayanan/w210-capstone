@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Conversational AI For Everyone</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
+    
+  </head>
+  <body style="text-align:center; font-family: Arial; font-size: 14pt;">
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        var s = io.connect("http://44.204.89.196:5000");
+
+        s.on('response_chat', function(data) {
+          $('#messages').append($('<p>').text(data));
+        });
+        
+        $('#sendBtn').on('click', function () {
+          var obj = {user_id: 1, client_name: "medinova", message: $('#messageTxtBox').val()};
+          var json = JSON.stringify(obj);
+          s.send(json);
+          $('#messages').append($('<p>').text($('#messageTxtBox').val()));
+          document.getElementById('messageTxtBox').value = "";
+        });
+
+      })
+    </script>
+  <div id="messages" style="margin: 0 auto; width: 60%; text-align: center; min-height: 300px;">
+  </div>  
+  <h1>CAiFE</h1>
+  <input type="text" id="messageTxtBox" placeholder="Message">
+  <button id="sendBtn">Send</button>
+  </body>
+  </html>
