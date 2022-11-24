@@ -147,16 +147,12 @@
         "new-name": "area"
       },
       {
-        "name": "clinic-servicetype",
-        "new-name": "servicetype"
+        "name": "clinic-type",
+        "new-name": "type"
       },
       {
-        "name": "clinic-covidbrand",
-        "new-name": "covidbrand"
-      },
-      {
-        "name": "clinic-provider",
-        "new-name": "doctor-name"
+        "name": "clinic-vaccinebrand",
+        "new-name": "vaccinebrand"
       },
       {
         "name": "clinic-name",
@@ -165,10 +161,6 @@
       {
         "name": "clinic-bookday",
         "new-name": "bookday"
-      },
-      {
-        "name": "clinic-booktimeofday",
-        "new-name": "booktimeofday"
       },
       {
         "name": "clinic-bookpeople",
@@ -195,32 +187,12 @@
         "new-name": "reference-number"
       },
       {
-        "name": "clinic-customerfirstname",
-        "new-name": "customer-firstname"
-      },
-      {
-        "name": "clinic-customerlastname",
-        "new-name": "customer-lastname"
-      },
-      {
-        "name": "clinic-customerdob",
-        "new-name": "customer-dob"
+        "name": "clinic-customername",
+        "new-name": "customername"
       },
       {
         "name": "clinic-customerphone",
-        "new-name": "customer-phone-number"
-      },
-      {
-        "name": "clinic-customeremail",
-        "new-name": "customer-email-address"
-      },
-      {
-        "name": "clinic-customereinsurance",
-        "new-name": "customer-has-insurance"
-      },
-      {
-        "name": "clinic-customerinsuranceid",
-        "new-name": "customer-insurance-id"
+        "new-name": "customer-phonenumber"
       }
     ]
   },

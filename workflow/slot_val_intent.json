@@ -325,29 +325,17 @@
         "is_categorical": true
       },
       {
-        "name": "clinic-servicetype",
-        "description": "whether new or returning patient",
+        "name": "clinic-type",
+        "description": "covid or flu service type",
         "possible_values": [
-          "new",
-          "returning"
+          "flu",
+          "covid"
         ],
         "is_categorical": true
       },
       {
-        "name": "clinic-provider",
-        "description": "the doctor of the clinic you are looking for",
-	      "possible_values": [],
-        "is_categorical": false
-      },
-      {
-        "name": "clinic-name",
-        "description": "name of the clinic",
-        "possible_values": [],
-        "is_categorical": false
-      },
-      {
-        "name": "clinic-covidbrand",
-        "description": "brand of the covic vaccine offered at clinic",
+        "name": "clinic-vaccinebrand",
+        "description": "brand of the covid vaccine offered at clinic",
         "possible_values": [
           "moderna",
           "pfizer",
@@ -370,23 +358,17 @@
         "is_categorical": true
       },
       {
-        "name": "clinic-booktimeofday",
-        "description": "time of the day of the clinic booking",
-        "possible_values": [
-          "morning",
-          "afternoon",
-          "evening"
-        ],
-        "is_categorical": true
-      },
-      {
         "name": "clinic-bookpeople",
         "description": "how many people for the clinic reservation",
         "possible_values": [
           "1",
           "2",
           "3",
-          "4"
+          "4",
+          "5",
+          "6",
+          "7",
+          "8"
         ],
         "is_categorical": true
       },
@@ -417,43 +399,13 @@
         "is_categorical": false
       },
       {
-        "name": "clinic-customerfirstname",
-        "description": "first name of the customer",
-        "is_categorical": false
-      },
-      {
-        "name": "clinic-customerlastname",
-        "description": "last name of the customer",
-        "is_categorical": false
-      },
-      {
-        "name": "clinic-customerdob",
-        "description": "date of birth of the customer",
+        "name": "clinic-customername",
+        "description": "name of the customer",
         "is_categorical": false
       },
       {
         "name": "clinic-customerphone",
         "description": "phone number of the customer",
-        "is_categorical": false
-      },
-      {
-        "name": "clinic-customeremail",
-        "description": "email address of the customer",
-        "is_categorical": false
-      },
-      {
-        "name": "clinic-customereinsurance",
-        "description": "whether customer has insurance",
-        "possible_values": [
-          "yes",
-          "no",
-          "dontknow"
-        ],
-        "is_categorical": true
-      },
-      {
-        "name": "clinic-customerinsuranceid",
-        "description": "insurance member id of the customer",
         "is_categorical": false
       }
     ],
@@ -466,10 +418,12 @@
         "required_slots": [],
         "optional_slots": {
           "clinic-area": "dontcare",
+          "clinic-type": "dontcare",
           "clinic-name": "dontcare",
-          "clinic-covidbrand": "dontcare"
-          "clinic-doctor": "dontcare",
-          "clinic-name": "dontcare",
+          "clinic-phone": "dontcare",
+          "clinic-address": "dontcare",
+          "clinic-postcode": "dontcare",
+          "clinic-vaccinebrand": "dontcare",
           "clinic-bookday": "dontcare",
           "clinic-bookpeople": "dontcare",
           "clinic-booktime": "dontcare"
@@ -483,13 +437,16 @@
         "optional_slots": {
           "clinic-area": "dontcare",
           "clinic-name": "dontcare",
-          "clinic-covidbrand": "dontcare"
-          "clinic-provider": "dontcare",
-          "clinic-servicetype": "dontcare",
+          "clinic-phone": "dontcare",
+          "clinic-address": "dontcare",
+          "clinic-postcode": "dontcare",
+          "clinic-vaccinebrand": "dontcare",
+          "clinic-type": "dontcare",
           "clinic-bookday": "dontcare",
           "clinic-bookpeople": "dontcare",
-          "clinic-booktimeofday": "dontcare",
-          "clinic-booktime": "dontcare"
+          "clinic-booktime": "dontcare",
+          "clinic-customername": "dontcare",
+          "clinic-customerphone": "dontcare"
         }
       }
     ]
