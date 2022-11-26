@@ -413,6 +413,27 @@ USER: Thank you, goodbye.
 intent: NONE
 SYSTEM: You're welcome, goodbye.
 []
+----020_find_clinic
+USER: Can you help me find a covid shot clinic?
+slots: clinic-type=covid; slot_vals: clinic-type=covid; intent: find_clinic
+SYSTEM: What area would you like? There are nine results.
+[]
+USER: I'm interested in clinics located in the East that offers moderna.
+slots: clinic-vaccinebrand=moderna, clinic-area=east; slot_vals: clinic-vaccinebrand=moderna, clinic-area=east, clinic-type=covid; intent: find_clinic
+SYSTEM: Okay, Magic clinic matches your specifications. Would you like me to book an appointment?
+[]
+USER: Yeah, could you book it for 3 people on Monday? I think 16:15 is when we want to be there.
+slots: clinic-bookpeople=3, clinic-bookday=monday, clinic-booktime=16:15; slot_vals: clinic-bookpeople=3, clinic-bookday=monday, clinic-booktime=16:15, clinic-vaccinebrand=moderna, clinic-area=east, clinic-type=covid; intent: book_clinic
+SYSTEM: Sure, could you please share you name and phone number?
+[]
+USER: My name is Mike Dudley and number is 2103564897.
+slots: clinic-customername=Mike Dudley, clinic-customerphone=2103564897; slot_vals: clinic-customername=Mike Dudley, clinic-customerphone=2103564897, clinic-bookpeople=3, clinic-bookday=monday, clinic-booktime=16:15, clinic-vaccinebrand=moderna, clinic-area=east, clinic-type=covid; intent: book_clinic
+SYSTEM: The booking went through. Reference number is BSTQT75I. Anything else?
+[]
+USER: No, that's all for me today! Thank you! Bye!
+intent: NONE
+SYSTEM: I hope you have a wonderful stay.
+[]
 ----021_find_clinic
 USER: I'm looking to get flu shots around the centre of town, can you find me some clinics?
 slots: clinic-area=centre, clinic-type=flu; slot_vals: clinic-area=centre, clinic-type=flu; intent: find_clinic
@@ -623,6 +644,43 @@ USER: THAT WILL BE FINE.
 intent: NONE
 SYSTEM: You're welcome, goodbye.
 []
+----031_find_clinic_and_book_clinic
+USER: I need a clinic for covid shots.
+slots: clinic-type=covid; slot_vals: clinic-type=covid; intent: find_clinic
+SYSTEM: What about Your Health clinic? It's in the East.
+[]
+USER: I need something in the centre.
+slots: clinic-area=centre; slot_vals: clinic-area=centre, clinic-type=covid; intent: find_clinic
+SYSTEM: There are 7 clinics which area do you prefer?
+[]
+USER: The north part of town
+slots: clinic-area=north; slot_vals: clinic-area=north, clinic-type=covid; intent: find_clinic
+SYSTEM: I ran a search in the north, there's 12 choices. Lets make sure were on the same page, is this the area that you want? also any preference for vaccine brand?
+[]
+USER: Sorry, I've been all over the place. To be clear, I need a clinic for covid shots that offers pfizer and is in the centre.
+slots: clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; slot_vals: clinic-vaccinebrand=pfizer, clinic-area=centre, clinic-type=covid; intent: find_clinic
+SYSTEM: Shall I choose a clinic for you, or do you have a preference? 4 clinics match your criteria in that area.
+[]
+USER: yes please recommend one. the booking is needed for monday, 9:30 am, 5 people
+slots: clinic-bookpeople=5, clinic-booktime=9:30, clinic-bookday=monday; slot_vals: clinic-bookpeople=5, clinic-booktime=9:30, clinic-bookday=monday, clinic-vaccinebrand=pfizer, clinic-area=centre, clinic-type=covid; intent: book_clinic
+SYSTEM: May I recommend Mother Mary clinic.
+[]
+USER: Ok great. Can you book a room for 5 people at 9:30 am on monday.
+slots: clinic-bookpeople=5, clinic-booktime=9:30, clinic-bookday=monday; slot_vals: clinic-name=Mother Mary, clinic-bookpeople=5, clinic-booktime=9:30, clinic-bookday=monday, clinic-vaccinebrand=pfizer, clinic-area=centre, clinic-type=covid; intent: book_clinic
+SYSTEM: Sure, could you please share you name and phone number?
+[]
+USER: My name is Riley Norman and number is 7103594862.
+slots: clinic-customername=Riley Norman, clinic-customerphone=7103594862; slot_vals: clinic-customername=Riley Norman, clinic-customerphone=7103594862, clinic-name=Mother Mary, clinic-bookpeople=5, clinic-booktime=9:30, clinic-bookday=monday, clinic-vaccinebrand=pfizer, clinic-area=centre, clinic-type=covid; intent: book_clinic
+SYSTEM: Booking was successful. Reference number is : 6KCQKZQA
+[]
+USER: Great, thank you.
+intent: NONE
+SYSTEM: Can I be of further assistance today?
+[]
+USER: Thank you. I am all set.
+intent: NONE
+SYSTEM: Great! And you're welcome, have a great day!
+[]
 ----032_find_clinic_and_book_clinic
 USER: Can you assist me in finding me a clinic in east gilroy where I can get covid shots.
 slots: clinic-area=east, clinic-type=covid; slot_vals: clinic-area=east, clinic-type=covid; intent: find_clinic
@@ -827,6 +885,43 @@ SYSTEM: The address is 7634 pickering Avenue and phone number is 001 3243592324.
 USER: No, that is all. Thank you! Goodbye!
 intent: NONE
 SYSTEM: Okay. Thank you for choosing CAiFE.
+[]
+----041_find_clinic_and_book_clinic
+USER: I'm looking for an covid clinic in the centre.
+slots: clinic-type=covid, clinic-area=centre; slot_vals: clinic-type=covid, clinic-area=centre; intent: find_clinic
+SYSTEM: I can recommend several clinics in the centre of town. Are you looking for any specific vaccine in particular
+[]
+USER: Yes, novaform please.
+slots: clinic-vaccinebrand=novaform; slot_vals: clinic-vaccinebrand=novaform, clinic-type=covid, clinic-area=centre; intent: find_clinic
+SYSTEM: There is no matching clinic. Would you like to change your search criteria?
+[]
+USER: What about a clinic that offers pfizer?
+slots: clinic-vaccinebrand=pfizer; slot_vals: clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; intent: find_clinic
+SYSTEM: I found 2 clinics that offer pfizer shots. Which kind would you prefer?
+[]
+USER: I don't have a preference.
+intent: find_clinic
+SYSTEM: Okay, I can book your appointment at Your Health clinic. They offer pfizer shots. For how many people, what day and time please?
+[]
+USER: I would like to book for Tuesday at 12:45.
+slots: clinic-booktime=12:45, clinic-bookday=tuesday; slot_vals: clinic-booktime=12:45, clinic-bookday=tuesday, clinic-name=Your Health, clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; intent: book_clinic
+SYSTEM: Are you looking to book for just yourself?
+[]
+USER: Yes. Just one person.
+slots: clinic-bookpeople=one; slot_vals: clinic-bookpeople=one, clinic-booktime=12:45, clinic-bookday=tuesday, clinic-name=Your Health, clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; intent: book_clinic
+SYSTEM: may i know your name and phone number please?
+[]
+USER: I am Benson Thomas and my phone number is 4727298039.
+slots: clinic-customername=Benson Thomas, clinic-customerphone=4727298039; slot_vals: clinic-customername=Benson Thomas, clinic-customerphone=4727298039, clinic-bookpeople=one, clinic-booktime=12:45, clinic-bookday=tuesday, clinic-name=Your Health, clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; intent: book_clinic
+SYSTEM: Great your reference number is 2KP6F1TA.
+[]
+USER: Perfect, thank you!
+intent: NONE
+SYSTEM: Is there anything else I can do for you?
+[]
+USER: No, thank so much for all your help.
+intent: NONE
+SYSTEM: Alright. I am glad I could be of assistance. If you need anything else feel free to say so. Goodbye.
 []
 ----042_find_clinic_and_book_clinic
 USER: I want general information on clinics to go in the west area of town.
@@ -1191,6 +1286,35 @@ SYSTEM: Your booking was successful. Reference number is : YB23KVSX. Is there an
 USER: No that is all. Thanks for your help!
 intent: NONE
 SYSTEM: You're welcome and thanks for using our help desk. Goodbye.
+[]
+----058_find_clinic_and_book_clinic
+USER: I'm looking for a place to get covid shot. I would like it to be in the centre.
+slots: clinic-type=covid, clinic-area=centre; slot_vals: clinic-type=covid, clinic-area=centre; intent: find_clinic
+SYSTEM: I found 7 clinics in the centre. What type of vaccine would you like?
+[]
+USER: I'm looking for moderna.
+slots: clinic-vaccinebrand=moderna; slot_vals: clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; intent: find_clinic
+SYSTEM: I have found two clinics. One is Excel, and the other is East Bay clinic, would you like me to book one for you?
+[]
+USER: Please book the East Bay clinic for me.
+slots: clinic-name=East Bay; slot_vals: clinic-name=East Bay, clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; intent: book_clinic
+SYSTEM: Can I please get the number of people, day and time please.
+[]
+USER: Yes, it's for 4 people. 12:45 on Monday. I would like the reference number, if it is available.
+slots: clinic-booktime=12:45, clinic-bookpeople=4, clinic-bookday=monday; req_slot: clinic-ref; slot_vals: clinic-booktime=12:45, clinic-bookpeople=4, clinic-bookday=monday, clinic-name=East Bay, clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; intent: book_clinic
+SYSTEM: That wasn't available. Shall I try the Excel clinic?
+[]
+USER: Yes please book excel clinic.
+slots: clinic-name=excel; slot_vals: clinic-name=excel, clinic-booktime=12:45, clinic-bookpeople=4, clinic-bookday=monday, clinic-name=East Bay, clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; intent: book_clinic
+SYSTEM: It is available. May I have your name and number please?
+[]
+USER: Sure, I am Jackson Spears and my contact number is 8249846372.
+slots: clinic-customername=Jackson Spears, clinic-customerphone=8249846372; slot_vals: clinic-customername=Jackson Spears, clinic-customerphone=8249846372, clinic-name=excel, clinic-booktime=12:45, clinic-bookpeople=4, clinic-bookday=monday, clinic-name=East Bay, clinic-vaccinebrand=pfizer, clinic-type=covid, clinic-area=centre; intent: book_clinic
+SYSTEM: You've got booking at Excel clinic. Your reference number is NCMS7M5B . Can I help with anything else today?
+[]
+USER: That will be all. Thank you very much.
+intent: NONE
+SYSTEM: You are welcome. Thanks for using CAiFE.
 []
 ----059_find_clinic_and_book_clinic
 USER: I would like to find out information about a clinic called Parkmont clinic.
@@ -1580,6 +1704,56 @@ SYSTEM: i suggest City Light clinic. their address is 123 main street santa clar
 USER: Great, thank you. That is all that I need.
 intent: NONE
 SYSTEM: You're welcome, have a great day!
+[]
+----076_find_clinic_book_clinic
+USER: I am looking for a clinic to get covid shot. Can you find a one that offers novaform vaccine in the north?
+slots: clinic-type=covid, clinic-vaccinebrand=novaform, clinic-area=north; slot_vals: clinic-type=covid, clinic-vaccinebrand=novaform, clinic-area=north; intent: find_clinic
+SYSTEM: Unfortunately, there are no clinics that meet that criteria. In the area, there are 24 clinics that offer moderna and 32 that offer moderna. Can you narrow down your choices?
+[]
+USER: please choose one that includes offers moderna.
+slots: clinic-vaccinebrand=moderna; slot_vals: clinic-type=covid, clinic-vaccinebrand=moderna, clinic-area=north; intent: find_clinic
+SYSTEM: Pinnacle Healthcare is a excellent choice in the north. Does that work for you?
+[]
+USER: Yes it works. please book for 1 person at 10:00 am on Thursday.
+slots: clinic-bookpeople=1, clinic-booktime=10:00, clinic-bookday=Thursday; slot_vals: clinic-name=Pinnacle Healthcare, clinic-bookpeople=1, clinic-booktime=10:00, clinic-bookday=Thursday, clinic-type=covid, clinic-vaccinebrand=moderna, clinic-area=north; intent: book_clinic
+SYSTEM: your name and phone number please?
+[]
+USER: name is Jeremy Letts and phone number is 5723452736.
+slots: clinic-customername=Jeremy Letts, clinic-customerphone=5723452736; slot_vals: clinic-customername=Jeremy Letts, clinic-customerphone=5723452736, clinic-name=Pinnacle Healthcare, clinic-bookpeople=1, clinic-booktime=10:00, clinic-bookday=Thursday, clinic-type=covid, clinic-vaccinebrand=moderna, clinic-area=north; intent: book_clinic
+SYSTEM: My attempt to book your party was unsuccessful. Would you like to try a different date and time?
+[]
+USER: Would 11:00 am on thursday work instead? If it does could I get the reference number please?
+slots: clinic-bookday=thursday, clinic-booktime=11:00; slot_vals: clinic-customername=Jeremy Letts, clinic-customerphone=5723452736, clinic-name=Pinnacle Healthcare, clinic-bookpeople=1, clinic-booktime=11:00, clinic-bookday=Thursday, clinic-type=covid, clinic-vaccinebrand=moderna, clinic-area=north; intent: book_clinic
+SYSTEM: Yes, it worked. I've booked the appointment for you, and your reference number is FINUEI5N. What else can I help you with?
+[]
+USER: That will be all. Thank you."
+intent: NONE
+SYSTEM: Wonderful. Enjoy your stay in Cambridge!"
+[]
+----077_find_clinic_book_clinic
+USER: Can you help me in finding a clinic to get flu shots please?
+slots: clinic-type=flu; slot_vals: clinic-type=flu; intent: find_clinic
+SYSTEM: There are 24 clinics available. Is there a particular area of the city you'd prefer?
+[]
+USER: Yes, I'd prefer north part of town please.
+slots: clinic-area=north; slot_vals: clinic-area=north, clinic-type=flu; intent: find_clinic
+SYSTEM: I have two options for you. Both offer flu shots. The Method clinic and Your Smile clinic, any preference.
+[]
+USER: I'll take the The Method please.
+slots: clinic-name=The Method; slot_vals: clinic-name=The Method, clinic-area=north, clinic-type=flu; intent: find_clinic
+SYSTEM: Sure thing. Do you want me to book it for you?
+[]
+USER: Yes. I want to book it for 2 people on Friday at 7:30 am.
+slots: clinic-people=2, clinic-booktime=7:30, clinic-bookday=friday; slot_vals: clinic-people=2, clinic-booktime=7:30, clinic-bookday=friday, clinic-name=The Method, clinic-area=north, clinic-type=flu; intent: book_clinic
+SYSTEM: I would need your name and phone to complete the booking.
+[]
+USER: my name is Robert James and phone number is 7342497354
+slots: clinic-customername=Robert James, clinic-customerphone=7342497354; slot_vals: clinic-customername=Robert James, clinic-customerphone=7342497354, clinic-people=2, clinic-booktime=7:30, clinic-bookday=friday, clinic-name=The Method, clinic-area=north, clinic-type=flu; intent: book_clinic
+SYSTEM: The booking was successful, your reference code is 0X980905. Do you want further assistance?
+[]
+USER: No that's all. Good bye!
+intent: NONE
+SYSTEM: Thank you goodbye!
 []
 ----078_find_clinic
 USER: Hi, I want a clinic for moderna covid shots located in the south part of town.

@@ -16,9 +16,9 @@ O O O B-bookpeople O O B-bookday O B-booktime O
 O O O B-customername I-customername O O O B-customer-phonenumber
 O O O O O O O O O O O
 O O O O O O O O B-area O O B-type O
-O O B-area O O B-type O O O O O O O O
-O O B-type O O B-name O O O
-O B-type O O O O B-name O O
+O O O O O O O O O O O O O O
+O O O O O O O O
+O O O O O O O O
 O O O O O O B-bookpeople O O B-booktime O O B-bookday
 O O O B-customername I-customername O O O B-customer-phonenumber
 O O O O O O O O O O
@@ -29,16 +29,21 @@ O O O B-customername I-customername O O O B-customer-phonenumber
 O O O B-booktime O O B-bookday
 O O O O O O O O O O O
 O O O O O O O O O O B-type O
-O O O O B-area O O B-type O O O O O O O O O
+O O O O O O O O O O O O O O O
 O O O O O O O O O
 O O O O
 O O O O O O O B-name I-name
-O O O B-name O O O O O O O O O O O O
+O O O O O O O O O O O O O O O
 O O B-type O
 O O O O B-bookday O B-booktime O
 O B-bookpeople O
 O O B-customername I-customername O O O B-customer-phonenumber
 O O O O O
+O O O O O O O O O O O O B-type O
+O O O O O O O O O B-booktime O O
+O B-vaccinebrand O
+O O O B-customername I-customername O O O B-customer-phonenumber
+O O O O O O O
 O O O O B-name O
 O O O O O O O O B-bookday O B-booktime O O O O O
 O O O B-customername I-customername O O O B-customer-phonenumber
@@ -48,12 +53,12 @@ B-bookpeople O
 O O O O O O O
 O O O O O O O O O O O
 O O O O B-type O O O O B-area O O O O O
-O O O B-area O O O
-O O O O O O O O O O O B-name O
+O O O O O O O
+O O O O O O O O O O O O
 O O O O O O O O O
 O O O O O O O O B-type O O O B-area
 O B-name I-name O O O O O O
-B-type O O B-name O O O O B-area
+O O O O O O O
 O O O O O O
 O O O O O O O O B-area O O B-type O O O O O O O O O O O O O
 O O O
@@ -72,12 +77,12 @@ O O O B-vaccinebrand O O O O O O O O O O O O O O O O O O O
 O O O O O O O O O O
 O O O O O O B-type O
 O O O O O O O O B-vaccinebrand
-O O O O B-va B-type O O O O O O O
+O O O O O O O O O O O O
 O O O O O B-bookpeople O O B-booktime O O B-bookday
 O O O B-customername I-customername O O O B-customer-phonenumber
 O O O O
 O O O O O O O O B-area O B-type O
-B-area O O O O O O O O O O O B-type O O
+O O O O O O O O O O O O O O
 O O O O O O B-bookpeople O O B-booktime O O B-bookday
 O O O B-customername I-customername O O O B-customer-phonenumber
 O O O O O O O
@@ -90,16 +95,11 @@ O O O O O O O O O
 O O O O
 O O O O O O O O B-type O O O O B-area O O O
 O O O B-vaccinebrand
-O B-area O B-vaccinebrand O B-name O
+O O O O O
 O O O
-O O O O O O B-type O O
-O O O O O O O B-area O O B-vaccinebrand
-O O O O O O B-bookpeople O O B-bookday O O B-booktime O O O O O O O
-O O O B-customername I-customername O O O B-customer-phonenumber
-O O O O O O O O O
 O O O O B-type O O O B-area O O O O O O O O
 O O O O O O O O O O B-area O
-O O O O O O O O O B-area O O O O O
+O O O O O O O O O O O O O O
 O O O O
 O O O O O O O O O O O B-name O
 O O O O O O O O B-bookpeople O B-booktime O B-bookday O
@@ -119,7 +119,7 @@ O O O O O O
 O O O O O O O O O O O B-name
 O O O O O O O O B-bookpeople O O B-bookday O B-booktime
 O O O B-customername I-customername O O O B-customer-phonenumber
-O B-cus B-bookday B-name O O O O O O O O O O O
+O O O O O O O O O O O O O O
 O O O O O O O
 O O O O O
 O O O O O B-type O O O O B-area O O O
@@ -145,7 +145,7 @@ O O O O O O O O B-bookpeople O B-booktime O B-bookday O O O O
 O O O B-customername I-customername O O O B-customer-phonenumber
 O O O O O O O O
 O O O B-area O O O O O O O O B-type O
-O O O O O B-area O O O
+O O O O O O O O
 O O O O
 O O O O O O O O O O B-area O O O O O B-type O
 O O B-vaccinebrand
@@ -158,10 +158,11 @@ O O O O O
 O O O O O B-type O O O O B-area O O O O
 O O O O O O O B-bookday O B-booktime O O B-bookpeople O
 O O O B-customername I-customername O O O B-customer-phonenumber
+O O O O O
 O O O O B-area O O O O O O O O O O O O O O B-type O O O O
 O O O O O O O O O O O B-bookpeople O O O O O O
 O O O O O O
-B-area O O O B-name O O O
+O O O O O O O O
 O O O O B-type O O O
 O O O O O O O O O O O O
 O O O O O O O O O O O
@@ -175,7 +176,7 @@ O O O O O O O O B-bookpeople O O B-booktime O B-bookday
 O O O B-customername I-customername O O O B-customer-phonenumber
 O O O O O O
 O O O O O O O O B-area O O B-type O
-O O O O O B-area O O O O
+O O O O O O O O O
 O O O O O O O B-bookpeople O O O O O O O
 B-bookday O B-booktime O
 O O B-customername I-customername O O O B-customer-phonenumber
@@ -192,18 +193,9 @@ O O B-customername I-customername O O O O O B-customer-phonenumber
 O O O O O
 O O O O O O O B-type O O O B-area O O
 B-vaccinebrand O
-O B-area O
-B-type O O B-area O O O O O B-vaccinebrand
-O O O O O O O
-O O O O B-type O O O B-area
-O B-vaccinebrand O
-O O O O O O B-vaccinebrand
-O O O O B-va B-type
-O O O O O O B-bookday O B-booktime
-O O B-bookpeople O
-O O B-customername I-customername O O O O O B-customer-phonenumber
-O O O
+O O
 O O O O O O O O
+O O O O O O O
 O O O O O O O O O O B-area O O O
 O O O O O B-vaccinebrand B-type O O O O O O O O O
 O O O O O O O O B-bookpeople O B-bookday O B-booktime O O
@@ -215,8 +207,8 @@ O O O O O O O O O
 O O O B-type O O O O O O O O O O O
 O O O O O O O O B-area
 O O B-area O O O O
-O B-area O O O O O O O O
-O O B-area O O
+O O O O O O O O O
+O O O O
 O O O O O O B-bookpeople O B-bookday O O
 B-booktime O O O O
 O O B-customername I-customername O O O O O B-customer-phonenumber
@@ -238,6 +230,11 @@ O O O O O O O B-booktime O B-bookday
 O O B-bookpeople O
 O O B-customername I-customername O O O O B-customer-phonenumber
 O O O O O O
+O O O O O O O O B-type O O O B-vaccinebrand
+O O O O B-area O O O O
+O O O O O B-bookpeople O O B-booktime O O B-bookday
+O O O B-customername I-customername O B-customer-phonenumber O O O O
+O O O O O O O
 O O O O O O O O B-type O O O B-area O O O
 O O
 O O O O O O
@@ -285,13 +282,6 @@ O O O O O O O O B-vaccinebrand B-type O
 O O O O O O O B-area
 O O O O O B-bookpeople O B-bookday O B-booktime O
 O B-customername I-customername O O O O B-customer-phonenumber
-O O O O O O O O
-O O O O O O O B-type O O O O O O O O O B-area
-O O O B-vaccinebrand
-O O O B-name I-name O O O
-O O O B-bookpeople O B-booktime O B-bookday O O O O O O O O O O
-O O O B-name O
-O O O B-customername I-customername O O O O O B-customer-phonenumber
 O O O O O O O O
 O O O O O O O O O O O B-name O
 O O O O O B-bookpeople O O B-bookday O B-booktime O
@@ -355,12 +345,21 @@ B-booktime O O B-bookday
 O O O O O O B-bookpeople O
 B-customername I-customername O O O O O B-customer-phonenumber
 O O O O O O O O O O O O
+O O O O O O B-type O
+O O B-area O
+O O B-vaccinebrand
+O O O O B-vaccinebrand O O O O O O
+O O O O O O O B-bookpeople O O B-bookday O B-booktime
+B-customername I-customername O O O O B-customer-phonenumber
+O O O
+O O O O O O O O O O
+O O O O O O O O O O O
 O O O O B-type O O O O
 O O O O O O B-type O O B-bookday O O B-booktime
 O O O O O O O B-vaccinebrand O O O O O O O O O O B-bookpeople O O O O O O O
 O O O B-customername I-customername O O O B-customer-phonenumber
 O O O O O O O O
-O O O O O O O O B-type O O O O O O O O O O O O
+O O O O O O O O B-type O O O O O O B-area O O O O O
 O O O O O O O B-bookpeople O O B-booktime O O B-bookday
 B-customername I-customername O O O O B-customer-phonenumber
 O O O O O O O O
@@ -375,24 +374,18 @@ O O O O O O O O O
 O O O O O O O
 O O O O O B-type O O O O
 O O O O O O O B-area O
-O O O O O O O O O O O O O O O O O O O
+O O O O O O O O O O O O B-area O O O O O O
 O O O O O O O O O
-O O O O O O O O B-type O O O O O O O O B-vaccinebrand O O O B-area
-O O O O O O B-vaccinebrand
-O O O O O O B-clinic-people O O B-booktime O O B-bookday
-O O B-customername I-customername O O O O B-customer-phonenumber
-O B-booktime O O B-bookday O O O O O O O O O O O O
-O O O O O O
-O O O O O O O O O O B-type O O
-O O O B-area O O O O
-O O O B-name I-name O
-O O O O O O O B-clinic-people O O B-bookday O B-booktime O
-O O O B-customername I-customername O O O O B-customer-phonenumber
-O O O O O
-O O O O O O B-covid-vaccinebrand B-type O O O O B-area O O O
+O O O O O O B-vaccinebrand B-type O O O O B-area O O O
 O O O O
 O O O O
 O O O O O O O O O B-area O O
 O O O O O O O O O O O O
 O O O O O O O O
 O O O O O
+O O O O O O O O O O B-type O
+O O O O O B-area O O O
+O O B-vaccinebrand O O O O O O O O O B-bookpeople O O B-bookday O B-booktime O
+O O O B-customername I-customername O O O O B-customer-phonenumber
+O O O O O O
+O O O O O O
