@@ -12,6 +12,1123 @@
             "service": "clinic",
             "slots": [
               {
+                "exclusive_end": 48,
+                "slot": "clinic-vaccinebrand",
+                "start": 41,
+                "value": "moderna"
+              },
+              {
+                "exclusive_end": 54,
+                "slot": "clinic-type",
+                "start": 49,
+                "value": "covid"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "moderna"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "Hi, can you find me a clinic that offers moderna covid shots?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "I actually cannot find any clinic that offer moderna shots. There is however a clinic that offers pfizer shots. Would that be okay?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 40,
+                "slot": "clinic-vaccinebrand",
+                "start": 32,
+                "value": "novaform"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "novaform"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "Are there any clinic that offer novaform?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Yes, I have 3. Two are located in the centre and one is located in the east. Do you have a preference?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 24,
+                "slot": "clinic-area",
+                "start": 20,
+                "value": "east"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "novaform",
+                "clinic-area": "east"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "Yes, the one in the east please."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "One in the east is called Royal clinic. Can I book an appointment for you?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 25,
+                "slot": "clinic-bookpeople",
+                "start": 24,
+                "value": "2"
+              },
+              {
+                "exclusive_end": 41,
+                "slot": "clinic-booktime",
+                "start": 36,
+                "value": "13:45"
+              },
+              {
+                "exclusive_end": 51,
+                "slot": "clinic-bookday",
+                "start": 45,
+                "value": "monday"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-name": "royal",
+                "clinic-booktime": "13:45",
+                "clinic-bookpeople": "2",
+                "clinic-bookday": "monday",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "novaform",
+                "clinic-area": "east"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Yes, please book it for 2 people at 13:45 on monday."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "I'm sorry that isn't available. Can I try a different clinic for you?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "No thank you that will be all."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "Is there anything else I can assist you with?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "That was all thank you."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "Thank you. Good bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1002.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 26,
+                "slot": "clinic-name",
+                "start": 17,
+                "value": "riverside"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-name": "riverside"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "I am looking for Riverside clinic."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "riverside is a modern clinic in the centre. Its address is 123 Mill Lane and postcode is 35tcrt. Want to book an appointment?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 39,
+                "slot": "clinic-bookday",
+                "start": 32,
+                "value": "tuesday"
+              },
+              {
+                "exclusive_end": 48,
+                "slot": "clinic-booktime",
+                "start": 43,
+                "value": "13:00"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [
+                "clinic-ref"
+              ],
+              "slot_values": {
+                "clinic-area": "centre",
+                "clinic-name": "riverside",
+                "clinic-bookday": "tuesday",
+                "clinic-booktime": "13:00"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "Yes, I would like to book it on Tuesday at 13:00 and get a reference number."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Sure, could you please share you name and phone number?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 25,
+                "slot": "clinic-customername",
+                "start": 11,
+                "value": "ronald sanchez"
+              },
+              {
+                "exclusive_end": 50,
+                "slot": "clinic-customerphone",
+                "start": 40,
+                "value": "6103594827"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "ronald sanchez",
+                "clinic-customerphone": "6103594827",
+                "clinic-area": "centre",
+                "clinic-name": "riverside",
+                "clinic-bookday": "tuesday",
+                "clinic-booktime": "13:00"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "My name is Ronald Sanchez and number is 6103594827."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "Unfortunately, I cannot book it at this time."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 25,
+                "slot": "clinic-bookday",
+                "start": 16,
+                "value": "wednesday"
+              },
+              {
+                "exclusive_end": 34,
+                "slot": "clinic-booktime",
+                "start": 29,
+                "value": "11:30"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "ronald sanchez",
+                "clinic-customerphone": "6103594827",
+                "clinic-area": "centre",
+                "clinic-name": "riverside",
+                "clinic-bookday": "wednesday",
+                "clinic-booktime": "11:30"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Can you try for Wednesday at 11:30?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "which vaccine is this appointment for?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 3,
+                "slot": "clinic-type",
+                "start": 0,
+                "value": "flu"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "flu",
+                "clinic-customername": "ronald sanchez",
+                "clinic-customerphone": "6103594827",
+                "clinic-area": "centre",
+                "clinic-name": "riverside",
+                "clinic-bookday": "wednesday",
+                "clinic-booktime": "11:30"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "flu vaccine"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "for how many people?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 1,
+                "slot": "clinic-bookpeople",
+                "start": 0,
+                "value": "3"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-bookpeople": "3",
+                "clinic-type": "flu",
+                "clinic-customername": "ronald sanchez",
+                "clinic-customerphone": "6103594827",
+                "clinic-area": "centre",
+                "clinic-name": "riverside",
+                "clinic-bookday": "wednesday",
+                "clinic-booktime": "11:30"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "3 people"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "Your booking was successful. Your reference number is 3VOKSX3A."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 12,
+        "utterance": "Thanks for everything you have been great!"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 13,
+        "utterance": "Thank you is there anything else today?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 14,
+        "utterance": "No that is all I needed. Thank you ever so kindly."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 15,
+        "utterance": "Wonderful. I'm glad I could help. Have a great day. Goodbye."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1003.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 28,
+                "slot": "clinic-type",
+                "start": 23,
+                "value": "covid"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "I need a clinic to get covid shots."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "I have 14 places that offer covid shots, do you have a covid vaccine preference?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 58,
+                "slot": "clinic-vaccinebrand",
+                "start": 52,
+                "value": "pfizer"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-vaccinebrand": "pfizer",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "could you provide details for something that offers pfizer?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "There are 3 clinics that offer pfizer. Do you have a particular area you are interested in?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "No, I have no preference. Just pick one. That will be fine."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "I recommend alexander clinic on 56 saint barnabas road. would that do?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 29,
+                "slot": "clinic-bookpeople",
+                "start": 28,
+                "value": "1"
+              },
+              {
+                "exclusive_end": 58,
+                "slot": "clinic-bookday",
+                "start": 51,
+                "value": "tuesday"
+              },
+              {
+                "exclusive_end": 44,
+                "slot": "clinic-booktime",
+                "start": 40,
+                "value": "9:00"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-name": "alexander",
+                "clinic-bookpeople": "1",
+                "clinic-bookday": "tuesday",
+                "clinic-booktime": "9:00",
+                "clinic-vaccinebrand": "pfizer",
+                "clinic-type": "covid",
+                "clinic-area": "dontcare"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Perfect. please book it for 1 person at 9:00 am on tuesday."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "Sure, could you please share you name and phone number?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 22,
+                "slot": "clinic-customername",
+                "start": 11,
+                "value": "eric emmons"
+              },
+              {
+                "exclusive_end": 47,
+                "slot": "clinic-customerphone",
+                "start": 37,
+                "value": "5103294867"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "eric emmons",
+                "clinic-customerphone": "5103294867",
+                "clinic-name": "alexander",
+                "clinic-bookpeople": "1",
+                "clinic-bookday": "tuesday",
+                "clinic-booktime": "9:00",
+                "clinic-vaccinebrand": "pfizer",
+                "clinic-type": "covid",
+                "clinic-area": "dontcare"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "My name is Eric Emmons and number is 5103294867."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "you are all set for Alexander clinic on Tuesday at 9:00 am, your reference number is UH365770 . Is there anything I can help with today?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "Nope, that's it. Thanks!"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "thank you for using this service good bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1004.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
                 "exclusive_end": 28,
                 "slot": "clinic-type",
                 "start": 23,
@@ -297,7 +1414,640 @@
     ]
   },
   {
-    "dialogue_id": "CAiFE1002.json",
+    "dialogue_id": "CAiFE1005.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 56,
+                "slot": "clinic-type",
+                "start": 51,
+                "value": "covid"
+              },
+              {
+                "exclusive_end": 50,
+                "slot": "clinic-vaccinebrand",
+                "start": 42,
+                "value": "novaform"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "novaform"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "Hi, can you find me an clinic that offers novaform covid shots?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "I actually cannot find any clinic that offers novaform vaccine. There is however a clinic that offers pfizer covid shots. Would that be okay?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 40,
+                "slot": "clinic-vaccinebrand",
+                "start": 33,
+                "value": "moderna"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "moderna"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "Are there any clinic that offers moderna shots?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Yes, I have 3. Two are located in the centre and one is located in the east. Do you have a preference?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 24,
+                "slot": "clinic-area",
+                "start": 20,
+                "value": "east"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-area": "east",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "moderna"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "Yes, the one in the east please."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "One in the East is called Royal clinic. Can I book an appointment for you?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 54,
+                "slot": "clinic-bookday",
+                "start": 45,
+                "value": "wednesday"
+              },
+              {
+                "exclusive_end": 25,
+                "slot": "clinic-bookpeople",
+                "start": 24,
+                "value": "2"
+              },
+              {
+                "exclusive_end": 41,
+                "slot": "clinic-booktime",
+                "start": 36,
+                "value": "13:45"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-name": "royal",
+                "clinic-bookday": "wednesday",
+                "clinic-bookpeople": "2",
+                "clinic-booktime": "13:45",
+                "clinic-area": "east",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "moderna"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Yes, please book it for 2 people at 13:45 on wednesday."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "Sure, could you please share you name and phone number?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 26,
+                "slot": "clinic-customername",
+                "start": 11,
+                "value": "susan rodriguez"
+              },
+              {
+                "exclusive_end": 51,
+                "slot": "clinic-customerphone",
+                "start": 41,
+                "value": "2603549817"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "susan rodriguez",
+                "clinic-customerphone": "2603549817",
+                "clinic-name": "royal",
+                "clinic-bookday": "wednesday",
+                "clinic-bookpeople": "2",
+                "clinic-booktime": "13:45",
+                "clinic-area": "east",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "moderna"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "My name is Susan Rodriguez and number is 2603549817."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "I'm sorry that isn't available. Can I try a different date and time for you?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "No thank you that will be all."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "Is there anything else I can assist you with?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 12,
+        "utterance": "That was all thank you."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 13,
+        "utterance": "Thank you. Good bye"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1006.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 49,
+                "slot": "clinic-name",
+                "start": 43,
+                "value": "modern"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-name": "modern"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "I'm looking for a particular clinic called Modern. Please give me information on that clinic."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "Modern is a clinic in the centre area, they offer covid shots. Can I help with anything else?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 64,
+                "slot": "clinic-bookday",
+                "start": 55,
+                "value": "wednesday"
+              },
+              {
+                "exclusive_end": 42,
+                "slot": "clinic-bookpeople",
+                "start": 41,
+                "value": "1"
+              },
+              {
+                "exclusive_end": 51,
+                "slot": "clinic-booktime",
+                "start": 46,
+                "value": "09:15"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-name": "modern",
+                "clinic-bookday": "wednesday",
+                "clinic-bookpeople": "1",
+                "clinic-booktime": "09:15",
+                "clinic-type": "covid",
+                "clinic-area": "centre"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "Yes, I'd like to book an appointment for 1 at 09:15 on Wednesday. Can you do that?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Sure, could you please share you name and phone number?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 26,
+                "slot": "clinic-customername",
+                "start": 11,
+                "value": "ernesto ruffino"
+              },
+              {
+                "exclusive_end": 51,
+                "slot": "clinic-customerphone",
+                "start": 41,
+                "value": "2109534867"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "ernesto ruffino",
+                "clinic-customerphone": "2109534867",
+                "clinic-name": "modern",
+                "clinic-bookday": "wednesday",
+                "clinic-bookpeople": "1",
+                "clinic-booktime": "09:15",
+                "clinic-type": "covid",
+                "clinic-area": "centre"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "My name is Ernesto Ruffino and number is 2109534867."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "I was able to book that appointment for you. Your reference number should you need it, is DBH5FED1. Can I help with anything else?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "No. I think I am all set. Thanks."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "You're very welcome, just let us know if we can help with anything else."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1007.json",
     "services": [
       "clinic"
     ],
@@ -820,7 +2570,661 @@
     ]
   },
   {
-    "dialogue_id": "CAiFE1003.json",
+    "dialogue_id": "CAiFE1008.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 20,
+                "slot": "clinic-area",
+                "start": 14,
+                "value": "centre"
+              },
+              {
+                "exclusive_end": 78,
+                "slot": "clinic-type",
+                "start": 75,
+                "value": "flu"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-area": "centre",
+                "clinic-type": "flu"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "I live in the centre of town and want to see if I can find a clinic to get flu shots for my family."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "How about the Western Front clinic in the centre?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 66,
+                "slot": "clinic-bookpeople",
+                "start": 65,
+                "value": "2"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-bookpeople": "2",
+                "clinic-name": "western front",
+                "clinic-area": "centre",
+                "clinic-type": "flu"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "That sounds like it might work. Could you check availability for 2 people this week in the morning?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "What day you want the appointment, and what time in the morning?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "I am unsure at this time."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "Okay, would you like some more information about that clinic?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [
+                "clinic-address"
+              ],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Can you tell me what the address is?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "The address is 156 el camino blvd, sunnyvale."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 28,
+                "slot": "clinic-type",
+                "start": 23,
+                "value": "covid"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-bookpeople": "2",
+                "clinic-name": "western front",
+                "clinic-area": "centre",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "Does this clinic offer covid shots as well?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "The Western Front clinic offers flu shots only and is in the centre area. Does this fit your needs?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "You have been very helpful. I have everything I need, thanks. Bye"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "I am glad to help. Have a nice day. Bye."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1009.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 41,
+                "slot": "clinic-type",
+                "start": 36,
+                "value": "covid"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "My husband and I are seeking to get covid shots and looking for a clinic."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "good decision! there are a variety of options, do you prefer any specific area?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 19,
+                "slot": "clinic-area",
+                "start": 15,
+                "value": "west"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-area": "west",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "I would prefer west."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "I have several options for you, is there a particular vaccine brand you prefer?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 11,
+                "slot": "clinic-vaccinebrand",
+                "start": 4,
+                "value": "moderna"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-vaccinebrand": "moderna",
+                "clinic-area": "west",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "yes moderna please."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "Guardian Angel is the clinic that fits your criteria. Would you like me to book it for you?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 28,
+                "slot": "clinic-booktime",
+                "start": 24,
+                "value": "8:00"
+              },
+              {
+                "exclusive_end": 53,
+                "slot": "clinic-bookpeople",
+                "start": 50,
+                "value": "two"
+              },
+              {
+                "exclusive_end": 41,
+                "slot": "clinic-bookday",
+                "start": 35,
+                "value": "monday"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "8:00",
+                "clinic-bookpeople": "two",
+                "clinic-bookday": "monday",
+                "clinic-name": "guardian angel",
+                "clinic-vaccinebrand": "moderna",
+                "clinic-area": "west",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Yes, please! book it at 8:00 am on Monday for the two of us!"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "sure, would you please share your name and phone number?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 20,
+                "slot": "clinic-customername",
+                "start": 5,
+                "value": "megan fernandez"
+              },
+              {
+                "exclusive_end": 54,
+                "slot": "clinic-customerphone",
+                "start": 44,
+                "value": "4087317239"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "megan fernandez",
+                "clinic-customerphone": "4087317239",
+                "clinic-booktime": "8:00",
+                "clinic-bookpeople": "two",
+                "clinic-bookday": "monday",
+                "clinic-name": "guardian angel",
+                "clinic-vaccinebrand": "moderna",
+                "clinic-area": "west",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "I am Megan Fernandez and my phone number is 4087317239."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "Ok, your appointment is booked, Reference number FKROW2H. Will there be anything else?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "Thanks so much. That is all I need for today. Bye."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "Have a nice stay!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1010.json",
     "services": [
       "clinic"
     ],
@@ -1311,7 +3715,1392 @@
     ]
   },
   {
-    "dialogue_id": "CAiFE1004.json",
+    "dialogue_id": "CAiFE1011.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 33,
+                "slot": "clinic-area",
+                "start": 29,
+                "value": "east"
+              },
+              {
+                "exclusive_end": 63,
+                "slot": "clinic-type",
+                "start": 58,
+                "value": "covid"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-area": "east",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "Are there any clinics in the east part of town that offer covid shots?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "I have 6 places. Would you prefer any specific vaccine?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 14,
+                "slot": "clinic-vaccinebrand",
+                "start": 7,
+                "value": "moderna"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-vaccinebrand": "moderna",
+                "clinic-area": "east",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "I want moderna."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "I have the Express Service clinic. Would you like me to book it for you?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [
+                "clinic-address"
+              ],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "address?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "It is located at 1517 norman way, east san antonio."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 39,
+                "slot": "clinic-booktime",
+                "start": 34,
+                "value": "13:00"
+              },
+              {
+                "exclusive_end": 30,
+                "slot": "clinic-bookday",
+                "start": 21,
+                "value": "wednesday"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "13:00",
+                "clinic-bookday": "wednesday",
+                "clinic-name": "express service",
+                "clinic-vaccinebrand": "moderna",
+                "clinic-area": "east",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "could you book it on wednesday at 13:00"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "for how many people do i book?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 8,
+                "slot": "clinic-bookpeople",
+                "start": 5,
+                "value": "one"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-bookpeople": "1",
+                "clinic-booktime": "13:00",
+                "clinic-bookday": "wednesday",
+                "clinic-name": "express service",
+                "clinic-vaccinebrand": "moderna",
+                "clinic-area": "east",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "Just one person please and I need a reference number"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "your name and phone number please."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 13,
+                "slot": "clinic-customername",
+                "start": 0,
+                "value": "mike atherton"
+              },
+              {
+                "exclusive_end": 28,
+                "slot": "clinic-customerphone",
+                "start": 18,
+                "value": "9012787339"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "mike atherton",
+                "clinic-customerphone": "9012787339",
+                "clinic-bookpeople": "1",
+                "clinic-booktime": "13:00",
+                "clinic-bookday": "wednesday",
+                "clinic-name": "express service",
+                "clinic-vaccinebrand": "moderna",
+                "clinic-area": "east",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "Mike Atherton and 9012787339"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "I have booked your appointment. Your reference number is T42R76. Can I be of further assistance?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 12,
+        "utterance": "Great, thank you. That is all I need."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 13,
+        "utterance": "you are welcome."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 14,
+        "utterance": "Thanks again for your help."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 15,
+        "utterance": "I'm glad we could help you today. Good-bye."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1012.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 41,
+                "slot": "clinic-type",
+                "start": 36,
+                "value": "covid"
+              },
+              {
+                "exclusive_end": 64,
+                "slot": "clinic-vaccinebrand",
+                "start": 58,
+                "value": "pfizer"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "pfizer"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "Hi, I'm looking for a clinic to get covid shots. I prefer pfizer."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "Yes I have many options. What part of the town are you looking for?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 16,
+                "slot": "clinic-area",
+                "start": 12,
+                "value": "west"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-area": "west",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "pfizer"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "I am in the west part of the town."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "I would recommend the Love & Care clinic."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 44,
+                "slot": "clinic-booktime",
+                "start": 39,
+                "value": "10:00"
+              },
+              {
+                "exclusive_end": 57,
+                "slot": "clinic-bookday",
+                "start": 51,
+                "value": "friday"
+              },
+              {
+                "exclusive_end": 28,
+                "slot": "clinic-bookpeople",
+                "start": 27,
+                "value": "3"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "10:00",
+                "clinic-bookday": "friday",
+                "clinic-bookpeople": "3",
+                "clinic-area": "west",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "pfizer"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "Okay, please book that for 3 people at 10:00 am on Friday."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "I would need your name and phone number to make this appointment."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 21,
+                "slot": "clinic-customername",
+                "start": 11,
+                "value": "jim wasser"
+              },
+              {
+                "exclusive_end": 36,
+                "slot": "clinic-customerphone",
+                "start": 26,
+                "value": "6347289046"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "jim wasser",
+                "clinic-customerphone": "6347289046",
+                "clinic-booktime": "10:00",
+                "clinic-bookday": "friday",
+                "clinic-bookpeople": "3",
+                "clinic-area": "west",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "pfizer"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Sure, I am Jim Wasser and 6347289046 is my phone number."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "Booking was successful. Reference number is : 904HMDUW. anything else?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "Thank you so much for your help."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "Enjoy your stay! Let us know if we can be of any further assistance."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1013.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 24,
+                "slot": "clinic-booktime",
+                "start": 19,
+                "value": "10:00"
+              },
+              {
+                "exclusive_end": 43,
+                "slot": "clinic-bookpeople",
+                "start": 42,
+                "value": "2"
+              },
+              {
+                "exclusive_end": 37,
+                "slot": "clinic-bookday",
+                "start": 28,
+                "value": "wednesday"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "10:00",
+                "clinic-bookpeople": "2",
+                "clinic-bookday": "wednesday"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "I need a clinic at 10:00 on wednesday for 2 people."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "What service do you need at the clinic?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 5,
+                "slot": "clinic-type",
+                "start": 0,
+                "value": "covid"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-booktime": "10:00",
+                "clinic-bookpeople": "2",
+                "clinic-bookday": "wednesday"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "covid shots."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Alright, any vaccine preference?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 8,
+                "slot": "clinic-vaccinebrand",
+                "start": 0,
+                "value": "novaform"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-vaccinebrand": "novaform",
+                "clinic-type": "covid",
+                "clinic-booktime": "10:00",
+                "clinic-bookpeople": "2",
+                "clinic-bookday": "wednesday"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "novaform"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "there are 5 clinics available in town. do you have a preference on area?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 4,
+                "slot": "clinic-area",
+                "start": 0,
+                "value": "west"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-area": "west",
+                "clinic-vaccinebrand": "novaform",
+                "clinic-type": "covid",
+                "clinic-booktime": "10:00",
+                "clinic-bookpeople": "2",
+                "clinic-bookday": "wednesday"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "west and share the reference number please."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "your name and phone number?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 14,
+                "slot": "clinic-customername",
+                "start": 4,
+                "value": "nancy drew"
+              },
+              {
+                "exclusive_end": 41,
+                "slot": "clinic-customerphone",
+                "start": 31,
+                "value": "4088044800"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "nancy drew",
+                "clinic-customerphone": "4088044800",
+                "clinic-area": "west",
+                "clinic-vaccinebrand": "novaform",
+                "clinic-type": "covid",
+                "clinic-booktime": "10:00",
+                "clinic-bookpeople": "2",
+                "clinic-bookday": "wednesday"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "I'm Nancy Drew and my phone is 4088044800"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "I was able to book your appointment and your reference number is T93I3V9S."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "Thank you. I think that's all I need."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "You're welcome. Have a safe trip. Goodbye."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1014.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 45,
+                "slot": "clinic-type",
+                "start": 40,
+                "value": "covid"
+              },
+              {
+                "exclusive_end": 39,
+                "slot": "clinic-vaccinebrand",
+                "start": 33,
+                "value": "pfizer"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "pfizer"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "I am looking for a clinic to get pfizer covid shot."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "What area would you prefer?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 30,
+                "slot": "clinic-area",
+                "start": 25,
+                "value": "north"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-area": "north",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "pfizer"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "I'd like it to be in the north."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Great, there are 4 options for you here. I personally recommend Avalon Health clinic. Would you like to book?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 44,
+                "slot": "clinic-booktime",
+                "start": 39,
+                "value": "13:00"
+              },
+              {
+                "exclusive_end": 25,
+                "slot": "clinic-bookpeople",
+                "start": 24,
+                "value": "1"
+              },
+              {
+                "exclusive_end": 35,
+                "slot": "clinic-bookday",
+                "start": 29,
+                "value": "monday"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "13:00",
+                "clinic-bookpeople": "1",
+                "clinic-bookday": "monday",
+                "clinic-area": "north",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "pfizer"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "Yes, please book it for 1 on monday at 13:00 pm."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "I would need your name and phone number to make the booking."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 17,
+                "slot": "clinic-customername",
+                "start": 7,
+                "value": "jack brown"
+              },
+              {
+                "exclusive_end": 44,
+                "slot": "clinic-customerphone",
+                "start": 34,
+                "value": "9257364729"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "jack brown",
+                "clinic-customerphone": "9257364729",
+                "clinic-booktime": "13:00",
+                "clinic-bookpeople": "1",
+                "clinic-bookday": "monday",
+                "clinic-area": "north",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "pfizer"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "myself Jack Brown and my phone is 9257364729"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "Your booking was successful. Reference number is : YB23KVSX. Is there anything else I can help you with?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "No that is all. Thanks for your help!"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "You're welcome and thanks for using our help desk. Goodbye."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1015.json",
     "services": [
       "clinic"
     ],
@@ -1726,7 +5515,1363 @@
     ]
   },
   {
-    "dialogue_id": "CAiFE1005.json",
+    "dialogue_id": "CAiFE1016.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 33,
+                "slot": "clinic-type",
+                "start": 28,
+                "value": "covid"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "I need a clinic that offers covid shots, thank you"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "Archway clinic offers covid shots and moderna vaccine."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 44,
+                "slot": "clinic-vaccinebrand",
+                "start": 38,
+                "value": "pfizer"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-vaccinebrand": "pfizer",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "I'm looking for something that offers pfizer actually."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "Archway clinic offers pfizer and is in the North. Would you like to make a appointment?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 27,
+                "slot": "clinic-name",
+                "start": 20,
+                "value": "archway"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-name": "archway",
+                "clinic-vaccinebrand": "pfizer",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "Yes please book the Archway clinic."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "I'd be happy to book for you. For how many people , what is your arrival time, and which day?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 37,
+                "slot": "clinic-booktime",
+                "start": 33,
+                "value": "8:00"
+              },
+              {
+                "exclusive_end": 50,
+                "slot": "clinic-bookpeople",
+                "start": 45,
+                "value": "three"
+              },
+              {
+                "exclusive_end": 29,
+                "slot": "clinic-bookday",
+                "start": 22,
+                "value": "tuesday"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "8:00",
+                "clinic-bookpeople": "three",
+                "clinic-bookday": "tuesday",
+                "clinic-name": "archway",
+                "clinic-vaccinebrand": "pfizer",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "I want appointment on tuesday at 8:00 am for three people."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "I would also need your name and phone number."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 21,
+                "slot": "clinic-customername",
+                "start": 11,
+                "value": "james bond"
+              },
+              {
+                "exclusive_end": 46,
+                "slot": "clinic-customerphone",
+                "start": 36,
+                "value": "1112347007"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "james bond",
+                "clinic-customerphone": "1112347007",
+                "clinic-booktime": "8:00",
+                "clinic-bookpeople": "three",
+                "clinic-bookday": "tuesday",
+                "clinic-name": "archway",
+                "clinic-vaccinebrand": "pfizer",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "My name is James Bond and number is 1112347007"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "Ok. I've booked it for you. Your reference number is YBT4JRTR . Can I help with anything else?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "Thank you very much! That's all I need today!"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "You are very welcome. Have a great day."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1017.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 24,
+                "slot": "clinic-type",
+                "start": 19,
+                "value": "covid"
+              },
+              {
+                "exclusive_end": 18,
+                "slot": "clinic-vaccinebrand",
+                "start": 11,
+                "value": "moderna"
+              },
+              {
+                "exclusive_end": 48,
+                "slot": "clinic-bookpeople",
+                "start": 47,
+                "value": "3"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "moderna",
+                "clinic-bookpeople": "3"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "Hi, I need moderna covid shots for a family of 3 in the south of town."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "There are 7 clinics that offer moderna and are in the south of town. Should I choose one for you?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 43,
+                "slot": "clinic-booktime",
+                "start": 38,
+                "value": "16:00"
+              },
+              {
+                "exclusive_end": 56,
+                "slot": "clinic-bookday",
+                "start": 47,
+                "value": "wednesday"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "16:00",
+                "clinic-bookday": "wednesday",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "moderna",
+                "clinic-bookpeople": "3"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "Yes please. May I book an appointment 16:00 on Wednesday and get a reference number please?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "I recommend The Red Oak clinic. Would you like to book this restaurant?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 10,
+                "slot": "clinic-bookpeople",
+                "start": 9,
+                "value": "3"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [
+                "clinic-ref"
+              ],
+              "slot_values": {
+                "clinic-booktime": "16:00",
+                "clinic-bookday": "wednesday",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "moderna",
+                "clinic-bookpeople": "3"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "Yes, for 3 people please. Could I also get a reference number?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "Your name and phone number please."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 12,
+                "slot": "clinic-customername",
+                "start": 0,
+                "value": "helena yates"
+              },
+              {
+                "exclusive_end": 40,
+                "slot": "clinic-customerphone",
+                "start": 30,
+                "value": "8635637482"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "helena yates",
+                "clinic-customerphone": "8635637482",
+                "clinic-booktime": "16:00",
+                "clinic-bookday": "wednesday",
+                "clinic-type": "covid",
+                "clinic-vaccinebrand": "moderna",
+                "clinic-bookpeople": "3"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Helena Yates and my number is 8635637482."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "Alright, you're all booked! Your reference number is EKSYWO7H. Is there anything else I can help you with?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "thank you, that is all I need."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "You are welcome, and if there's anything else we can assist you with let us know!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1018.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 36,
+                "slot": "clinic-area",
+                "start": 32,
+                "value": "east"
+              },
+              {
+                "exclusive_end": 57,
+                "slot": "clinic-type",
+                "start": 52,
+                "value": "covid"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-area": "east",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "I'm looking for a clinic in the east. I need to get covid shots."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "I can book you at the Universal Healthcare clinic. It offers both moderna and pfizer vaccines. Does this interest you?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 46,
+                "slot": "clinic-bookpeople",
+                "start": 41,
+                "value": "three"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-bookpeople": "three",
+                "clinic-name": "universal healthcare",
+                "clinic-area": "east",
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "yes very much. please book it for me for three people."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "What day and time do you prefer?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 33,
+                "slot": "clinic-booktime",
+                "start": 29,
+                "value": "1:00"
+              },
+              {
+                "exclusive_end": 20,
+                "slot": "clinic-bookday",
+                "start": 13,
+                "value": "tuesday"
+              }
+            ],
+            "state": {
+              "active_intent": "bookday=tuesday, clinic-bookpeople=three, clinic-name=universal healthcare, clinic-area=east, clinic-type=covid",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "1:00"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "I want it on Tuesday noon at 1:00 pm."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "I'm sorry that slot is not available. do you prefer any other day and time."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 29,
+                "slot": "clinic-booktime",
+                "start": 25,
+                "value": "3:00"
+              }
+            ],
+            "state": {
+              "active_intent": "bookday=tuesday, clinic-bookpeople=three, clinic-name=universal healthcare, clinic-area=east, clinic-type=covid",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "3:00"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Can you see if they have 3:00 pm available on same day?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "yes, it is available, may I have your name and phone number to complete the booking."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 33,
+                "slot": "clinic-customername",
+                "start": 16,
+                "value": "jennifer capriati"
+              },
+              {
+                "exclusive_end": 57,
+                "slot": "clinic-customerphone",
+                "start": 47,
+                "value": "8253467823"
+              }
+            ],
+            "state": {
+              "active_intent": "bookday=tuesday, clinic-bookpeople=three, clinic-name=universal healthcare, clinic-area=east, clinic-type=covid",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "jennifer capriati",
+                "clinic-customerphone": "8253467823",
+                "clinic-booktime": "3:00"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "yes, my name is Jennifer Capriati and phone is 8253467823."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "Your booking was successful with a reference number of S1HTVV32. Is there anything else I can do for you today?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "Awesome, thanks! I think that takes care of everything I needed."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "Okay great please don't hesitate to call us back if you need anything else."
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1019.json",
+    "services": [
+      "clinic"
+    ],
+    "turns": [
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 49,
+                "slot": "clinic-type",
+                "start": 44,
+                "value": "covid"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 0,
+        "utterance": "Can you help me find a clinic to get pfizer covid shots?"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 1,
+        "utterance": "Twenty one accomodations meet your needs. What part of town are you planning to stay in?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 4,
+                "slot": "clinic-area",
+                "start": 0,
+                "value": "west"
+              }
+            ],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-type": "covid",
+                "clinic-area": "west"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 2,
+        "utterance": "west side please."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 3,
+        "utterance": "There are 6 places in that criteria."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "find_clinic",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 4,
+        "utterance": "It doesn't matter. Like I told you, you can pick one for me."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 5,
+        "utterance": "The Everyday Health is the best option."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 57,
+                "slot": "clinic-booktime",
+                "start": 52,
+                "value": "10:00"
+              },
+              {
+                "exclusive_end": 41,
+                "slot": "clinic-bookpeople",
+                "start": 40,
+                "value": "2"
+              },
+              {
+                "exclusive_end": 73,
+                "slot": "clinic-bookday",
+                "start": 64,
+                "value": "wednesday"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-booktime": "10:00",
+                "clinic-bookpeople": "2",
+                "clinic-bookday": "wednesday",
+                "clinic-type": "covid",
+                "clinic-area": "west"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 6,
+        "utterance": "Okay I would like to make a booking for 2 people at 10:00 am on wednesday."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 7,
+        "utterance": "Will you needing a reference number?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [
+                "clinic-ref"
+              ],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 8,
+        "utterance": "Yes, of course."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 9,
+        "utterance": "May I have your name and phone number please."
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [
+              {
+                "exclusive_end": 9,
+                "slot": "clinic-customername",
+                "start": 0,
+                "value": "brad hogg"
+              },
+              {
+                "exclusive_end": 37,
+                "slot": "clinic-customerphone",
+                "start": 27,
+                "value": "2245718243"
+              }
+            ],
+            "state": {
+              "active_intent": "book_clinic",
+              "requested_slots": [],
+              "slot_values": {
+                "clinic-customername": "brad hogg",
+                "clinic-customerphone": "2245718243",
+                "clinic-booktime": "10:00",
+                "clinic-bookpeople": "2",
+                "clinic-bookday": "wednesday",
+                "clinic-type": "covid",
+                "clinic-area": "west"
+              }
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 10,
+        "utterance": "Brad Hogg and my number is 2245718243"
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 11,
+        "utterance": "Booking was successful. Reference number is : C5MJVSAV. Anything more I can help with?"
+      },
+      {
+        "frames": [
+          {
+            "actions": [],
+            "service": "clinic",
+            "slots": [],
+            "state": {
+              "active_intent": "none",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "restaurant",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          },
+          {
+            "actions": [],
+            "service": "hotel",
+            "slots": [],
+            "state": {
+              "active_intent": "NONE",
+              "requested_slots": [],
+              "slot_values": {}
+            }
+          }
+        ],
+        "speaker": "USER",
+        "turn_id": 12,
+        "utterance": "That is all. Thanks for your time."
+      },
+      {
+        "frames": [],
+        "speaker": "SYSTEM",
+        "turn_id": 13,
+        "utterance": "Your welcome, have a great day!"
+      }
+    ]
+  },
+  {
+    "dialogue_id": "CAiFE1020.json",
     "services": [
       "clinic"
     ],

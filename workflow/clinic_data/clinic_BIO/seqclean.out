@@ -1,5 +1,6 @@
-O O O O O O O O O O O O B-type O
-O O O O O O O B-bookpeople O B-booktime O B-bookday
+O O O O O B-type O O O O B-area O O O
+O O O B-area O O O
+O O O B-vaccinebrand
+O O O B-bookpeople O O B-bookday O B-booktime O
 O O O B-customername I-customername O O O B-customer-phonenumber
-O O O O O O O
-O O O O
+O O O O O O O O O O O
