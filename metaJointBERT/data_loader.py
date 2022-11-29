@@ -120,6 +120,7 @@ processors = {
     "atis": JointProcessor,
     "hotel": JointProcessor,
     "restaurant": JointProcessor,
+    "railtrain": JointProcessor,
     "clinic": JointProcessor,
     "snips": JointProcessor
 }

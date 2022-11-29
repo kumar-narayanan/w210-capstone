@@ -26,25 +26,30 @@ class Trainer(object):
 
         self.config_class, self.model_class, _ = MODEL_CLASSES[args.model_type]
         self.config = self.config_class.from_pretrained(args.model_name_or_path, finetuning_task=args.task)
-        self.model = self.model_class.from_pretrained(args.model_name_or_path,
-                                                      config=self.config,
-                                                      args=args,
-                                                      intent_label_lst=self.intent_label_lst,
-                                                      slot_label_lst=self.slot_label_lst)
-
+            
         # GPU or CPU
         self.device = "cuda" if torch.cuda.is_available() and not args.no_cuda else "cpu"
-        self.model.to(self.device)
+        
+        if args.do_finetune:
+            self.load_model()
+        else:
+            self.model = self.model_class.from_pretrained(args.model_name_or_path,
+                                                          config=self.config,
+                                                          args=args,
+                                                          intent_label_lst=self.intent_label_lst,
+                                                          slot_label_lst=self.slot_label_lst)
+            self.model.to(self.device)
 
     def train(self):
         
         train_sampler = []
         train_dataloader = []
+        num_domains=len(self.train_dataset)
         
-        for i in range(len(self.train_dataset)):
+        for i in range(num_domains):
             train_sampler.append(RandomSampler(self.train_dataset[i]))
 
-        for i in range(len(self.train_dataset)):
+        for i in range(num_domains):
             train_dataloader.append(DataLoader(self.train_dataset[i], sampler=train_sampler[i], batch_size=self.args.train_batch_size))
             
         if self.args.max_steps > 0:
@@ -81,7 +86,8 @@ class Trainer(object):
         train_iterator = trange(int(self.args.num_train_epochs), desc="Epoch")
 
         for epoch in train_iterator:
-            current_dataloader = train_dataloader[epoch%3]
+            domain_choice = epoch%num_domains
+            current_dataloader = train_dataloader[domain_choice]
             epoch_iterator = tqdm(current_dataloader, desc="Iteration")
             for step, batch in enumerate(epoch_iterator):
                 self.model.train()
@@ -111,7 +117,7 @@ class Trainer(object):
                     global_step += 1
 
                     if self.args.logging_steps > 0 and global_step % self.args.logging_steps == 0:
-                        self.evaluate("dev")
+                        self.evaluate("dev",domain_choice)
 
                     if self.args.save_steps > 0 and global_step % self.args.save_steps == 0:
                         self.save_model()
@@ -126,11 +132,11 @@ class Trainer(object):
 
         return global_step, tr_loss / global_step
 
-    def evaluate(self, mode):
+    def evaluate(self, mode,domain_choice):
         if mode == 'test':
-            dataset = self.test_dataset
+            dataset = self.test_dataset[domain_choice]
         elif mode == 'dev':
-            dataset = self.dev_dataset
+            dataset = self.dev_dataset[domain_choice]
         else:
             raise Exception("Only dev and test dataset available")
 
