@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> -->
+    <title>Conversational AI For Everyone</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.5.4/socket.io.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.1/socket.io.js"></script>
+   
+ 
+    <script type="text/javascript">
+      $(document).ready(function() {
+
+        var s = io.connect("http://18.207.246.207:5000");
+
+        s.on('response_chat', function(data) {
+          $('#messages').append($('<p>').text(data));
+        });
+        
+        $('#sendBtn').on('click', function () {
+          var obj = {id: 1, message: $('#messageTxtBox').val()};
+          var json = JSON.stringify(obj);
+          s.send(json);
+          $('#messages').append($('<p>').text($('#messageTxtBox').val()));
+          document.getElementById('messageTxtBox').value = "";
+        });
+
+      })
+      
+     window.onload = function() {
+    if (window.jQuery) {  
+        // jQuery is loaded  
+        alert("Yeah! jQuery is loaded!");
+    } else {
+        // jQuery is not loaded
+        alert("Doesn't Work. jQuery is not loaded!");
+    }
+}
+   </script>
+    
+    </head>
+    
+   <body style="text-align:center; font-family: Arial; font-size: 14pt;">
+  <div id="messages" style="margin: 0 auto; width: 60%; text-align: center; min-height: 300px;">
+  </div>  
+  <h1>CAiFE - Connection with EC2 Testing</h1>
+  <input type="text" id="messageTxtBox" placeholder="Message">
+  <button id="sendBtn">Send</button>
+  </body>
+  </html>
